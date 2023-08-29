@@ -1,0 +1,168 @@
+{
+    "AMUZIA": {
+        "description": "Fun is as important as academics. Compete against each other to find the ultimate gamer",
+        "events": [
+            {
+                "Fandom": "Fandom's here with the most fun quizzes on your favourite TV shows and memes"
+            },
+            {
+                "Flash": "Share your perspective of this world, freezing reality frame by frame."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "AVIONICA": {
+        "description": "Showcase and implement your knowledge about the laws and concepts of Physics",
+        "events": [
+            {
+                "TAKEOFF": "Want to reach for stars? Well you gotta start somewhere! Plan the trajectory and let go of the plane."
+            },
+            {
+                "CONTRAPTION": "Design, modify, reinvent and re-engineer to make a system of energy conversions."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "SUBSTANTIA": {
+        "description": "Demystify your love for Chemistry",
+        "events": [
+            {
+                "SUBSTANTIA ON THE ETCH": "Sky is the limit only until you find the right concoction to pierce right through."
+            },
+            {
+                "TECH ESCAPE": "The stakes are high and oxygen runs low. In order to escape and survive the answers you must know."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "CODIFICA": {
+        "description": "Pit yourself against the best and test your coding skills",
+        "events": [
+            {
+                "FLIP IT": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork."
+            },
+            {
+                "WEBSCAPE": "Code, compete and re-imagine to embellish a partially designed website."
+            },
+            {
+                "RETRACER": "The path from input to output does exist. Do you have the vision to find it?"
+            },
+            {
+                "CODE JUNKIE": "The right place for coding aficionados to live their passion and decode their way to supremacy."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "ILLUMINATI": {
+        "description": "Come Conquer Conquest. Close your books, open your mind. Where smart answers won't get you fired.",
+        "events": [
+            {
+                "INDIKYA": "A pH test for your patriotic fervor. Bring out the quiz patriot in you."
+            },
+            {
+                "TECH DE BAIT": "It is better to debate a question without settling it than to settle a question without debating it."
+            },
+            {
+                "TORQUEST": "Drift along the scientific questionnaire pool, knock down the resistance from your opponents and finish a Technocrat."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "LOGICA": {
+        "description": "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
+        "events": [
+            {
+                "DELTA SIGMA PI": "Mathematics is, in its way, the poetry of logical ideas. We invite you to embrace it!"
+            },
+            {
+                "INTEGRATON BEE": "Is Math an integral part of your life? Integrate your thoughts, differentiate your distractions and grow wiser exponentially."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "PRODIGIUM": {
+        "description": "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
+        "events": [
+            {
+                "SHERLOCKED": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth."
+            },
+            {
+                "GOOGLER": "Find the answers to the most trivial questions. The answer lies in your ability to use Google in the most efficient way."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "ROBOTICA": {
+        "description": " Dive in the world of robots. Participate in exciting robot events",
+        "events": [
+            {
+                "BOT WRESTLING": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours."
+            },
+            {
+                "VIRTUAL ROBOTICS": "Simulation of robots will give you the real sense of victory in the virtual world."
+            },
+            {
+                "ROBO RACES": "Want to feed your need for speed? Then race your robot in this ultimate battle of superiority."
+            },
+            {
+                "ROBO FALCONARY": "Would you rather walk or run to victory? Let us make the choice for you. Be part of Robo Falconry and fly towards victory."
+            },
+            {
+                "SEARCH N' DESTROY": "The only road that leads to the first prize is the one that is filled with twists and turns. Maneuver and surge ahead."
+            },
+            {
+                "ROBO WARS": "Decimate your enemy because this is the survival of the fittest for your robots."
+            },
+            {
+                "ROBO ROYALE": "Complete the given tasks and then prevent your opponent from doing theirs."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "STRUKTURA": {
+        "description": "Plan, Build, Create. Dive in world of Civil Engineering.",
+        "events": [
+            {
+                "BRIDGE THE GAP": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible."
+            },
+            {
+                "UTOPIA": "Envision an ideal city keeping in mind various smart solutions, sustainable measures and inclusion of people."
+            },
+            {
+                "ID CIVIL": "Optimize your design and prove your mastery in AutoCAD by putting forth the best structural design."
+            },
+            {
+                "CONQUEST": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    },
+    "VOLTUS": {
+        "description": "Electrify your passion for circuit making and playing with micro controllers",
+        "events": [
+            {
+                "CIRCUIT FIXER": "No resistance can drop your potential. Build your own circuit and ignite the spark within you!"
+            },
+            {
+                "ELECTRADE": "Earn money and spend it wisely in an attempt to build the most efficient circuits to complex problems."
+            },
+            {
+                "MICROAPPS": "With a microcontroller you can conquer the world. Prove your proficiency in digital electronics and take away the big prize"
+            },
+            {
+                "FOX HUNT": "A game of hunt devoid of  trail of blood but makes you chase nonetheless."
+            }
+        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
+    }
+}
