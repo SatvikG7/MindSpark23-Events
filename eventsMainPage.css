@@ -30,10 +30,10 @@ body {
 #gradient-canvas {
   position: fixed;
   min-height: 100vh;
-  --gradient-color-1: #05005c;
-  --gradient-color-2: #251d36;
-  --gradient-color-3: #1b536c;
-  --gradient-color-4: #311041;
+  --gradient-color-1: #00eaff;
+  --gradient-color-2: #3d3d3d;
+  --gradient-color-3: #000000;
+  --gradient-color-4: #1d002b;
 }
 
 .page-title {
@@ -109,7 +109,7 @@ body {
 
 .card {
   height: 100%;
-  border-radius: 50px;
+  border-radius: 30px;
   transition: all 0.5s ease-in-out;
   transform-style: preserve-3d;
 }
@@ -214,16 +214,16 @@ body {
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: Azonix ;
   position: relative;
-  color: #fcdc2a;
+  color: #27bdce;
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  -webkit-text-stroke: 4px #21006f;
-  text-shadow: 0px 0px 10px #ffffffaa;
-  animation: pop 3s infinite;
+  /* -webkit-text-stroke: 4px #21006f; */
+  /* text-shadow: 0px 0px 5px #ffffffaa; */
+  /* animation: pop 3s infinite; */
 }
 
 h3:before {
@@ -231,11 +231,11 @@ h3:before {
   content: attr(data-text);
   top: 0.05em;
   left: 0.1em;
-  background-image: repeating-linear-gradient(45deg,
+  /* background-image: repeating-linear-gradient(45deg,
       transparent 0,
       transparent 0.03em,
       #f6f7f6 0.03em,
-      #f6f7f6 0.06em);
+      #f6f7f6 0.06em); */
   -webkit-text-stroke-width: 0;
   color: transparent;
   -webkit-background-clip: text;
@@ -291,7 +291,7 @@ h3:before {
     font-size: 3rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    -webkit-text-stroke: 4px #21006f;
+    /* -webkit-text-stroke: 4px #21006f; */
   }
 
   .splide__slide {
