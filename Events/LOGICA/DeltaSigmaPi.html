@@ -7,28 +7,38 @@
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>MindSpark'23 Events</title>
-        <link rel="stylesheet" href="../styles/styles.css" />
+        <title>DELTA SIGMA PI</title>
+        <link rel="stylesheet" href="/styles/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Barlow&family=Bungee+Spice&family=Nabla&family=Foldit&family=Nunito&family=Roboto&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Barlow&family=Nabla&family=Foldit&family=Nunito&family=Roboto&display=swap"
             rel="stylesheet"
         />
+        <style>
+            #gradient-canvas {
+                position: fixed;
+                min-height: 100vh;
+                --gradient-color-1: #05005c;
+                --gradient-color-2: #251d36;
+                --gradient-color-3: #1b536c;
+                --gradient-color-4: #311041;
+            }
+        </style>
     </head>
 
     <body>
-        <!-- <canvas
+        <canvas
             id="gradient-canvas"
             data-js-darken-top
             data-transition-in
-        ></canvas> -->
+        ></canvas>
         <div class="container">
             <main class="main">
                 <a href="/" class="headerImgLink">
                     <img
                         class="headerImg"
-                        src="../assets/images/logo-old.png"
+                        src="/assets/images/logo-old.png"
                         alt="logo"
                     />
                 </a>
@@ -36,15 +46,15 @@
                 <section class="header">
                     <img
                         class="eimg"
-                        src="../assets/images/codifica.jpg"
+                        src="/assets/images/codifica.jpg"
                         alt="codifica"
                         draggable="false"
                     />
                     <div class="headerText">
-                        <h1>CODE JUNKIE</h1>
+                        <h1>DELTA SIGMA PI</h1>
                         <div class="headerBtnContainer">
                             <button>Register</button>
-                            <button>Share</button>
+                            <button id="ShareBtn">Share</button>
                         </div>
                     </div>
                 </section>
@@ -67,9 +77,9 @@
                 <section id="sponsors" class="sponsors">
                     <h2># Sponsors</h2>
                     <div class="sponsorsContainer">
-                        <img src="../assets/images/centiro.png" alt="sponsor" />
-                        <img src="../assets/images/centiro.png" alt="sponsor" />
-                        <img src="../assets/images/centiro.png" alt="sponsor" />
+                        <img src="/assets/images/centiro.png" alt="sponsor" />
+                        <img src="/assets/images/centiro.png" alt="sponsor" />
+                        <img src="/assets/images/centiro.png" alt="sponsor" />
                     </div>
                 </section>
                 <section id="structure" class="structure">
@@ -197,7 +207,25 @@
                 </section>
             </main>
         </div>
-        <script src="../lib/main.js"></script>
-        <!-- <script src="../lib/gradient/gradient.js"></script> -->
+        <script src="/lib/main.js"></script>
+        <script src="/lib/gradient/gradient.js"></script>
+        <script>
+            function copyWindowLocationToClipboard() {
+                const inputElement = document.createElement("input");
+                inputElement.value = window.location.href;
+                document.body.appendChild(inputElement);
+                inputElement.select();
+                document.execCommand("copy");
+                document.body.removeChild(inputElement);
+                document.getElementById("ShareBtn").innerText =
+                    "Link Copied!!!";
+                setTimeout(() => {
+                    document.getElementById("ShareBtn").innerText = "Share";
+                }, 2000);
+            }
+            document
+                .getElementById("ShareBtn")
+                .addEventListener("click", copyWindowLocationToClipboard);
+        </script>
     </body>
 </html>

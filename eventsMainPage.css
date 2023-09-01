@@ -142,12 +142,12 @@ body {
   font-size: 1.75rem;
   font-family: "Library";
   color: transparent;
-  -webkit-text-stroke: 1.25px #21006f;
+  -webkit-text-stroke: 1.75px #21006f;
 }
 
 .content .text {
   display: block;
-  color: #001a66c3;
+  color: #00134ac2;
   font-size: 1rem;
   font-size: 0.75rem;
   width: 65%;

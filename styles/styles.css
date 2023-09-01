@@ -1,11 +1,11 @@
 @font-face {
   font-family: Azonix;
-  src: url("../assets/fonts/Azonix-1VB0.otf") format("opentype");
+  src: url("/assets/fonts/Azonix-1VB0.otf") format("opentype");
 }
 
 @font-face {
   font-family: Library;
-  src: url("../assets/fonts/Library\ 3\ am.otf") format("opentype");
+  src: url("/assets/fonts/Library\ 3\ am.otf") format("opentype");
 }
 
 * {
@@ -14,14 +14,6 @@
 }
 html, body{
   background-color: #000032;
-}
-#gradient-canvas {
-  position: fixed;
-  min-height: 100vh;
-  --gradient-color-1: #0e04c3;
-  --gradient-color-2: #2e0b7e;
-  --gradient-color-3: #3b0a7a;
-  --gradient-color-4: #5e0786;
 }
 
 .container {

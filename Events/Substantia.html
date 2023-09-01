@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SUBSTANTIA</title>
+        <link rel="stylesheet" href="/styles/events.css" />
+        <style>
+            #gradient-canvas {
+                position: fixed;
+                min-height: 100vh;
+                --gradient-color-1: #05005c;
+                --gradient-color-2: #251d36;
+                --gradient-color-3: #1b536c;
+                --gradient-color-4: #311041;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas
+            id="gradient-canvas"
+            data-js-darken-top
+            data-transition-in
+        ></canvas>
+        <div class="container">
+            <a href="/" class="MSLogoLink">
+                <img
+                    class="MSLogo"
+                    src="/assets/images/logo-old.png"
+                    alt="logo"
+                />
+            </a>
+            <div class="main">
+                <h1>SUBSTANTIA</h1>
+                <h3>Demystify your love for Chemistry</h3>
+                <ul class="cards">
+                    <li class="cards_item">
+    <div class="card block">
+        <div class="card_image">
+            <img src="/assets/images/event-icons/SubstantiaOnTheEtch.png" />
+        </div>
+        <div class="card_content">
+            <h2 class="card_title">SUBSTANTIA ON THE ETCH</h2>
+            <p class="card_text">Sky is the limit only until you find the right concoction to pierce right through.</p>
+            <button class="btn card_btn">
+                <a class="link" href="/Events/Substantia/SubstantiaOnTheEtch.html"
+                    >Read More</a
+                >
+            </button>
+        </div>
+    </div>
+</li>
+<li class="cards_item">
+    <div class="card block">
+        <div class="card_image">
+            <img src="/assets/images/event-icons/TechEscape.png" />
+        </div>
+        <div class="card_content">
+            <h2 class="card_title">TECH ESCAPE</h2>
+            <p class="card_text">The stakes are high and oxygen runs low. In order to escape and survive the answers you must know.</p>
+            <button class="btn card_btn">
+                <a class="link" href="/Events/Substantia/TechEscape.html"
+                    >Read More</a
+                >
+            </button>
+        </div>
+    </div>
+</li>
+
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="/lib/gradient/gradient.js"></script>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AVIONICA</title>
+        <link rel="stylesheet" href="/styles/events.css" />
+        <style>
+            #gradient-canvas {
+                position: fixed;
+                min-height: 100vh;
+                --gradient-color-1: #05005c;
+                --gradient-color-2: #251d36;
+                --gradient-color-3: #1b536c;
+                --gradient-color-4: #311041;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas
+            id="gradient-canvas"
+            data-js-darken-top
+            data-transition-in
+        ></canvas>
+        <div class="container">
+            <a href="/" class="MSLogoLink">
+                <img
+                    class="MSLogo"
+                    src="/assets/images/logo-old.png"
+                    alt="logo"
+                />
+            </a>
+            <div class="main">
+                <h1>AVIONICA</h1>
+                <h3>Showcase and implement your knowledge about the laws and concepts of Physics</h3>
+                <ul class="cards">
+                    <li class="cards_item">
+    <div class="card block">
+        <div class="card_image">
+            <img src="/assets/images/event-icons/TakeOff.png" />
+        </div>
+        <div class="card_content">
+            <h2 class="card_title">TAKE OFF</h2>
+            <p class="card_text">Want to reach for stars? Well you gotta start somewhere! Plan the trajectory and let go of the plane.</p>
+            <button class="btn card_btn">
+                <a class="link" href="/Events/Avionica/TakeOff.html"
+                    >Read More</a
+                >
+            </button>
+        </div>
+    </div>
+</li>
+<li class="cards_item">
+    <div class="card block">
+        <div class="card_image">
+            <img src="/assets/images/event-icons/Contraption.png" />
+        </div>
+        <div class="card_content">
+            <h2 class="card_title">CONTRAPTION</h2>
+            <p class="card_text">Design, modify, reinvent and re-engineer to make a system of energy conversions.</p>
+            <button class="btn card_btn">
+                <a class="link" href="/Events/Avionica/Contraption.html"
+                    >Read More</a
+                >
+            </button>
+        </div>
+    </div>
+</li>
+
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="/lib/gradient/gradient.js"></script>
+</html>
