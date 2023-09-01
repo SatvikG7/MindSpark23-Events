@@ -49,7 +49,7 @@ for (const module in data) {
     let temp = template;
     temp = temp.replaceAll("{#MODULENAME}", MODULE);
     temp = temp.replace("{#DESCRIPTION}", DESCRIPTION);
-    let fname = "events/" + String(data[module].fileName);
+    let fname = "Events/" + String(data[module].fileName);
 
     let list = "";
 

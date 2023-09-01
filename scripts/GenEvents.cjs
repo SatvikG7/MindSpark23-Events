@@ -12,8 +12,8 @@ for (const module in data) {
                 t = t.replaceAll("{#EVENTNAME}", n);
             }
         }
-        fs.mkdirSync("events/" + module, { recursive: true });
-        let fn = "events/" + module + "/" + e.fileName;
+        fs.mkdirSync("Events/" + module, { recursive: true });
+        let fn = "Events/" + module + "/" + e.fileName;
         fs.writeFileSync(fn, t);
         console.log(fn);
     });
