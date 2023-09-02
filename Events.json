@@ -4,11 +4,13 @@
         "description": "Fun is as important as academics. Compete against each other to find the ultimate gamer",
         "events": [
             {
-                "FANDOM": "Fandom's here with the most fun quizzes on your favourite TV shows and memes",
+                "name": "FANDOM",
+                "description": "Fandom's here with the most fun quizzes on your favourite TV shows and memes",
                 "fileName": "Fandom.html"
             },
             {
-                "FLASH": "Share your perspective of this world, freezing reality frame by frame.",
+                "name": "Flash",
+                "description": "Share your perspective of this world, freezing reality frame by frame.",
                 "fileName": "Flash.html"
             }
         ],
@@ -20,11 +22,13 @@
         "description": "Showcase and implement your knowledge about the laws and concepts of Physics",
         "events": [
             {
-                "TAKE OFF": "Want to reach for stars? Well you gotta start somewhere! Plan the trajectory and let go of the plane.",
+                "name": "TAKE OFF",
+                "description": "Want to reach for stars? Well you gotta start somewhere! Plan the trajectory and let go of the plane.",
                 "fileName": "TakeOff.html"
             },
             {
-                "CONTRAPTION": "Design, modify, reinvent and re-engineer to make a system of energy conversions.",
+                "name": "CONTRAPTION",
+                "description": "Design, modify, reinvent and re-engineer to make a system of energy conversions.",
                 "fileName": "Contraption.html"
             }
         ],
@@ -35,19 +39,23 @@
         "description": "Pit yourself against the best and test your coding skills",
         "events": [
             {
-                "FLIP IT": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork.",
+                "name": "FLIP IT",
+                "description": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork.",
                 "fileName": "FlipIt.html"
             },
             {
-                "WEBSCAPE": "Code, compete and re-imagine to embellish a partially designed website.",
+                "name": "WEBSCAPE",
+                "description": "Code, compete and re-imagine to embellish a partially designed website.",
                 "fileName": "Webscape.html"
             },
             {
-                "RETRACER": "The path from input to output does exist. Do you have the vision to find it?",
+                "name": "RETRACER",
+                "description": "The path from input to output does exist. Do you have the vision to find it?",
                 "fileName": "Retracer.html"
             },
             {
-                "CODE JUNKIE": "The right place for coding aficionados to live their passion and decode their way to supremacy.",
+                "name": "CODE JUNKIE",
+                "description": "The right place for coding aficionados to live their passion and decode their way to supremacy.",
                 "fileName": "CodeJunkie.html"
             }
         ],
@@ -59,15 +67,18 @@
         "description": "Come Conquer Conquest. Close your books, open your mind. Where smart answers won't get you fired.",
         "events": [
             {
-                "INDIKYA": "A pH test for your patriotic fervor. Bring out the quiz patriot in you.",
+                "name": "INDIKYA",
+                "description": "A pH test for your patriotic fervor. Bring out the quiz patriot in you.",
                 "fileName": "Indikya.html"
             },
             {
-                "TECH DE BAIT": "It is better to debate a question without settling it than to settle a question without debating it.",
+                "name": "TECH DE BAIT",
+                "description": "It is better to debate a question without settling it than to settle a question without debating it.",
                 "fileName": "TechDeBait.html"
             },
             {
-                "TORQUEST": "Drift along the scientific questionnaire pool, knock down the resistance from your opponents and finish a Technocrat.",
+                "name": "TORQUEST",
+                "description": "Drift along the scientific questionnaire pool, knock down the resistance from your opponents and finish a Technocrat.",
                 "fileName": "Torquest.html"
             }
         ],
@@ -79,11 +90,13 @@
         "description": "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
         "events": [
             {
-                "DELTA SIGMA PI": "Mathematics is, in its way, the poetry of logical ideas. We invite you to embrace it!",
+                "name": "DELTA SIGMA PI",
+                "description": "Mathematics is, in its way, the poetry of logical ideas. We invite you to embrace it!",
                 "fileName": "DeltaSigmaPi.html"
             },
             {
-                "INTEGRATON BEE": "Is Math an integral part of your life? Integrate your thoughts, differentiate your distractions and grow wiser exponentially.",
+                "name": "INTEGRATON BEE",
+                "description": "Is Math an integral part of your life? Integrate your thoughts, differentiate your distractions and grow wiser exponentially.",
                 "fileName": "IntegrationBee.html"
             }
         ],
@@ -95,11 +108,13 @@
         "description": "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
         "events": [
             {
-                "SHERLOCKED": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth.",
+                "name": "SHERLOCKED",
+                "description": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth.",
                 "fileName": "Sherlocked.html"
             },
             {
-                "GOOGLER": "Find the answers to the most trivial questions. The answer lies in your ability to use Google in the most efficient way.",
+                "name": "GOOGLER",
+                "description": "Find the answers to the most trivial questions. The answer lies in your ability to use Google in the most efficient way.",
                 "fileName": "Googler.html"
             }
         ],
@@ -111,31 +126,38 @@
         "description": " Dive in the world of robots. Participate in exciting robot events",
         "events": [
             {
-                "BOT WRESTLING": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours.",
+                "name": "BOT WRESTLING",
+                "description": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours.",
                 "fileName": "BotWrestling.html"
             },
             {
-                "VIRTUAL ROBOTICS": "Simulation of robots will give you the real sense of victory in the virtual world.",
+                "name": "VIRTUAL ROBOTICS",
+                "description": "Simulation of robots will give you the real sense of victory in the virtual world.",
                 "fileName": "VirtualRobotics.html"
             },
             {
-                "ROBO RACES": "Want to feed your need for speed? Then race your robot in this ultimate battle of superiority.",
+                "name": "ROBO RACES",
+                "description": "Want to feed your need for speed? Then race your robot in this ultimate battle of superiority.",
                 "fileName": "RoboRaces.html"
             },
             {
-                "ROBO FALCONARY": "Would you rather walk or run to victory? Let us make the choice for you. Be part of Robo Falconry and fly towards victory.",
+                "name": "ROBO FALCONARY",
+                "description": "Would you rather walk or run to victory? Let us make the choice for you. Be part of Robo Falconry and fly towards victory.",
                 "fileName": "RoboFalconary.html"
             },
             {
-                "SEARCH N' DESTROY": "The only road that leads to the first prize is the one that is filled with twists and turns. Maneuver and surge ahead.",
+                "name": "SEARCH N' DESTROY",
+                "description": "The only road that leads to the first prize is the one that is filled with twists and turns. Maneuver and surge ahead.",
                 "fileName": "SearchAndDestroy.html"
             },
             {
-                "ROBO WARS": "Decimate your enemy because this is the survival of the fittest for your robots.",
+                "name": "ROBO WARS",
+                "description": "Decimate your enemy because this is the survival of the fittest for your robots.",
                 "fileName": "RoboWars.html"
             },
             {
-                "ROBO ROYALE": "Complete the given tasks and then prevent your opponent from doing theirs.",
+                "name": "ROBO ROYALE",
+                "description": "Complete the given tasks and then prevent your opponent from doing theirs.",
                 "fileName": "RoboRoyale.html"
             }
         ],
@@ -147,19 +169,23 @@
         "description": "Plan, Build, Create. Dive in world of Civil Engineering.",
         "events": [
             {
-                "BRIDGE THE GAP": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
+                "name": "BRIDGE THE GAP",
+                "description": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
                 "fileName": "BridgeTheGap.html"
             },
             {
-                "UTOPIA": "Envision an ideal city keeping in mind various smart solutions, sustainable measures and inclusion of people.",
+                "name": "UTOPIA",
+                "description": "Envision an ideal city keeping in mind various smart solutions, sustainable measures and inclusion of people.",
                 "fileName": "Utopia.html"
             },
             {
-                "ID CIVIL": "Optimize your design and prove your mastery in AutoCAD by putting forth the best structural design.",
+                "name": "ID CIVIL",
+                "description": "Optimize your design and prove your mastery in AutoCAD by putting forth the best structural design.",
                 "fileName": "IdCivil.html"
             },
             {
-                "CONQUEST": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder.",
+                "name": "CONQUEST",
+                "description": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder.",
                 "fileName": "Conquest.html"
             }
         ],
@@ -187,19 +213,23 @@
         "description": "Electrify your passion for circuit making and playing with micro controllers",
         "events": [
             {
-                "CIRCUIT FIXER": "No resistance can drop your potential. Build your own circuit and ignite the spark within you!",
+                "name": "CIRCUIT FIXER",
+                "description": "No resistance can drop your potential. Build your own circuit and ignite the spark within you!",
                 "fileName": "CircuitFixer.html"
             },
             {
-                "ELECTRADE": "Earn money and spend it wisely in an attempt to build the most efficient circuits to complex problems.",
+                "name": "ELECTRADE",
+                "description": "Earn money and spend it wisely in an attempt to build the most efficient circuits to complex problems.",
                 "fileName": "Electrade.html"
             },
             {
-                "MICROAPPS": "With a microcontroller you can conquer the world. Prove your proficiency in digital electronics and take away the big prize",
+                "name": "MICROAPPS",
+                "description": "With a microcontroller you can conquer the world. Prove your proficiency in digital electronics and take away the big prize",
                 "fileName": "Microapps.html"
             },
             {
-                "FOX HUNT": "A game of hunt devoid of  trail of blood but makes you chase nonetheless.",
+                "name": "FOX HUNT",
+                "description": "A game of hunt devoid of  trail of blood but makes you chase nonetheless.",
                 "fileName": "FoxHunt.html"
             }
         ],

@@ -11,8 +11,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
-html, body{
+
+html,
+body {
   background-color: transparent;
 }
 
@@ -38,6 +41,7 @@ html, body{
   margin: 24px;
   padding: 24px;
 }
+
 .headerImgLink {
   user-select: none;
   cursor: pointer;
@@ -103,7 +107,7 @@ html, body{
 
 /* button */
 button {
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   text-transform: uppercase;
   font-style: normal;
   padding-left: 25px;
@@ -111,8 +115,7 @@ button {
   color: #fff;
   -webkit-clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
   clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
-  height: 40px;
-  font-size: 1.75em;
+  font-size: 1.61em;
   letter-spacing: 1.2px;
   transition: .2s .1s;
   background-image: linear-gradient(90deg, #152de7, #6220fb);
@@ -135,17 +138,26 @@ button:hover {
   background: rgb(9, 9, 121);
   background: linear-gradient(90deg, rgb(28, 28, 155) 0%, rgb(1, 144, 173) 100%);
   border-radius: 12px;
-  display: grid;
-  grid-template-columns: auto auto auto;
   text-align: center;
   margin-top: 12px;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
-.info p {
-  font-size: 1.75rem;
-  line-height: 48px;
-  margin: 10px;
+.info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4px 0;
+  width: 100%;
+}
+
+.info div p {
+  font-size: 1.125rem;
   font-family: 'Barlow', sans-serif;
   color: wheat;
 }
@@ -258,4 +270,55 @@ button:hover {
   height: 2px;
   width: 90%;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 96vw;
+    margin: 12px;
+    padding: 0;
+  }
+
+  .headerImg {
+    width: 75%;
+    margin: 4px;
+    padding: 0;
+  }
+
+  .headerText {
+    filter: drop-shadow(0px 0px 10px white);
+  }
+
+  button {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .event>p {
+    font-size: 1.125rem;
+  }
+
+  .structure div div p {
+    padding-left: 24px;
+  }
+
+  .info p {
+    font-size: 1.5rem;
+    margin: auto;
+  }
+
+  .info span {
+    margin: auto 8px;
+  }
+
+  .faqs div h4 {
+    font-size: 1.125rem;
+  }
+
+  .faqs div p {
+    font-size: 1rem;
+  }
 }

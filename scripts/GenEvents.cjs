@@ -5,13 +5,10 @@ let template = fs.readFileSync("scripts/templates/EventTemplate.html", "utf-8");
 
 let t;
 for (const module in data) {
-    t = template;
     data[module].events.forEach((e) => {
-        for (const n in e) {
-            if (n !== "fileName") {
-                t = t.replaceAll("{#EVENTNAME}", n);
-            }
-        }
+        t = template;
+        t = t.replaceAll("{#EVENTNAME}", e.name);
+        t = t.replaceAll("{#EVENTDESCRIPTION}", e.description);
         fs.mkdirSync("Events/" + module, { recursive: true });
         let fn = "Events/" + module + "/" + e.fileName;
         fs.writeFileSync(fn, t);

@@ -226,23 +226,6 @@ h3 {
   /* animation: pop 3s infinite; */
 }
 
-h3:before {
-  position: absolute;
-  content: attr(data-text);
-  top: 0.05em;
-  left: 0.1em;
-  /* background-image: repeating-linear-gradient(45deg,
-      transparent 0,
-      transparent 0.03em,
-      #f6f7f6 0.03em,
-      #f6f7f6 0.06em); */
-  -webkit-text-stroke-width: 0;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  z-index: -1;
-}
-
 @keyframes pop {
   0% {
     text-shadow: 0px 0px 0px #ffffffaa;

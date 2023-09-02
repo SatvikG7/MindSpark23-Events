@@ -55,16 +55,13 @@ for (const module in data) {
 
     data[module].events.forEach((e) => {
         let card = li;
-        for (const n in e) {
-            if (n !== "fileName") {
-                card = card.replaceAll("{#EVENTTITLE}", n);
-                card = card.replaceAll(
-                    "{#MODULE}",
-                    data[module].fileName.split(".")[0]
-                );
-                card = card.replaceAll("{#EVENTDESCRIPTION}", e[n]);
-            }
-        }
+        card = card.replaceAll("{#EVENTTITLE}", e.name);
+        card = card.replaceAll(
+            "{#MODULE}",
+            data[module].fileName.split(".")[0]
+        );
+        card = card.replaceAll("{#EVENTDESCRIPTION}", e.description);
+
         card = card.replaceAll("{#EVENTFILENAME}", e.fileName);
         card = card.replaceAll("{#ICONPATH}", e.fileName.split(".")[0]);
         list += card;
