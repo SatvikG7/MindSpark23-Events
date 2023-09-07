@@ -6,6 +6,11 @@
         <title>Events</title>
         <link rel="stylesheet" href="./lib/splide/splide.min.css" />
         <link rel="stylesheet" href="./eventsMainPage.css" />
+        <link
+            rel="shortcut icon"
+            href="/assets/images/favicon.svg"
+            type="image/x-icon"
+        />
     </head>
 
     <body>
@@ -16,7 +21,7 @@
         ></canvas>
 
         <div class="container">
-            <div class="page-title">
+            <div class="heading-wrapper">
                 <a href="/" class="MSLogoLink">
                     <img
                         class="MSLogo"
@@ -24,7 +29,7 @@
                         alt="logo"
                     />
                 </a>
-                <h3>Events</h3>
+                <span class="heading">Events</span>
             </div>
 
             <div id="splide" class="splide" role="group">
@@ -32,13 +37,12 @@
                     <ul id="splide__list" class="splide__list"></ul>
                 </div>
             </div>
-            <div id="splide__mobile"></div>
+            <ul id="splide__mobile"></ul>
         </div>
     </body>
     <script></script>
     <script src="./lib/splide/splide.min.js"></script>
     <script src="./lib/gradient/gradient.js"></script>
-
     <script>
         let slides = [];
 
@@ -160,11 +164,9 @@
                 Math.min(window.screen.width, window.screen.height) < 768 ||
                 navigator.userAgent.indexOf("Mobi") > -1;
             if (isMobile) {
-                // do nothing
                 document.getElementById("splide__mobile").innerHTML = slides;
             } else {
                 document.getElementById("splide__list").innerHTML = slides;
-
                 var splide = new Splide(".splide", {
                     type: "loop",
                     perPage: isMobile ? 1 : 3,

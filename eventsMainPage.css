@@ -36,7 +36,16 @@ body {
   --gradient-color-4: #1d002b;
 }
 
-.page-title {
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.heading-wrapper {
   position: fixed;
   top: 10px;
   display: flex;
@@ -47,13 +56,16 @@ body {
 }
 
 .heading {
-  font-size: 5rem;
+  font-family: Azonix;
+  position: relative;
+  color: #27bdce;
+  font-size: 4rem;
   font-weight: 700;
-  text-align: center;
-  font-family: monospace;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
-  -webkit-text-stroke: 4px black;
+  /* -webkit-text-stroke: 4px #21006f; */
+  /* text-shadow: 0px 0px 5px #ffffffaa; */
+  /* animation: pop 3s infinite; */
 }
 
 .MSLogoLink {
@@ -72,14 +84,7 @@ body {
   margin: auto;
 }
 
-.container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
+/* card css start */
 .parent {
   width: auto;
   height: 300px;
@@ -128,17 +133,16 @@ body {
 }
 
 .content {
-  padding: 25px 60px 0px 30px;
+  padding: 25px 60px 12px 30px;
   transform: translate3d(0, 0, 26px);
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  align-items: flex-start;
+  height: 100%;
+  justify-content: space-evenly;
 }
 
 .content .title {
   display: block;
-  color: #001a66;
   font-size: 1.75rem;
   font-family: "Library";
   color: transparent;
@@ -162,15 +166,13 @@ body {
   padding: 8px 8px;
   border-radius: 8px;
   background-color: #00000022;
+  width: 65%;
 }
 
-.logo {
-  position: absolute;
-  right: 0;
-  top: 0;
-  transform-style: preserve-3d;
-}
+/* card css end */
 
+
+/* event logo css start*/
 .logo {
   position: absolute;
   right: 0;
@@ -214,18 +216,7 @@ body {
   width: 100px;
 }
 
-h3 {
-  font-family: Azonix;
-  position: relative;
-  color: #27bdce;
-  font-size: 4rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  /* -webkit-text-stroke: 4px #21006f; */
-  /* text-shadow: 0px 0px 5px #ffffffaa; */
-  /* animation: pop 3s infinite; */
-}
+/* event logo css end*/
 
 @keyframes pop {
   0% {
@@ -273,7 +264,7 @@ h3 {
     width: 75%;
   }
 
-  h3 {
+  .heading {
     font-size: 3rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -283,6 +274,8 @@ h3 {
   .splide__slide {
     margin-right: 0px !important;
     width: calc(100% - 24px) !important;
+    opacity: 1.0;
+    transition: all 0.25s;
   }
 
   .splide__arrow {
@@ -296,6 +289,11 @@ h3 {
 
   .content .text {
     font-size: 0.75rem;
+    width: 75%;
+  }
+
+  .content a {  
+    width: 75%;
   }
 
   .logo .circle1 {
