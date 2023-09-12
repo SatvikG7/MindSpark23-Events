@@ -33,6 +33,7 @@ body {
   padding: 0 0 24px 0;
   margin: auto;
   background-color: transparent;
+  margin-top: 30px;
 }
 
 .main {
@@ -41,34 +42,37 @@ body {
 }
 
 h1 {
-  font-size: 3.75rem;
+  font-size: 2rem;
   text-align: center;
-  font-family: monospace;
+  font-family: 'Azonix';
   filter: invert(1);
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1rem;
   text-align: center;
   color: rgb(152, 142, 131);
-  font-family: monospace;
+  font-family: sans-serif;
+  padding: 10px;
   mix-blend-mode: plus-lighter;
 }
 
 img {
   height: auto;
-  max-width: 100%;
+  max-width: 80%;
+  margin: auto;
+  display: block;
   vertical-align: middle;
 }
 
 :root {
-  --orange: #fa8142;
+  --orange: #9cb3ed;
   --green: #09c372;
   --gray2: #b2becd;
   --gray5: #2a2e35;
   --nav-bg: var(--gray5);
   --text-color: var(--gray2);
-  --card-shadow: 6px 6px teal;
+  --card-shadow: 6px 6px rgb(74, 108, 132);
   --card-border: 2px solid lime;
   --card-margin: 0.5em 0.25em 0.5em 0;
   --card-padding: 1em 1em;
@@ -79,19 +83,22 @@ img {
 .btn {
   margin: var(--card-margin);
   color: var(--text-color);
-  padding: var(--card-padding);
-  font-size: 1rem;
+  padding: 10px;
+  font-size: 0.21rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 200;
   border-radius: 1.5rem;
   vertical-align: bottom;
   cursor: pointer;
   transition: var(--card-transition);
-  border: 2px solid var(--orange);
-  width: 100%;
+  
+  border: 2px solid #0989a3;
+  width: 70%;
+  display: block;
+  margin: auto;
   text-decoration: none;
   background: #fff7dd44;
 }
@@ -152,7 +159,7 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: #fff7dd44;
+  background: #00d0ff44;
 }
 
 .card_content {
@@ -170,6 +177,7 @@ img {
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;
+  text-align: center;
 }
 
 .card_text {
@@ -178,6 +186,7 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-weight: 400;
+  text-align: center;
 }
 
 .link {
@@ -189,5 +198,6 @@ img {
 @media screen and (max-width: 768px) {
   .MSLogo {
     width: 75%;
+    margin-top: 20px;
   }
 }
