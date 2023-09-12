@@ -8,39 +8,14 @@ var template = fs.readFileSync(
 var li = fs.readFileSync("scripts/templates/CardTemplate.html", "utf-8");
 
 // check if events directory is present if not create it
-fs.readdir("Events/", (err, files) => {
-    if (err) {
-        console.log(err);
-        fs.mkdir("Events/", (err) => {
-            if (err) {
-                console.log("Events directory does not exist.");
-                console.log("Creating Events Directory...");
-                // console.log(err);
-            }
-        });
-    }
-    // else {
-    //     console.log("Events directory already exist.");
-    //     console.log("Removing Events Directory...");
-    //     fs.rmdir(
-    //         "events/",
-    //         // { recursive: true, force: true },
-    //         (err) => {
-    //             if (err) {
-    //                 console.log(err);
-    //             } else {
-    //                 fs.mkdir("events/", (err) => {
-    //                     if (err) {
-    //                         console.log(err);
-    //                     } else {
-    //                         console.log("Created an Empty Events Directory...");
-    //                     }
-    //                 });
-    //             }
-    //         }
-    //     );
-    // }
-});
+
+if (!fs.existsSync("Events/")) {
+    fs.mkdirSync("Events/", (err) => {
+        if (err) {
+            console.log(err);
+        }
+    });
+}
 
 for (const module in data) {
     // console.log(data[module]);
@@ -49,7 +24,8 @@ for (const module in data) {
     let temp = template;
     temp = temp.replaceAll("{#MODULENAME}", MODULE);
     temp = temp.replace("{#DESCRIPTION}", DESCRIPTION);
-    let fname = "Events/" + String(data[module].fileName);
+    let folder_name = "Events/" + String(data[module].fileName).split(".")[0];
+    let file_name = folder_name + "/" + "index.html";
 
     let list = "";
 
@@ -62,14 +38,25 @@ for (const module in data) {
         );
         card = card.replaceAll("{#EVENTDESCRIPTION}", e.description);
 
-        card = card.replaceAll("{#EVENTFILENAME}", e.fileName);
+        card = card.replaceAll(
+            "{#EVENTFILENAME}",
+            e.fileName.split(".")[0] + "/"
+        );
         card = card.replaceAll("{#ICONPATH}", e.fileName.split(".")[0]);
         list += card;
     });
 
     temp = temp.replace("{#EVENTSLIST}", list);
-    fs.writeFile(
-        fname,
+
+    if (!fs.existsSync(folder_name)) {
+        fs.mkdirSync(folder_name, (err) => {
+            if (err) {
+                console.log(err);
+            }
+        });
+    }
+    fs.writeFileSync(
+        file_name,
         temp,
         {
             encoding: "utf8",
@@ -80,5 +67,5 @@ for (const module in data) {
             }
         }
     );
-    console.log(fname);
+    console.log(file_name);
 }

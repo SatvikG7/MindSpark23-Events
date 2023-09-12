@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@font-face {
+  font-family: Library;
+  src: url("../../assets/fonts/Library\ 3\ am.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+body {
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000032;
+}
+
+#gradient-canvas {
+  position: fixed;
+  min-height: 100vh;
+  --gradient-color-1: #00fdec;
+  --gradient-color-2: #3d3d3d;
+  --gradient-color-3: #000000;
+  --gradient-color-4: #1d002b;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.heading-wrapper {
+  position: fixed;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.heading {
+  font-family: Azonix;
+  position: relative;
+  color: #27bdce;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  /* -webkit-text-stroke: 4px #21006f; */
+  /* text-shadow: 0px 0px 5px #ffffffaa; */
+  /* animation: pop 3s infinite; */
+}
+
+.MSLogoLink {
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.MSLogo {
+  width: 33%;
+  user-select: none;
+  padding: 0 0 24px 0;
+  margin: auto;
+}
+
+@keyframes pop {
+  0% {
+    text-shadow: 0px 0px 0px #ffffffaa;
+    /* top: 0.035em; */
+    /* left: 0.05em; */
+  }
+
+  50% {
+    /* top: 0.05em; */
+    text-shadow: 0px 0px 10px #ffffffaa;
+    /* left: 0.1em; */
+  }
+
+  100% {
+    text-shadow: 0px 0px 0px #ffffffaa;
+    /* top: 0.035em; */
+    /* left: 0.05em; */
+  }
+}
+
+.splide__slide {
+  opacity: 0.75;
+  transition: all 0.25s;
+}
+
+.splide__pagination {
+  bottom: -1.5rem;
+}
+
+.is-active {
+  opacity: 1;
+}
+
+.splide__arrow--prev {
+  left: 0.25em;
+}
+
+.splide__arrow--next {
+  right: 0.25em;
+}
+
+@media screen and (max-width: 768px) {
+  .MSLogo {
+    width: 75%;
+  }
+
+  .heading {
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* -webkit-text-stroke: 4px #21006f; */
+  }
+
+  .splide__slide {
+    margin-right: 0px !important;
+    width: calc(100% - 24px) !important;
+    opacity: 1.0;
+    transition: all 0.25s;
+  }
+
+  .splide__arrow {
+    top: 110%;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1px #21006f;
+  }
+
+  .content .text {
+    font-size: 0.75rem;
+    width: 75%;
+  }
+
+  .content a {
+    width: 75%;
+  }
+
+  #splide__mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: calc(100vh - 200px);
+    position: fixed;
+    bottom: 0;
+    overflow: scroll;
+    border-radius: 48px 48px 0 0;
+    align-items: center;
+  }
+}

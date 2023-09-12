@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Azonix;
+  src: url("../../assets/fonts/Azonix-1VB0.otf") format("opentype");
+}
+
+.parent {
+  width: auto;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.parent:hover .card {
+  transform: rotate3d(1, 1, 0, 15deg);
+  translate: 0px 0px -50px;
+}
+
+.parent:hover .card .logo .circle2 {
+  transform: translate3d(0, 0, 60px);
+}
+
+.parent:hover .card .logo .circle3 {
+  transform: translate3d(0, 0, 80px);
+}
+
+.parent:hover .card .logo .circle4 {
+  transform: translate3d(0, 0, 100px);
+}
+
+.parent:hover .card .logo .circle5 {
+  transform: translate3d(0, 0, 120px);
+}
+
+.card {
+  height: 100%;
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.glass {
+  transform-style: preserve-3d;
+  position: absolute;
+  inset: 8px;
+  border-radius: 55px;
+  border-top-right-radius: 100%;
+  backdrop-filter: blur(5px);
+  transform: translate3d(0px, 0px, 25px);
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out;
+}
+
+.content {
+  padding: 25px 60px 12px 30px;
+  transform: translate3d(0, 0, 26px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.content .title {
+  display: block;
+  font-size: 1.75rem;
+  font-family: "Library";
+  color: transparent;
+  -webkit-text-stroke: 1.75px #21006f;
+}
+
+.content .text {
+  display: block;
+  color: #00134ac2;
+  font-size: 1rem;
+  font-size: 0.75rem;
+  width: 65%;
+  font-family: "Azonix";
+}
+
+.content a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 8px;
+  background-color: #00000022;
+  width: 65%;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-style: preserve-3d;
+}
+
+.logo .circle {
+  display: block;
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) -10px 10px 20px 0px;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 249, 203, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.logo .circle1 {
+  width: 200px;
+  transform: translate3d(0, 0, 20px);
+  top: 8px;
+  right: 8px;
+}
+
+.logo .circle2 {
+  width: 170px;
+  transform: translate3d(0, 0, 40px);
+  top: 24px;
+  right: 24px;
+  backdrop-filter: blur(1px);
+  transition-delay: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-img {
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo .circle1 {
+    width: 150px;
+  }
+
+  .logo .circle2 {
+    width: 120px;
+  }
+
+  .logo .event-img {
+    width: 75px;
+  }
+}

@@ -9,9 +9,17 @@ for (const module in data) {
         t = template;
         t = t.replaceAll("{#EVENTNAME}", e.name);
         t = t.replaceAll("{#EVENTDESCRIPTION}", e.description);
-        fs.mkdirSync("Events/" + module, { recursive: true });
-        let fn = "Events/" + module + "/" + e.fileName;
-        fs.writeFileSync(fn, t);
-        console.log(fn);
+        let fn =
+            "Events/" +
+            String(data[module].fileName).split(".")[0] +
+            "/" +
+            String(e.fileName).split(".")[0] +
+            "/";
+        fs.mkdirSync(fn, {
+            recursive: true,
+        });
+
+        fs.writeFileSync(fn + "index.html", t);
+        console.log(fn + "index.html");
     });
 }

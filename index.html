@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Events</title>
         <link rel="stylesheet" href="./lib/splide/splide.min.css" />
-        <link rel="stylesheet" href="./eventsMainPage.css" />
+        <link rel="stylesheet" href="./styles/main/main.css" />
+        <link rel="stylesheet" href="./styles/main/card.css" />
         <link
             rel="shortcut icon"
             href="/assets/images/favicon.svg"
@@ -141,7 +142,7 @@
                                         >
                                         <a href="/Events/${n
                                             .toLowerCase()
-                                            .capitalize()}.html"
+                                            .capitalize()}"
                                             >Show Events</a
                                         >
                                     </div>
@@ -163,6 +164,8 @@
             var isMobile =
                 Math.min(window.screen.width, window.screen.height) < 768 ||
                 navigator.userAgent.indexOf("Mobi") > -1;
+            console.log(isMobile);
+
             if (isMobile) {
                 document.getElementById("splide__mobile").innerHTML = slides;
             } else {
