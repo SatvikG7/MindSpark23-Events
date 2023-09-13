@@ -40,7 +40,9 @@
                     <div class="headerText">
                         <h1>CONQUEST</h1>
                         <div class="headerBtnContainer">
-                            <button>Register</button>
+                            <a target="_blank" href="{#EVENTREGISTRATIONLINK}">
+                                <button>Register</button>
+                            </a>
                             <button id="ShareBtn">Share</button>
                         </div>
                     </div>
@@ -53,7 +55,7 @@
                     <span></span>
                     <div>
                         <p class="prizes">🏆Prizes Worth</p>
-                        <p class="prizes-value">Rs. 1,00,000</p>
+                        <p class="prizes-value">{#PRIZEPOOL}</p>
                     </div>
                 </section>
                 <section id="event" class="event">
@@ -71,125 +73,34 @@
                 </section>
                 <section id="structure" class="structure">
                     <h2># Structure</h2>
-                    <div>
-                        <div>
-                            <h4>Round 1:</h4>
-                            <p>
-                                A Multiple choice questions(MCQ) round. Time
-                                allotted is 30 minutes. Negative marking will be
-                                implemented. Further details will be informed to
-                                the team at the time of event.
-                            </p>
-                        </div>
-                        <div>
-                            <h4>Round 2:</h4>
-                            <p>
-                                The top teams from the Round 1 will qualify for
-                                this round. This round will be a rapid coding
-                                round where the team has to complete the codes
-                                within the stipulated time. The output file
-                                needs to be submitted and will be judged on the
-                                basis of the time taken to code it. Further
-                                details will be informed to the team at the time
-                                of event.
-                            </p>
-                        </div>
-                        <div>
-                            <h4>Round 3:</h4>
-                            <p>
-                                The top teams from Round 2 will qualify for this
-                                round. This round will also be a rapid coding
-                                round and relatively difficult questions will be
-                                set up. The code must be working as well as
-                                efficient. All the possible inputs and corner
-                                cases should be handled. The codes will be
-                                judged on the basis of efficiency of the code
-                                and the time required to code it.
-                            </p>
-                        </div>
-                        <div>
-                            <h4>Elimination Criteria:</h4>
-                            <p>
-                                1st round: Groups of two to have MCQ test 2nd
-                                round: Top 10 teams Qualify for round two 3rd
-                                round: Top 5 teams for round 3
-                            </p>
-                        </div>
-                    </div>
+                    <div>{#EVENTSTRUCTURE}</div>
                 </section>
 
                 <section id="rules" class="rules">
                     <h2># Rules</h2>
 
                     <ol>
-                        <li>
-                            The environment will be either Ubuntu 14.04 OS with
-                            gedit/vim/emacs as text editor and gcc as compiler
-                            OR Windows 7 with Turbo C / Dev C++ (as per the
-                            team's choice).
-                        </li>
-                        <li>
-                            Participants need to bring their College ID cards
-                            and the receipt of registration during reporting.
-                        </li>
-                        <li>
-                            Participants are expected to give their correct
-                            contact details, so as to inform them about the
-                            results.
-                        </li>
-                        <li>
-                            Rules may be changed without prior intimation.
-                            Participants are requested to check the MindSpark'22
-                            website (www.mind-spark.org) regularly for updates.
-                        </li>
-                        <li>
-                            In case of any disputes, the decision of the
-                            organizers and the judges will be
-                        </li>
-                        final and binding to all.
-                        <li>
-                            Team members may be from different colleges/
-                            institutions but one participant may not be a part
-                            of multiple teams for the same event.
-                        </li>
+                        {#EVENTRULES}
                     </ol>
                 </section>
                 <section id="faqs" class="faqs">
                     <h2># FAQs</h2>
                     <div>
-                        <h4>What is the team structure?</h4>
-                        <p>
-                            A team may consist of maximum 2 participants. The
-                            members of the team can be from different
-                            educational institutions but should be strictly
-                            First Year or Second Year Undergraduates.
-                        </p>
+                        <h4>I am participating in another event in MindSpark. Can I still register for this event?</h4>
+                        <p>You can participate in any event in MindSpark, provided you can manage your own schedule.</p>
                     </div>
                     <span></span>
-
                     <div>
-                        <h4>Do I have to bring anything?</h4>
-                        <p>
-                            College ID Cards and receipt of registration are
-                            compulsory; you may carry pen or pencil, if you wish
-                            to work out a rough plan for rounds 2 and 3.
-                        </p>
+                        <h4>Is on-spot participation allowed?</h4>
+                        <p>No. On-spot participation is not allowed.</p>
                     </div>
                     <span></span>
-
                     <div>
-                        <h4>
-                            Which IDE (Integrated Development Environment) will
-                            be provided?
-                        </h4>
-                        <p>
-                            The environment provided will be Ubuntu 14.04 OS
-                            with emacs/vim/gedit as text editor and gcc as
-                            compiler or Windows 7 OS with Turbo C/ Dev C++,
-                            depending on choice of the participating teams. COEP
-                            recommends Linux.
-                        </p>
+                        <h4>Who can participate in the event?</h4>
+                        <p>Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.</p>
                     </div>
+                    <span></span>
+                    
                 </section>
             </main>
         </div>

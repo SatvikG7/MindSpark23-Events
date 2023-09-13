@@ -1,240 +1,912 @@
 {
-    "AMUZIA": {
-        "fileName": "Amuzia.html",
+  "$schema": "./schema.json",
+  "Modules": [
+    {
+      "name": "AMUZIA",
+      "details": {
+        "fileName": "Amuzia",
         "description": "Fun is as important as academics. Compete against each other to find the ultimate gamer",
         "events": [
-            {
-                "name": "FANDOM",
-                "description": "Fandom's here with the most fun quizzes on your favourite TV shows and memes",
-                "fileName": "Fandom.html"
-            },
-            {
-                "name": "Flash",
-                "description": "Share your perspective of this world, freezing reality frame by frame.",
-                "fileName": "Flash.html"
+          {
+            "name": "FANDOM",
+            "description": "Fandom's here with the most fun quizzes on your favourite TV shows and memes",
+            "fileName": "Fandom",
+            "long_description": "This quiz is about testing your knowledge on your favorite shows. FANDOM gives you a chance to attempt quizzes for the following shows: <br/> A. Suits <br/> B. The Office <br/> C. Modern Family/ Harry Potter <br/> The quiz is designed to test the participant's knowledge about the show attempted for, the characters, the flow and thus an opportunity to prove that the participant is a true fan of the series.",
+            "rules": [
+              "You can attempt FANDOM quiz of one show ONLY ONCE.",
+              "If a team is caught cheating or playing by unfair means then the team will be disqualified.",
+              "Participants should reach the venue on time and must attend the quiz in the given slot only.",
+              "The decision of the respective Quiz Head will be final and will not be subject to any change.",
+              "Replacement of any participant is strictly not allowed."
+            ],
+            "structure": [
+              {
+                "name": "Round 1:",
+                "description": "Round 1: Multiple Choice Questions"
+              },
+              {
+                "name": "Round 2:",
+                "description": "Surprise Round"
+              }
+            ],
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "Flash",
+            "description": "Frame your view through the lens, then capture the perfect shot with a click.",
+            "fileName": "Flash",
+            "reglink": "https://unstop.com/o/oOvfN1S?lb=8OaQSGs",
+            "long_description": "This Event tries to get bring out the inner shutterbugs in us, capturing unique moments out of the ordinary, and invites photographers and videographers of all skill levels to participate in this theme-based contest. Categories are based on how you wish to tell your story visually and there are no restrictions on the number of categories you wish to participate in! ",
+            "prize": "₹ 8,000",
+            "rules": [
+              "Post processing of pictures is allowed.",
+              "Any kind of Equipment WILL NOT BE PROVIDED.",
+              "Participants can take part in either or both the events.",
+              "Unprocessed files must also be submitted along with the gear (mobile model/camera model + lens + Exif's) used must be mentioned.",
+              "The event head/coordinators have the right to deny the participant from participating in the event if participants break above mentioned rules."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Individual Participation"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 49/- per person"
+              },
+              {
+                "name": "PHOTOGRAPHY",
+                "description": "A theme will be provided few days prior to the event day. Participants can   capture pictures according to what they interpret of said theme and can send them in a set of 3-5 images which will be judged on the basis of composition, post processing, ability to communicate the theme of the contest and overall aesthetics."
+              },
+              {
+                "name": "VIDEOGRAPHY",
+                "description": "1. Participants are supposed to make a video of duration of not more than 90 seconds which can showcase a visual story by the videographer or just an overall aesthetic from their point of view.<br/>2. The use of background music apart from explicit music can be used.<br/>3. The video can be in both horizontal and vertical formats.<br/>4. Time-lapses, hyper-lapses, compilation is allowed.<br/>5. The use of any kind of relevant video editing software is allowed."
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "1. Firstly, participants that fail to adhere to any of the rules of the contest will be disqualified.<br/>2. The participants who fail to meet the deadline for submissions will also not be considered.<br/>3. The photographs or videos should adhere to the guidelines provided with regards to the theme and the type of photographs and videos that are to be submitted. Failure to meet this criterion will lead to disqualification.<br/>4. Any manner of misconduct or misbehaviour on the participants' end will not be tolerated.<br/>"
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "Top 3 winners per category."
+              }
+            ],
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"]
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ]
+      }
     },
-    "AVIONICA": {
-        "fileName": "Avionica.html",
+    {
+      "name": "AVIONICA",
+      "details": {
+        "fileName": "Avionica",
         "description": "Showcase and implement your knowledge about the laws and concepts of Physics",
         "events": [
-            {
-                "name": "TAKE OFF",
-                "description": "Want to reach for stars? Well you gotta start somewhere! Plan the trajectory and let go of the plane.",
-                "fileName": "TakeOff.html"
-            },
-            {
-                "name": "CONTRAPTION",
-                "description": "Design, modify, reinvent and re-engineer to make a system of energy conversions.",
-                "fileName": "Contraption.html"
+          {
+            "name": "TAKE OFF",
+            "description": "What is victory? It is touching the sky by manipulating the laws of aerodynamics. Defy the laws of gravity in this rocket competition.",
+            "fileName": "TakeOff",
+            "long_description": "Take-off is an event that gives you an opportunity to showcase and implement your knowledge about the laws and concepts of physics that govern the motion of a rocket in the air, its take-off, its trajectory, etc.",
+            "prize": "₹ 15,000",
+            "reglink": "https://unstop.com/o/XmyPuUn?lb=8OaQSGs",
+            "structure": [
+              {
+                "name": "",
+                "description": "Take-off consists of the participants using a pressure launcher to launch a water bottle rocket into the air. Participants have to construct their own water bottle rocket of a design of their choice. The event comprises three rounds which will be as follows- "
+              },
+              {
+                "name": "Team",
+                "description": "Maximum 3 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹49/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "The ground will be divided into six concentric zones from the launcher for this round. Further, the ground will be divided into 3 sectors, with each sector containing the mentioned 6 scoring zones. From the launching point, the participant will have to use the launcher to launch the water bottle rocket. The participants will have to choose one of the three sectors towards which they will be launching their rocket. The participant will be given points according to the area in which the rocket lands. If the rocket does not land in the sector chosen by the participant, no points will be awarded. The area and the points that the area holds will be visible during the event. This round will give 3 attempts to each team. The total score of the 3 attempts will be considered."
+              },
+              {
+                "name": "Round 2:",
+                "description": "For this round, a target will be declared. Points will be awarded based on the distance between the rocket and the target. The point at which the rocket touches the ground for the first time will be considered, and subsequent bounces/sliding will not be considered."
+              },
+              {
+                "name": "Round 3:",
+                "description": "In this round, the participants will have to attach a deployable parachute to the rocket using materials and design of their choice. Points will be awarded based on the time for which the rocket stays in the air after parachute deployment."
+              }
+            ],
+            "rules": [
+              "Participants will be required to bring their college ID cards.",
+              "Participants will have to bring their own rockets made of plastic bottles and water. The launcher and pump will be provided by the organizing team of the event.",
+              "Only the launcher provided by the organizing team must be used. Use of other launchers or hand-based launchers is not permitted.",
+              "In Round 1, if the rocket falls on the boundary of two zones, then the points of the zone with higher points will be counted.",
+              "Points will be counted only for the time of flight before the rocket touches the ground for the first time.",
+              "In Round 3, participants will be disqualified in case the parachute doesn't open.",
+              "The pump pressure can only be applied in the given range as specified by the organizing team."
+            ],
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "CONTRAPTION",
+            "description": "A trial of your ability to manipulate energies as you transform one mechanical motion into another.",
+            "long_description": "Conservation of energy and mass are two rules which govern the universe. This event is designed towards converting energy from one form to another and driving a series of events that will ultimately carry out the given task. The more complicated the contraption and the more forms of energy used, the higher the points earned.",
+            "reglink": "https://unstop.com/o/xd7c14a?lb=8OaQSGs",
+            "prize": "₹ 15,000",
+            "fileName": "Contraption",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Minimum 4 and Maximum 5 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 199/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "The first round consists of abstract submission (soft copy) for which the problem statement will be released to all"
+              },
+              {
+                "name": "Round 2:",
+                "description": "Depending on the abstract, the top 6 teams will be short-listed for Round 2 which will be the qualification round. All the top 6 teams are expected to get 4 copies of the printed abstract for the event, clearly mentioning steps and chart, which shows all Energy conversions"
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Qualification for Round 2 is on the basis of:<br/>1. Closeness/alignment with this year's theme.<br/>2. Maximum conservation of energy.  <br/>3. Number of energy conversions - (more the conversions, better it is!).<br/>4. Use of sustainable materials."
+              }
+            ],
+            "rules": [
+              "The minimum and maximum time for contraption are 2 minutes and 6 minutes respectively. After 6 minutes, 30 Points per minute will be deducted per minute from the total score.  ",
+              "The contraption setup is to be developed in an area with dimensions 15ft X 20ft, and the height must not cross 5ft; (you may have a smaller setup not less than 5ft by 5ft) the setup should fit in an imaginary box of the above-mentioned dimensions.  ",
+              "Since the event will be held in the badminton court (VENUE) of the college, participants are requested to prevent spillage of any kind of fluid and should take precautionary measures in case of any such step involved.  ",
+              "No harmful explosives that may cause harm to the surroundings are to be included in the making of the contraption. ",
+              "Two hand touches are allowed without deduction of points. Before the 3rd hand touch, the team would be given choice to go for 3rd hand touch or to go for the second trial. For 3rd, 4th and 5th hand touch, 30, 60, and 120 points will be deducted respectively from the total score.  ",
+              "If the team decides to go for the second attempt, 50 points will be deducted initially, and 2 hand touches will be allowed further with a deduction of 50 and 80 points, respectively. The team will be disqualified if they exceed the permissible number of hand touches (5 for attempt 1; and 2 for attempt 2) in the respective trial.  ",
+              "Sufficient set-up time will be given and 1 hour will be given for each team for first attempt and second attempt of the model respectively. Only 2   attempts are allowed.",
+              "No alteration (without prior notice) in any step will be allowed during the trial of the contraption.  ",
+              "Students should carry proof of identity issued by their institution.",
+              "The same person cannot be a member of more than one team. All teams involving a common person as a participant will be disqualified. ",
+              "Participants are required to report at (TIME - to be DECIDED).",
+              "Participants should take due safety measures in their models.",
+              "Rules are subject to change without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) regularly for updates.  ",
+              "All decisions of Judges, Event Heads, and Organizers will be final and binding to all participants. No arguments shall be entertained.  ",
+              "Bring special tools of your own if you think they are important for the building of your Contraption.",
+              "Extension boards for any required power supply will be provided by the organising committee. ",
+              "Minimum number of steps is 4."
+            ],
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"]
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ]
+      }
     },
-    "CODIFICA": {
+    {
+      "name": "CODIFICA",
+      "details": {
         "description": "Pit yourself against the best and test your coding skills",
         "events": [
-            {
-                "name": "FLIP IT",
-                "description": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork.",
-                "fileName": "FlipIt.html"
-            },
-            {
-                "name": "WEBSCAPE",
-                "description": "Code, compete and re-imagine to embellish a partially designed website.",
-                "fileName": "Webscape.html"
-            },
-            {
-                "name": "RETRACER",
-                "description": "The path from input to output does exist. Do you have the vision to find it?",
-                "fileName": "Retracer.html"
-            },
-            {
-                "name": "CODE JUNKIE",
-                "description": "The right place for coding aficionados to live their passion and decode their way to supremacy.",
-                "fileName": "CodeJunkie.html"
+          {
+            "name": "FLIP IT",
+            "description": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork.",
+            "fileName": "FlipIt",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "WEBSCAPE",
+            "description": "Code, compete and re-imagine to embellish a partially designed website.",
+            "fileName": "Webscape",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "RETRACER",
+            "description": "The path from input to output does exist. Do you have the vision to find it?",
+            "fileName": "Retracer",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "CODE JUNKIE",
+            "description": "The right place for coding aficionados to live their passion and decode their way to supremacy.",
+            "fileName": "CodeJunkie",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Codifica.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Codifica"
+      }
     },
-    "ILLUMINATI": {
+    {
+      "name": "ILLUMINATI",
+      "details": {
         "description": "Come Conquer Conquest. Close your books, open your mind. Where smart answers won't get you fired.",
         "events": [
-            {
-                "name": "INDIKYA",
-                "description": "A pH test for your patriotic fervor. Bring out the quiz patriot in you.",
-                "fileName": "Indikya.html"
-            },
-            {
-                "name": "TECH DE BAIT",
-                "description": "It is better to debate a question without settling it than to settle a question without debating it.",
-                "fileName": "TechDeBait.html"
-            },
-            {
-                "name": "TORQUEST",
-                "description": "Drift along the scientific questionnaire pool, knock down the resistance from your opponents and finish a Technocrat.",
-                "fileName": "Torquest.html"
+          {
+            "name": "INDIKYA",
+            "description": "A quest to discover who knows,Bharat best. Are you up for it?",
+            "long_description": "This quiz is about testing your knowledge about our country. INDIKYA a national level quiz will be based on everything related to India, be it sports, history, politics, geography or even Bollywood!",
+            "fileName": "Indikya",
+            "reglink": "https://unstop.com/o/lVLOBvj?lb=8OaQSGs",
+            "prize": "₹ 4,500",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 99/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "Multiple Choice Questions along with descriptive questions. This round will be held in COEP Tech itself."
+              },
+              {
+                "name": "Round 2:",
+                "description": "Surprise Round for the winning teams from Round 1 who would compete against each other."
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Team who scores minimum 75% will be eligible for Round 2."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners."
+              }
+            ],
+            "rules": [
+              "Quiz master's decision will be final and binding to all.",
+              "Use of any form of electronic media is strictly prohibited. Any team found in violation will be disqualified on spot.",
+              "Participants must bring their registration receipts and valid college ID cards while coming to the event.",
+              "Rules may be changed without prior intimation. Participants are requested to check the official MindSpark website regularly for updates.",
+              "In case of any disputes, the decision taken by the organizers will be considered final and binding to all."
+            ],
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "TECH DE BAIT",
+            "description": "It is better to debate a question without settling it than to settle a question without debating it.",
+            "fileName": "TechDeBait",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "TORQUEST",
+            "description": "Drift along the scientific questionnaire pool, knock down the resistance from your opponents and finish a Technocrat.",
+            "fileName": "Torquest",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Illuminati.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Illuminati"
+      }
     },
-    "LOGICA": {
+    {
+      "name": "LOGICA",
+      "details": {
         "description": "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
         "events": [
-            {
-                "name": "DELTA SIGMA PI",
-                "description": "Mathematics is, in its way, the poetry of logical ideas. We invite you to embrace it!",
-                "fileName": "DeltaSigmaPi.html"
-            },
-            {
-                "name": "INTEGRATON BEE",
-                "description": "Is Math an integral part of your life? Integrate your thoughts, differentiate your distractions and grow wiser exponentially.",
-                "fileName": "IntegrationBee.html"
+          {
+            "name": "DELTA SIGMA PI",
+            "description": "Mathematics is, in its way, the poetry of logical ideas. We invite you to embrace it!",
+            "fileName": "DeltaSigmaPi",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "INTEGRATON BEE",
+            "description": "Is Math an integral part of your life? Integrate your thoughts, differentiate your distractions and grow wiser exponentially.",
+            "fileName": "IntegrationBee",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Logica.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Logica"
+      }
     },
-    "PRODIGIUM": {
+    {
+      "name": "PRODIGIUM",
+      "details": {
         "description": "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
         "events": [
-            {
-                "name": "SHERLOCKED",
-                "description": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth.",
-                "fileName": "Sherlocked.html"
-            },
-            {
-                "name": "GOOGLER",
-                "description": "Find the answers to the most trivial questions. The answer lies in your ability to use Google in the most efficient way.",
-                "fileName": "Googler.html"
+          {
+            "name": "SHERLOCKED",
+            "description": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth.",
+            "fileName": "Sherlocked",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "GOOGLER",
+            "description": "Find the answers to the most trivial questions. The answer lies in your ability to use Google in the most efficient way.",
+            "fileName": "Googler",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Prodigium.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Prodigium"
+      }
     },
-    "ROBOTICA": {
+    {
+      "name": "ROBOTICA",
+      "details": {
         "description": " Dive in the world of robots. Participate in exciting robot events",
         "events": [
-            {
-                "name": "BOT WRESTLING",
-                "description": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours.",
-                "fileName": "BotWrestling.html"
-            },
-            {
-                "name": "VIRTUAL ROBOTICS",
-                "description": "Simulation of robots will give you the real sense of victory in the virtual world.",
-                "fileName": "VirtualRobotics.html"
-            },
-            {
-                "name": "ROBO RACES",
-                "description": "Want to feed your need for speed? Then race your robot in this ultimate battle of superiority.",
-                "fileName": "RoboRaces.html"
-            },
-            {
-                "name": "ROBO FALCONARY",
-                "description": "Would you rather walk or run to victory? Let us make the choice for you. Be part of Robo Falconry and fly towards victory.",
-                "fileName": "RoboFalconary.html"
-            },
-            {
-                "name": "SEARCH N' DESTROY",
-                "description": "The only road that leads to the first prize is the one that is filled with twists and turns. Maneuver and surge ahead.",
-                "fileName": "SearchAndDestroy.html"
-            },
-            {
-                "name": "ROBO WARS",
-                "description": "Decimate your enemy because this is the survival of the fittest for your robots.",
-                "fileName": "RoboWars.html"
-            },
-            {
-                "name": "ROBO ROYALE",
-                "description": "Complete the given tasks and then prevent your opponent from doing theirs.",
-                "fileName": "RoboRoyale.html"
+          {
+            "name": "BOT WRESTLING",
+            "description": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours.",
+            "fileName": "BotWrestling",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "VIRTUAL ROBOTICS",
+            "description": "Simulation of robots will give you the real sense of victory in the virtual world.",
+            "fileName": "VirtualRobotics",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "ROBO RACES",
+            "description": "Want to feed your need for speed? Then race your robot in this ultimate battle of superiority.",
+            "fileName": "RoboRaces",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "ROBO FALCONARY",
+            "description": "Would you rather walk or run to victory? Let us make the choice for you. Be part of Robo Falconry and fly towards victory.",
+            "fileName": "RoboFalconary",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "SEARCH N' DESTROY",
+            "description": "The only road that leads to the first prize is the one that is filled with twists and turns. Maneuver and surge ahead.",
+            "fileName": "SearchAndDestroy",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "ROBO WARS",
+            "description": "Decimate your enemy because this is the survival of the fittest for your robots.",
+            "fileName": "RoboWars",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "ROBO ROYALE",
+            "description": "Complete the given tasks and then prevent your opponent from doing theirs.",
+            "fileName": "RoboRoyale",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Robotica.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Robotica"
+      }
     },
-    "STRUKTURA": {
+    {
+      "name": "STRUKTURA",
+      "details": {
         "description": "Plan, Build, Create. Dive in world of Civil Engineering.",
         "events": [
-            {
-                "name": "BRIDGE THE GAP",
-                "description": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
-                "fileName": "BridgeTheGap.html"
-            },
-            {
-                "name": "UTOPIA",
-                "description": "Envision an ideal city keeping in mind various smart solutions, sustainable measures and inclusion of people.",
-                "fileName": "Utopia.html"
-            },
-            {
-                "name": "ID CIVIL",
-                "description": "Optimize your design and prove your mastery in AutoCAD by putting forth the best structural design.",
-                "fileName": "IdCivil.html"
-            },
-            {
-                "name": "CONQUEST",
-                "description": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder.",
-                "fileName": "Conquest.html"
+          {
+            "name": "BRIDGE THE GAP",
+            "description": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
+            "fileName": "BridgeTheGap",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "UTOPIA",
+            "description": "Envision an ideal city keeping in mind various smart solutions, sustainable measures and inclusion of people.",
+            "fileName": "Utopia",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "ID CIVIL",
+            "description": "Optimize your design and prove your mastery in AutoCAD by putting forth the best structural design.",
+            "fileName": "IdCivil",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "CONQUEST",
+            "description": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder.",
+            "fileName": "Conquest",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Struktura.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Struktura"
+      }
     },
-    "SUBSTANTIA": {
+    {
+      "name": "SUBSTANTIA",
+      "details": {
         "description": "Demystify your love for Chemistry",
         "events": [
-            {
-                "SUBSTANTIA ON THE ETCH": "Sky is the limit only until you find the right concoction to pierce right through.",
-                "fileName": "SubstantiaOnTheEtch.html"
-            },
-            {
-                "TECH ESCAPE": "The stakes are high and oxygen runs low. In order to escape and survive the answers you must know.",
-                "fileName": "TechEscape.html"
+          {
+            "name": "SUBSTANTIA ON THE ETCH",
+            "description": "Sky is the limit only until you find the right concoction to pierce right through.",
+            "fileName": "SubstantiaOnTheEtch",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "TECH ESCAPE",
+            "description": "The stakes are high and oxygen runs low. In order to escape and survive the answers you must know.",
+            "fileName": "TechEscape",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Substantia.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Substantia"
+      }
     },
-    "VOLTUS": {
+    {
+      "name": "VOLTUS",
+      "details": {
         "description": "Electrify your passion for circuit making and playing with micro controllers",
         "events": [
-            {
-                "name": "CIRCUIT FIXER",
-                "description": "No resistance can drop your potential. Build your own circuit and ignite the spark within you!",
-                "fileName": "CircuitFixer.html"
-            },
-            {
-                "name": "ELECTRADE",
-                "description": "Earn money and spend it wisely in an attempt to build the most efficient circuits to complex problems.",
-                "fileName": "Electrade.html"
-            },
-            {
-                "name": "MICROAPPS",
-                "description": "With a microcontroller you can conquer the world. Prove your proficiency in digital electronics and take away the big prize",
-                "fileName": "Microapps.html"
-            },
-            {
-                "name": "FOX HUNT",
-                "description": "A game of hunt devoid of  trail of blood but makes you chase nonetheless.",
-                "fileName": "FoxHunt.html"
+          {
+            "name": "CIRCUIT FIXER",
+            "description": "No resistance can drop your potential. Build your own circuit and ignite the spark within you!",
+            "fileName": "CircuitFixer",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
             }
+          },
+          {
+            "name": "ELECTRADE",
+            "description": "Earn money and spend it wisely in an attempt to build the most efficient circuits to complex problems.",
+            "fileName": "Electrade",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "MICROAPPS",
+            "description": "With a microcontroller you can conquer the world. Prove your proficiency in digital electronics and take away the big prize",
+            "fileName": "Microapps",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          },
+          {
+            "name": "FOX HUNT",
+            "description": "A game of hunt devoid of  trail of blood but makes you chase nonetheless.",
+            "long_description": "The objective of this contest is to locate a hidden radio transmitter using radio direction-finding techniques. Participants should build the antenna and use equipment to track down the source of a transmitted signal that serves as the 'fox'. The hidden transmitter, or 'fox,' emits radio signals intermittently or continuously on a specific frequency or set of frequencies, and the participants must use their skills and equipment to determine the direction from which the signal is coming.",
+            "fileName": "FoxHunt",
+            "structure": [
+              {
+                "name": "Round 1",
+                "description": "Multiple Choice Questions (online)"
+              },
+              {
+                "name": "Round 2",
+                "description": "On-campus Fox Hunt"
+              }
+            ],
+            "rules": [
+              "Participants will be required to bring their college ID cards.",
+              "The first round of the contest will be an online MCQ quiz based on wireless communication and general knowledge related to the communication domain.",
+              "If a team is caught cheating or playing by unfair means, then the team will be disqualified.",
+              "Top 5 teams from Round 1 will be qualified for the Final on-Campus round.",
+              "The decision of the respective Quiz Head will be final and will not be subject to any change.",
+              "In Round 1, the teams will be judged based on accuracy and time of response.",
+              "Replacement of any participant is strictly not allowed.",
+              "If the no. of participating teams falls below 5, Round 2 will be conducted directly."
+            ],
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
-        "fileName": "Voltus.html"
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "fileName": "Voltus"
+      }
     }
+  ]
 }

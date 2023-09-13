@@ -17,47 +17,44 @@ if (!fs.existsSync("Events/")) {
     });
 }
 
-for (const module in data) {
-    // console.log(data[module]);
-    const MODULE = module;
-    const DESCRIPTION = data[module].description;
-    let temp = template;
-    temp = temp.replaceAll("{#MODULENAME}", MODULE);
-    temp = temp.replace("{#DESCRIPTION}", DESCRIPTION);
-    let folder_name = "Events/" + String(data[module].fileName).split(".")[0];
-    let file_name = folder_name + "/" + "index.html";
-
+data.Modules.forEach((m) => {
+    let moduleName = m.name;
+    let moduleFileName = m.details.fileName;
+    let moduleDescription = m.details.description;
+    let moduleCard = m.details.card;
+    let moduleGlass = m.details.glass;
+    let moduleEvents = m.details.events;
+    let t = template;
+    t = t.replaceAll("{#MODULENAME}", moduleName);
+    t = t.replaceAll("{#MODULEDESCRIPTION}", moduleDescription);
+    let folderName = "Events/" + moduleFileName;
+    let fileName = folderName + "/index.html";
     let list = "";
 
-    data[module].events.forEach((e) => {
+    moduleEvents.forEach((e) => {
         let card = li;
         card = card.replaceAll("{#EVENTTITLE}", e.name);
-        card = card.replaceAll(
-            "{#MODULE}",
-            data[module].fileName.split(".")[0]
-        );
+        card = card.replaceAll("{#MODULE}", moduleFileName);
         card = card.replaceAll("{#EVENTDESCRIPTION}", e.description);
-
         card = card.replaceAll(
             "{#EVENTFILENAME}",
-            e.fileName.split(".")[0] + "/"
+            e.fileName
         );
-        card = card.replaceAll("{#ICONPATH}", e.fileName.split(".")[0]);
+        card = card.replaceAll("{#EVENTICON}", e.fileName);
         list += card;
     });
+    t = t.replaceAll("{#MODULEEVENTS}", list);
 
-    temp = temp.replace("{#EVENTSLIST}", list);
-
-    if (!fs.existsSync(folder_name)) {
-        fs.mkdirSync(folder_name, (err) => {
+    if (!fs.existsSync(folderName)) {
+        fs.mkdirSync(folderName, (err) => {
             if (err) {
                 console.log(err);
             }
         });
     }
     fs.writeFileSync(
-        file_name,
-        temp,
+        fileName,
+        t,
         {
             encoding: "utf8",
         },
@@ -67,5 +64,5 @@ for (const module in data) {
             }
         }
     );
-    console.log(file_name);
-}
+    console.log(fileName);
+});

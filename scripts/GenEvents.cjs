@@ -4,17 +4,77 @@ const data = require("../Events.json");
 let template = fs.readFileSync("scripts/templates/EventTemplate.html", "utf-8");
 
 let t;
-for (const module in data) {
-    data[module].events.forEach((e) => {
+data.Modules.forEach((m) => {
+    let moduleNames = m.name;
+    let moduleFileName = m.details.fileName;
+    let moduleDescription = m.details.description;
+    let moduleCard = m.details.card;
+    let moduleGlass = m.details.glass;
+    let moduleEvents = m.details.events;
+
+    moduleEvents.forEach((e) => {
         t = template;
         t = t.replaceAll("{#EVENTNAME}", e.name);
-        t = t.replaceAll("{#EVENTDESCRIPTION}", e.description);
-        let fn =
-            "Events/" +
-            String(data[module].fileName).split(".")[0] +
-            "/" +
-            String(e.fileName).split(".")[0] +
-            "/";
+        if (e.long_description == undefined) {
+            t = t.replaceAll("{#EVENTDESCRIPTION}", e.description);
+        } else {
+            t = t.replaceAll("{#EVENTDESCRIPTION}", e.long_description);
+        }
+
+        if (e.reglink) {
+            t = t.replaceAll("{#EVENTREGISTRATIONLINK}", e.reglink);
+        }
+        if (e.prize) {
+            t = t.replaceAll("{#PRIZEPOOL}", e.prize);
+        }
+
+        // Generate Structure Of Event
+        const genStructEl = (name, description) => {
+            return `<div>
+                        <h4>${name}</h4>
+                        <p>${description}</p>
+                    </div>
+                    `;
+        };
+        if (e.structure) {
+            let struct = "";
+            e.structure.forEach((s) => {
+                struct += genStructEl(s.name, s.description);
+            });
+            t = t.replaceAll("{#EVENTSTRUCTURE}", struct);
+        }
+
+        // Generate Rules Of Event
+        const genLi = (r) => {
+            return `<li>${r}</li>`;
+        };
+        let liList = "";
+        if (e.rules) {
+            e.rules.forEach((r) => {
+                liList += genLi(r);
+            });
+            t = t.replaceAll("{#EVENTRULES}", liList);
+        }
+
+        // Generate FAQs Of Event
+        const genFAQ = (q, a) => {
+            return `<div>
+                        <h4>${q}</h4>
+                        <p>${a}</p>
+                    </div>
+                    <span></span>
+                    `;
+        };
+        if (e.faqs) {
+            let faqs = "";
+            for (let i = 0; i < e.faqs.q.length; i++) {
+                faqs += genFAQ(e.faqs.q[i], e.faqs.a[i]);
+            }
+            t = t.replaceAll("{#EVENTFAQS}", faqs);
+        }
+
+        let fn = "Events/" + moduleFileName + "/" + e.fileName + "/";
+
         fs.mkdirSync(fn, {
             recursive: true,
         });
@@ -22,4 +82,4 @@ for (const module in data) {
         fs.writeFileSync(fn + "index.html", t);
         console.log(fn + "index.html");
     });
-}
+});
