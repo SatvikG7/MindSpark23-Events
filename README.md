@@ -1,4 +1,4 @@
-# Mindspark23 Events
+# MindSpark23 Events
 
 Run the following commands in the terminal to get started with the project.
 
