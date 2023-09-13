@@ -445,7 +445,7 @@
     },
     {
       "name": "LOGICA",
-      "draft": true,
+      "draft": false,
       "details": {
         "description": "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
         "events": [
@@ -469,9 +469,44 @@
           },
           {
             "name": "INTEGRATON BEE",
-            "draft": true,
-            "description": "Is Math an integral part of your life? Integrate your thoughts, differentiate your distractions and grow wiser exponentially.",
+            "draft": false,
+            "description": "The prize lies beyond a maze of calculus, if you dare you must solve your way to victory.",
             "folderName": "IntegrationBee",
+            "reglink": "https://unstop.com/o/qxZnKGz?lb=8OaQSGs",
+            "long_description": "The Integration Bee is an event for students who enjoy doing integral calculus, who like breaking their heads over a single integral for the entire day, who like coming up with different ways of solving the same integral using a different technique every time, students who want to establish their supremacy amongst all the integrators in town. This event will test your hold over all the methods of integration. It will require the student to be quick with their thinking and would test their creative cells and their skills as an innovator.",
+            "prize": "₹ 4,500",
+            "rules": [
+              "All participants should have valid college ID card of their respective institute with them along with the registration receipt.",
+              "The decision of judges and the organizers will be final and binding to all.",
+              "Students from any college and any branch can participate. No person can be part of multiple teams at the same event.",
+              "Participants will not be allowed to use any electronic devices such as mobile phones or any other electronic devices.",
+              "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) for updates."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Individual Participation"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹49/- per person "
+              },
+              {
+                "name": "Round 1:",
+                "description": "This round will consist of a test paper consisting of indefinite and definite integrals; a fixed amount of time will be given to every student to take the test. The student will be expected to produce the answers to the given integrals correctly by using any method or technique she/he finds suitable. Marks will only be given to the student if the integral is exactly correct, and no other scenario would be considered. Remaining details of the test will be declared on the day of the event. The top 16 students will be selected from this round and will be proceeding to the final round."
+              },
+              {
+                "name": "Round 2:",
+                "description": "This is the round where your nerve and mettle will be tested. This is the face-off round. In this round top 16 student will be pitched against each other. It will be a one-on-one match. In a match, a single integral would be announced by the integration master and the person who solves it t first would get a point. In such a way 5 integrals would be asked in a single match. The student who scores more points would win that match. In this manner, the top 8 students will be selected, and they will go against each other. The format of the match will be same as above. Out of the top 8 four will be selected for the semi-finals and the top four will go against each other to get a place in the finals. In the final showdown between the two finalists, the integration master would announce seven integrals out of which the finalist who scores more points would win. The integrals in this round would be both indefinite and definite. The winner of the final match would be crowned as the grand integrator and will be awarded the grand prize. "
+              },{
+                "name": "Elimination Criteria:",
+                "description": "1. 16 people for the preliminary round (5 integrals will be given to everyone)<br/>2. 8 people will be selected out of 16 people and each participant will be assigned some other participant with whom they will compete for the second round.<br/>3. Second round will be between 8 people who will be winners of first round.<br/>4. Third round will be between 4 people who will be winners of second round.<br/>5. Fourth round is final between two people (7 integrals will be given to each participant). Third place match will also be conducted."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners per category."
+              }
+            ],
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",

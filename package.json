@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "serve",
-    "generate": "node .\/scripts\/GenModules.cjs && node .\/scripts\/GenEvents.cjs",
+    "generate": "node ./scripts/GenModules.cjs && node ./scripts/GenEvents.cjs",
     "prettier:check": "prettier \"{**/*.html,**/*.css,**/*.js}\" --check",
     "prettier:fix": "prettier \"{**/*.html,**/*.css,**/*.js}\" --write"
   },
@@ -12,6 +12,7 @@
   "author": "Satvik Gaikwad <satvik.g.code@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "fs-extra": "^11.1.1",
     "prettier": "^3.0.3",
     "serve": "^14.2.1"
   }

@@ -1,23 +1,23 @@
 const fs = require("fs");
 const data = require("../Events.json");
 
-var template = fs.readFileSync(
+const GenModules = () => {
+  var template = fs.readFileSync(
     "scripts/templates/ModuleTemplate.html",
-    "utf-8"
-);
-var li = fs.readFileSync("scripts/templates/CardTemplate.html", "utf-8");
+    "utf-8",
+  );
+  var li = fs.readFileSync("scripts/templates/CardTemplate.html", "utf-8");
 
-// check if events directory is present if not create it
-
-if (!fs.existsSync("Events/")) {
-    fs.mkdirSync("Events/", (err) => {
-        if (err) {
-            console.log(err);
-        }
+  // check if events directory is present if not create it
+  if (!fs.existsSync("dist/")) {
+    fs.mkdirSync("dist/", (err) => {
+      if (err) {
+        console.log(err);
+      }
     });
-}
+  }
 
-data.Modules.forEach((m) => {
+  data.Modules.forEach((m) => {
     if (m.draft) return;
     let moduleName = m.name;
     let moduleFileName = m.details.folderName;
@@ -28,40 +28,43 @@ data.Modules.forEach((m) => {
     let t = template;
     t = t.replaceAll("{#MODULENAME}", moduleName);
     t = t.replaceAll("{#MODULEDESCRIPTION}", moduleDescription);
-    let folderName = "Events/" + moduleFileName;
+    let folderName = "dist/" + moduleFileName;
     let fileName = folderName + "/index.html";
     let list = "";
 
     moduleEvents.forEach((e) => {
-        if (e.draft) return;
-        let card = li;
-        card = card.replaceAll("{#EVENTTITLE}", e.name);
-        card = card.replaceAll("{#MODULE}", moduleFileName);
-        card = card.replaceAll("{#EVENTDESCRIPTION}", e.description);
-        card = card.replaceAll("{#EVENTFILENAME}", e.folderName);
-        card = card.replaceAll("{#EVENTICON}", e.folderName);
-        list += card;
+      if (e.draft) return;
+      let card = li;
+      card = card.replaceAll("{#EVENTTITLE}", e.name);
+      card = card.replaceAll("{#MODULE}", moduleFileName);
+      card = card.replaceAll("{#EVENTDESCRIPTION}", e.description);
+      card = card.replaceAll("{#EVENTFILENAME}", e.folderName);
+      card = card.replaceAll("{#EVENTICON}", e.folderName);
+      list += card;
     });
     t = t.replaceAll("{#MODULEEVENTS}", list);
 
     if (!fs.existsSync(folderName)) {
-        fs.mkdirSync(folderName, (err) => {
-            if (err) {
-                console.log(err);
-            }
-        });
+      fs.mkdirSync(folderName, (err) => {
+        if (err) {
+          console.log(err);
+        }
+      });
     }
     fs.writeFileSync(
-        fileName,
-        t,
-        {
-            encoding: "utf8",
-        },
-        (err) => {
-            if (err) {
-                console.log(err);
-            }
+      fileName,
+      t,
+      {
+        encoding: "utf8",
+      },
+      (err) => {
+        if (err) {
+          console.log(err);
         }
+      },
     );
     console.log(fileName);
-});
+  });
+};
+
+module.exports = GenModules;

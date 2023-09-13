@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 @font-face {
   font-family: Library;
   src: url("../../assets/fonts/Library\ 3\ am.otf") format("opentype");
@@ -79,7 +76,6 @@ body {
   margin: auto;
 }
 
-
 .splide__slide {
   opacity: 0.75;
   transition: all 0.25s;
@@ -87,6 +83,7 @@ body {
 
 .splide__pagination {
   bottom: -1.5rem;
+  display: flex !important;
 }
 
 .is-active {
