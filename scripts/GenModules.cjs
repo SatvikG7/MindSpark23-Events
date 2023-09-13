@@ -18,8 +18,9 @@ if (!fs.existsSync("Events/")) {
 }
 
 data.Modules.forEach((m) => {
+    if (m.draft) return;
     let moduleName = m.name;
-    let moduleFileName = m.details.fileName;
+    let moduleFileName = m.details.folderName;
     let moduleDescription = m.details.description;
     let moduleCard = m.details.card;
     let moduleGlass = m.details.glass;
@@ -32,15 +33,13 @@ data.Modules.forEach((m) => {
     let list = "";
 
     moduleEvents.forEach((e) => {
+        if (e.draft) return;
         let card = li;
         card = card.replaceAll("{#EVENTTITLE}", e.name);
         card = card.replaceAll("{#MODULE}", moduleFileName);
         card = card.replaceAll("{#EVENTDESCRIPTION}", e.description);
-        card = card.replaceAll(
-            "{#EVENTFILENAME}",
-            e.fileName
-        );
-        card = card.replaceAll("{#EVENTICON}", e.fileName);
+        card = card.replaceAll("{#EVENTFILENAME}", e.folderName);
+        card = card.replaceAll("{#EVENTICON}", e.folderName);
         list += card;
     });
     t = t.replaceAll("{#MODULEEVENTS}", list);

@@ -71,7 +71,7 @@ body {
 }
 
 .headerText h1 {
-  font-family: 'Azonix';
+  font-family: "Azonix";
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 20px;
@@ -88,7 +88,6 @@ body {
   gap: 4px;
 }
 
-
 /* button */
 button {
   border-radius: 0.5rem;
@@ -101,7 +100,7 @@ button {
   color: #fff;
   font-size: 1em;
   letter-spacing: 1.2px;
-  transition: .2s .1s;
+  transition: 0.2s 0.1s;
   background-image: linear-gradient(90deg, #000a55, #6220fb);
   border: 0 solid;
   /* font-family: 'Nabla', cursive; */
@@ -109,7 +108,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   padding-right: 30px;
   padding-left: 30px;
 }
@@ -142,20 +141,24 @@ button:hover {
 
 .info div p {
   font-size: 1.125rem;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   color: wheat;
 }
 
 .info span {
   height: 48px;
   width: 2px;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
   margin: auto;
 }
 
 .event,
 .structure,
-
 .rules,
 .faqs {
   width: 95%;
@@ -171,13 +174,12 @@ button:hover {
 .structure h2,
 .rules h2,
 .faqs h2 {
-  font-family: 'Azonix';
+  font-family: "Azonix";
   font-size: 2rem;
   padding: 12px;
   /* text-decoration: underline 2px rgb(255, 255, 255); */
   color: rgb(196, 225, 250);
   text-align: center;
-
 }
 
 .sponsors h2 {
@@ -197,7 +199,7 @@ button:hover {
   width: 100%;
   margin: auto;
   object-fit: cover;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   border: 2px solid black;
   border-radius: 12px;
 }
@@ -206,25 +208,25 @@ button:hover {
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
 }
 
-.event>p,
-.structure>div {
-  font-family: 'Nunito', cursive;
+.event > p,
+.structure > div {
+  font-family: "Nunito", cursive;
   font-size: 1.25rem;
   padding-left: 24px;
   color: rgb(255, 251, 217);
   width: 90%;
 }
 
-.structure div>div {
+.structure div > div {
   margin: 16px 0;
 }
 
-.structure div>div>h4 {
+.structure div > div > h4 {
   font-weight: 700;
 }
 
 .rules ol {
-  font-family: 'Nunito', cursive;
+  font-family: "Nunito", cursive;
   font-size: 1.25rem;
   padding-left: 48px;
   color: rgb(255, 251, 217);
@@ -243,14 +245,14 @@ button:hover {
 
 .faqs div h4 {
   font-weight: 700;
-  font-family: 'Nunito', cursive;
+  font-family: "Nunito", cursive;
   font-size: 1rem;
   padding-left: 24px;
   color: rgb(255, 251, 217);
 }
 
 .faqs div p {
-  font-family: 'Nunito', cursive;
+  font-family: "Nunito", cursive;
   font-size: 1rem;
   padding-left: 48px;
   color: rgb(255, 251, 217);
@@ -260,7 +262,12 @@ button:hover {
   display: block;
   height: 2px;
   width: 90%;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 @media screen and (max-width: 768px) {
@@ -289,7 +296,7 @@ button:hover {
     font-size: 1.5rem !important;
   }
 
-  .event>p {
+  .event > p {
     font-size: 1.125rem;
   }
 

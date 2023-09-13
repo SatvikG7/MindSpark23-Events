@@ -1,124 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Events</title>
-        <link rel="stylesheet" href="./lib/splide/splide.min.css" />
-        <link rel="stylesheet" href="./styles/main/main.css" />
-        <link rel="stylesheet" href="./styles/main/card.css" />
-        <link
-            rel="shortcut icon"
-            href="/assets/images/favicon.svg"
-            type="image/x-icon"
-        />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="./lib/splide/splide.min.css" />
+    <link rel="stylesheet" href="./styles/main/main.css" />
+    <link rel="stylesheet" href="./styles/main/card.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
 
-    <body>
-        <canvas
-            id="gradient-canvas"
-            data-js-darken-top
-            data-transition-in
-        ></canvas>
+  <body>
+    <canvas id="gradient-canvas" data-js-darken-top data-transition-in></canvas>
 
-        <div class="container">
-            <div class="heading-wrapper">
-                <a href="/" class="MSLogoLink">
-                    <img
-                        class="MSLogo"
-                        src="./assets/images/logo.png"
-                        alt="logo"
-                    />
-                </a>
-                <span class="heading">Events</span>
-            </div>
+    <div class="container">
+      <div class="heading-wrapper">
+        <a href="/" class="MSLogoLink">
+          <img class="MSLogo" src="./assets/images/logo.png" alt="logo" />
+        </a>
+        <span class="heading">Events</span>
+      </div>
 
-            <div id="splide" class="splide" role="group">
-                <div class="splide__track">
-                    <ul id="splide__list" class="splide__list"></ul>
-                </div>
-            </div>
-            <ul id="splide__mobile"></ul>
+      <div id="splide" class="splide" role="group">
+        <div class="splide__track">
+          <ul id="splide__list" class="splide__list"></ul>
         </div>
-    </body>
-    <script></script>
-    <script src="./lib/splide/splide.min.js"></script>
-    <script src="./lib/gradient/gradient.js"></script>
-    <script>
-        let slides = [];
-
-        const data = {
-            AMUZIA: {
-                description:
-                    "Fun is as important as academics. Compete against each other to find the ultimate gamer",
-                card: ["#8758", "#8758ff"],
-                glass: ["#8758ff59", "#8758ffd0"],
-            },
-            AVIONICA: {
-                description:
-                    "Showcase and implement your knowledge about the laws and concepts of Physics",
-                card: ["#49bfab", "#49bfab"],
-                glass: ["#49bfab59", "#49bfabd0"],
-            },
-            CODIFICA: {
-                description:
-                    "Pit yourself against the best and test your coding skills",
-                card: ["#f3f0ed", "#d36b00"],
-                glass: ["#efedeb59", "#d36b00d0"],
-            },
-            ILLUMINATI: {
-                description:
-                    "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
-                card: ["#66aeff", "#4779b2"],
-                glass: ["#66a3ff59", "#518bccd0"],
-            },
-            LOGICA: {
-                description:
-                    "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
-                card: ["#ffdc3c", "#b2872a"],
-                glass: ["#ffe93c59", "#cc9b30d0"],
-            },
-            PRODIGIUM: {
-                description:
-                    "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
-                card: ["#ff2f9d", "#f92eb5"],
-                glass: ["#ff2fab59", "#c5248fd0"],
-            },
-            ROBOTICA: {
-                description:
-                    " Dive in the world of robots. Participate in exciting robot events",
-                card: ["#86e6ff", "#549ba0"],
-                glass: ["#86eeff59", "#62b3bad0"],
-            },
-            STRUKTURA: {
-                description:
-                    "Plan, Build, Create. Dive in world of Civil Engineering.",
-                card: ["#daffb4", "#8e9f70"],
-                glass: ["#dfffb459", "#a5b982d0"],
-            },
-            SUBSTANTIA: {
-                description: "Demystify your love for Chemistry",
-                card: ["#ff5f46", "#922828"],
-                glass: ["#ff534659", "#ac2f2fd0"],
-            },
-            VOLTUS: {
-                description:
-                    "Electrify your passion for circuit making and playing with micro controllers",
-                card: ["#2e7dff", "#174082"],
-                glass: ["#2d78f559", "#1c4c9cd0"],
-            },
-        };
-        Object.defineProperty(String.prototype, "capitalize", {
-            value: function () {
-                return this.charAt(0).toUpperCase() + this.slice(1);
-            },
-            enumerable: false,
-        });
-        const genTemp = (n, description, glassGrad, cardGrad) => {
-            return `<li class="splide__slide">
+      </div>
+      <ul id="splide__mobile"></ul>
+    </div>
+  </body>
+  <script></script>
+  <script src="./lib/splide/splide.min.js"></script>
+  <script src="./lib/gradient/gradient.js"></script>
+  <script>
+    let slides = "";
+    const data = {
+      AMUZIA: {
+        draft: false,
+        description:
+          "Fun is as important as academics. Compete against each other to find the ultimate gamer",
+        card: ["#8758", "#8758ff"],
+        glass: ["#8758ff59", "#8758ffd0"],
+      },
+      AVIONICA: {
+        draft: false,
+        description:
+          "Showcase and implement your knowledge about the laws and concepts of Physics",
+        card: ["#49bfab", "#49bfab"],
+        glass: ["#49bfab59", "#49bfabd0"],
+      },
+      CODIFICA: {
+        draft: true,
+        description:
+          "Pit yourself against the best and test your coding skills",
+        card: ["#f3f0ed", "#d36b00"],
+        glass: ["#efedeb59", "#d36b00d0"],
+      },
+      ILLUMINATI: {
+        draft: false,
+        description:
+          "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
+        card: ["#66aeff", "#4779b2"],
+        glass: ["#66a3ff59", "#518bccd0"],
+      },
+      LOGICA: {
+        draft: true,
+        description:
+          "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
+        card: ["#ffdc3c", "#b2872a"],
+        glass: ["#ffe93c59", "#cc9b30d0"],
+      },
+      PRODIGIUM: {
+        draft: true,
+        description:
+          "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
+        card: ["#ff2f9d", "#f92eb5"],
+        glass: ["#ff2fab59", "#c5248fd0"],
+      },
+      ROBOTICA: {
+        draft: true,
+        description:
+          " Dive in the world of robots. Participate in exciting robot events",
+        card: ["#86e6ff", "#549ba0"],
+        glass: ["#86eeff59", "#62b3bad0"],
+      },
+      STRUKTURA: {
+        draft: true,
+        description: "Plan, Build, Create. Dive in world of Civil Engineering.",
+        card: ["#daffb4", "#8e9f70"],
+        glass: ["#dfffb459", "#a5b982d0"],
+      },
+      SUBSTANTIA: {
+        draft: true,
+        description: "Demystify your love for Chemistry",
+        card: ["#ff5f46", "#922828"],
+        glass: ["#ff534659", "#ac2f2fd0"],
+      },
+      VOLTUS: {
+        draft: true,
+        description:
+          "Electrify your passion for circuit making and playing with micro controllers",
+        card: ["#2e7dff", "#174082"],
+        glass: ["#2d78f559", "#1c4c9cd0"],
+      },
+    };
+    Object.defineProperty(String.prototype, "capitalize", {
+      value: function () {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+      },
+      enumerable: false,
+    });
+    const genTemp = (n, description, glassGrad, cardGrad) => {
+      return `<li class="splide__slide">
                             <div class="parent">
                                 <div class="card" style="background: linear-gradient(135deg, ${
-                                    cardGrad[0]
+                                  cardGrad[0]
                                 } 0%, ${cardGrad[1]} 100%);">
                                     <div class="logo">
                                         <span class="circle circle1"></span>
@@ -126,14 +126,14 @@
                                             <img
                                                 class="event-img"
                                                 src="./assets/images/module-icons/${n
-                                                    .toLowerCase()
-                                                    .capitalize()}.png"
+                                                  .toLowerCase()
+                                                  .capitalize()}.png"
                                                 alt="${n}"
                                             />
                                         </span>
                                     </div>
                                     <div class="glass" style="background: linear-gradient(0deg, ${
-                                        glassGrad[0]
+                                      glassGrad[0]
                                     } 0%, ${glassGrad[1]} 100%);"></div>
                                     <div class="content">
                                         <span class="title">${n}</span>
@@ -141,46 +141,46 @@
                                             >${description}</span
                                         >
                                         <a href="/Events/${n
-                                            .toLowerCase()
-                                            .capitalize()}"
+                                          .toLowerCase()
+                                          .capitalize()}"
                                             >Show Events</a
                                         >
                                     </div>
                                 </div>
                             </div>
                         </li>`;
-        };
+    };
 
-        for (const module in data) {
-            glassGrad = data[module].glass;
-            cardGrad = data[module].card;
-            description = data[module].description;
-            let t = genTemp(module, description, glassGrad, cardGrad);
-            slides += genTemp(module, description, glassGrad, cardGrad);
-        }
+    for (const module in data) {
+      if (data[module].draft) continue;
+      glassGrad = data[module].glass;
+      cardGrad = data[module].card;
+      description = data[module].description;
+      let t = genTemp(module, description, glassGrad, cardGrad);
+      slides += genTemp(module, description, glassGrad, cardGrad);
+    }
 
-        // intialize splide
-        (function () {
-            var isMobile =
-                Math.min(window.screen.width, window.screen.height) < 768 ||
-                navigator.userAgent.indexOf("Mobi") > -1;
-            console.log(isMobile);
+    // intialize splide
+    (function () {
+      var isMobile =
+        Math.min(window.screen.width, window.screen.height) < 768 ||
+        navigator.userAgent.indexOf("Mobi") > -1;
 
-            if (isMobile) {
-                document.getElementById("splide__mobile").innerHTML = slides;
-            } else {
-                document.getElementById("splide__list").innerHTML = slides;
-                var splide = new Splide(".splide", {
-                    type: "loop",
-                    perPage: isMobile ? 1 : 3,
-                    focus: "center",
-                    width: "100%",
-                    gap: "12px",
-                    wheel: true,
-                    wheelSleep: 200,
-                });
-                splide.mount();
-            }
-        })();
-    </script>
+      if (isMobile) {
+        document.getElementById("splide__mobile").innerHTML = slides;
+      } else {
+        document.getElementById("splide__list").innerHTML = slides;
+        var splide = new Splide(".splide", {
+          type: "loop",
+          perPage: isMobile ? 1 : 3,
+          focus: "center",
+          width: "100%",
+          gap: "12px",
+          wheel: true,
+          wheelSleep: 200,
+        });
+        splide.mount();
+      }
+    })();
+  </script>
 </html>

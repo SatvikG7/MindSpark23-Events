@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 
 @font-face {
   font-family: Azonix;
@@ -16,7 +16,7 @@
 
 body {
   color: #272727;
-  font-family: 'Poppins', serif;
+  font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
@@ -48,7 +48,7 @@ body {
 h1 {
   font-size: 2.5rem;
   text-align: center;
-  font-family: 'Azonix';
+  font-family: "Azonix";
   filter: invert(1);
 }
 
@@ -204,8 +204,8 @@ img {
     width: 75%;
     margin-top: 20px;
   }
-  h3{
-    font-size: 1.125rem ;
+  h3 {
+    font-size: 1.125rem;
     width: 80%;
   }
 }

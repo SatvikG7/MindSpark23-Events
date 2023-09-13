@@ -3,14 +3,16 @@
   "Modules": [
     {
       "name": "AMUZIA",
+      "draft": false,
       "details": {
-        "fileName": "Amuzia",
+        "folderName": "Amuzia",
         "description": "Fun is as important as academics. Compete against each other to find the ultimate gamer",
         "events": [
           {
             "name": "FANDOM",
+            "draft": true,
             "description": "Fandom's here with the most fun quizzes on your favourite TV shows and memes",
-            "fileName": "Fandom",
+            "folderName": "Fandom",
             "long_description": "This quiz is about testing your knowledge on your favorite shows. FANDOM gives you a chance to attempt quizzes for the following shows: <br/> A. Suits <br/> B. The Office <br/> C. Modern Family/ Harry Potter <br/> The quiz is designed to test the participant's knowledge about the show attempted for, the characters, the flow and thus an opportunity to prove that the participant is a true fan of the series.",
             "rules": [
               "You can attempt FANDOM quiz of one show ONLY ONCE.",
@@ -44,8 +46,9 @@
           },
           {
             "name": "Flash",
+            "draft": false,
             "description": "Frame your view through the lens, then capture the perfect shot with a click.",
-            "fileName": "Flash",
+            "folderName": "Flash",
             "reglink": "https://unstop.com/o/oOvfN1S?lb=8OaQSGs",
             "long_description": "This Event tries to get bring out the inner shutterbugs in us, capturing unique moments out of the ordinary, and invites photographers and videographers of all skill levels to participate in this theme-based contest. Categories are based on how you wish to tell your story visually and there are no restrictions on the number of categories you wish to participate in! ",
             "prize": "₹ 8,000",
@@ -108,14 +111,16 @@
     },
     {
       "name": "AVIONICA",
+      "draft": false,
       "details": {
-        "fileName": "Avionica",
+        "folderName": "Avionica",
         "description": "Showcase and implement your knowledge about the laws and concepts of Physics",
         "events": [
           {
             "name": "TAKE OFF",
+            "draft": false,
             "description": "What is victory? It is touching the sky by manipulating the laws of aerodynamics. Defy the laws of gravity in this rocket competition.",
-            "fileName": "TakeOff",
+            "folderName": "TakeOff",
             "long_description": "Take-off is an event that gives you an opportunity to showcase and implement your knowledge about the laws and concepts of physics that govern the motion of a rocket in the air, its take-off, its trajectory, etc.",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/XmyPuUn?lb=8OaQSGs",
@@ -169,11 +174,12 @@
           },
           {
             "name": "CONTRAPTION",
+            "draft": false,
             "description": "A trial of your ability to manipulate energies as you transform one mechanical motion into another.",
             "long_description": "Conservation of energy and mass are two rules which govern the universe. This event is designed towards converting energy from one form to another and driving a series of events that will ultimately carry out the given task. The more complicated the contraption and the more forms of energy used, the higher the points earned.",
             "reglink": "https://unstop.com/o/xd7c14a?lb=8OaQSGs",
             "prize": "₹ 15,000",
-            "fileName": "Contraption",
+            "folderName": "Contraption",
             "structure": [
               {
                 "name": "Team",
@@ -241,13 +247,15 @@
     },
     {
       "name": "CODIFICA",
+      "draft": true,
       "details": {
         "description": "Pit yourself against the best and test your coding skills",
         "events": [
           {
             "name": "FLIP IT",
+            "draft": true,
             "description": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork.",
-            "fileName": "FlipIt",
+            "folderName": "FlipIt",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -263,8 +271,9 @@
           },
           {
             "name": "WEBSCAPE",
+            "draft": true,
             "description": "Code, compete and re-imagine to embellish a partially designed website.",
-            "fileName": "Webscape",
+            "folderName": "Webscape",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -280,8 +289,9 @@
           },
           {
             "name": "RETRACER",
+            "draft": true,
             "description": "The path from input to output does exist. Do you have the vision to find it?",
-            "fileName": "Retracer",
+            "folderName": "Retracer",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -297,8 +307,9 @@
           },
           {
             "name": "CODE JUNKIE",
+            "draft": true,
             "description": "The right place for coding aficionados to live their passion and decode their way to supremacy.",
-            "fileName": "CodeJunkie",
+            "folderName": "CodeJunkie",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -321,19 +332,21 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Codifica"
+        "folderName": "Codifica"
       }
     },
     {
       "name": "ILLUMINATI",
+      "draft": false,
       "details": {
         "description": "Come Conquer Conquest. Close your books, open your mind. Where smart answers won't get you fired.",
         "events": [
           {
             "name": "INDIKYA",
+            "draft": false,
             "description": "A quest to discover who knows,Bharat best. Are you up for it?",
             "long_description": "This quiz is about testing your knowledge about our country. INDIKYA a national level quiz will be based on everything related to India, be it sports, history, politics, geography or even Bollywood!",
-            "fileName": "Indikya",
+            "folderName": "Indikya",
             "reglink": "https://unstop.com/o/lVLOBvj?lb=8OaQSGs",
             "prize": "₹ 4,500",
             "structure": [
@@ -384,8 +397,9 @@
           },
           {
             "name": "TECH DE BAIT",
+            "draft": true,
             "description": "It is better to debate a question without settling it than to settle a question without debating it.",
-            "fileName": "TechDeBait",
+            "folderName": "TechDeBait",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -401,8 +415,9 @@
           },
           {
             "name": "TORQUEST",
+            "draft": true,
             "description": "Drift along the scientific questionnaire pool, knock down the resistance from your opponents and finish a Technocrat.",
-            "fileName": "Torquest",
+            "folderName": "Torquest",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -425,18 +440,20 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Illuminati"
+        "folderName": "Illuminati"
       }
     },
     {
       "name": "LOGICA",
+      "draft": true,
       "details": {
         "description": "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
         "events": [
           {
             "name": "DELTA SIGMA PI",
+            "draft": true,
             "description": "Mathematics is, in its way, the poetry of logical ideas. We invite you to embrace it!",
-            "fileName": "DeltaSigmaPi",
+            "folderName": "DeltaSigmaPi",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -452,8 +469,9 @@
           },
           {
             "name": "INTEGRATON BEE",
+            "draft": true,
             "description": "Is Math an integral part of your life? Integrate your thoughts, differentiate your distractions and grow wiser exponentially.",
-            "fileName": "IntegrationBee",
+            "folderName": "IntegrationBee",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -476,18 +494,20 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Logica"
+        "folderName": "Logica"
       }
     },
     {
       "name": "PRODIGIUM",
+      "draft": true,
       "details": {
         "description": "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
         "events": [
           {
             "name": "SHERLOCKED",
+            "draft": true,
             "description": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth.",
-            "fileName": "Sherlocked",
+            "folderName": "Sherlocked",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -503,8 +523,9 @@
           },
           {
             "name": "GOOGLER",
+            "draft": true,
             "description": "Find the answers to the most trivial questions. The answer lies in your ability to use Google in the most efficient way.",
-            "fileName": "Googler",
+            "folderName": "Googler",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -527,18 +548,20 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Prodigium"
+        "folderName": "Prodigium"
       }
     },
     {
       "name": "ROBOTICA",
+      "draft": true,
       "details": {
         "description": " Dive in the world of robots. Participate in exciting robot events",
         "events": [
           {
             "name": "BOT WRESTLING",
+            "draft": true,
             "description": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours.",
-            "fileName": "BotWrestling",
+            "folderName": "BotWrestling",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -554,8 +577,9 @@
           },
           {
             "name": "VIRTUAL ROBOTICS",
+            "draft": true,
             "description": "Simulation of robots will give you the real sense of victory in the virtual world.",
-            "fileName": "VirtualRobotics",
+            "folderName": "VirtualRobotics",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -571,8 +595,9 @@
           },
           {
             "name": "ROBO RACES",
+            "draft": true,
             "description": "Want to feed your need for speed? Then race your robot in this ultimate battle of superiority.",
-            "fileName": "RoboRaces",
+            "folderName": "RoboRaces",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -588,8 +613,9 @@
           },
           {
             "name": "ROBO FALCONARY",
+            "draft": true,
             "description": "Would you rather walk or run to victory? Let us make the choice for you. Be part of Robo Falconry and fly towards victory.",
-            "fileName": "RoboFalconary",
+            "folderName": "RoboFalconary",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -605,8 +631,9 @@
           },
           {
             "name": "SEARCH N' DESTROY",
+            "draft": true,
             "description": "The only road that leads to the first prize is the one that is filled with twists and turns. Maneuver and surge ahead.",
-            "fileName": "SearchAndDestroy",
+            "folderName": "SearchAndDestroy",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -622,8 +649,9 @@
           },
           {
             "name": "ROBO WARS",
+            "draft": true,
             "description": "Decimate your enemy because this is the survival of the fittest for your robots.",
-            "fileName": "RoboWars",
+            "folderName": "RoboWars",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -639,8 +667,9 @@
           },
           {
             "name": "ROBO ROYALE",
+            "draft": true,
             "description": "Complete the given tasks and then prevent your opponent from doing theirs.",
-            "fileName": "RoboRoyale",
+            "folderName": "RoboRoyale",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -663,18 +692,20 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Robotica"
+        "folderName": "Robotica"
       }
     },
     {
       "name": "STRUKTURA",
+      "draft": true,
       "details": {
         "description": "Plan, Build, Create. Dive in world of Civil Engineering.",
         "events": [
           {
             "name": "BRIDGE THE GAP",
+            "draft": true,
             "description": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
-            "fileName": "BridgeTheGap",
+            "folderName": "BridgeTheGap",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -690,8 +721,9 @@
           },
           {
             "name": "UTOPIA",
+            "draft": true,
             "description": "Envision an ideal city keeping in mind various smart solutions, sustainable measures and inclusion of people.",
-            "fileName": "Utopia",
+            "folderName": "Utopia",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -707,8 +739,9 @@
           },
           {
             "name": "ID CIVIL",
+            "draft": true,
             "description": "Optimize your design and prove your mastery in AutoCAD by putting forth the best structural design.",
-            "fileName": "IdCivil",
+            "folderName": "IdCivil",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -724,8 +757,9 @@
           },
           {
             "name": "CONQUEST",
+            "draft": true,
             "description": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder.",
-            "fileName": "Conquest",
+            "folderName": "Conquest",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -748,18 +782,20 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Struktura"
+        "folderName": "Struktura"
       }
     },
     {
       "name": "SUBSTANTIA",
+      "draft": true,
       "details": {
         "description": "Demystify your love for Chemistry",
         "events": [
           {
-            "name": "SUBSTANTIA ON THE ETCH",
+            "name": "ON THE ETCH",
+            "draft": true,
             "description": "Sky is the limit only until you find the right concoction to pierce right through.",
-            "fileName": "SubstantiaOnTheEtch",
+            "folderName": "OnTheEtch",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -775,8 +811,9 @@
           },
           {
             "name": "TECH ESCAPE",
+            "draft": true,
             "description": "The stakes are high and oxygen runs low. In order to escape and survive the answers you must know.",
-            "fileName": "TechEscape",
+            "folderName": "TechEscape",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -799,18 +836,20 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Substantia"
+        "folderName": "Substantia"
       }
     },
     {
       "name": "VOLTUS",
+      "draft": true,
       "details": {
         "description": "Electrify your passion for circuit making and playing with micro controllers",
         "events": [
           {
             "name": "CIRCUIT FIXER",
+            "draft": true,
             "description": "No resistance can drop your potential. Build your own circuit and ignite the spark within you!",
-            "fileName": "CircuitFixer",
+            "folderName": "CircuitFixer",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -826,8 +865,9 @@
           },
           {
             "name": "ELECTRADE",
+            "draft": true,
             "description": "Earn money and spend it wisely in an attempt to build the most efficient circuits to complex problems.",
-            "fileName": "Electrade",
+            "folderName": "Electrade",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -843,8 +883,9 @@
           },
           {
             "name": "MICROAPPS",
+            "draft": true,
             "description": "With a microcontroller you can conquer the world. Prove your proficiency in digital electronics and take away the big prize",
-            "fileName": "Microapps",
+            "folderName": "Microapps",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -860,9 +901,10 @@
           },
           {
             "name": "FOX HUNT",
+            "draft": true,
             "description": "A game of hunt devoid of  trail of blood but makes you chase nonetheless.",
             "long_description": "The objective of this contest is to locate a hidden radio transmitter using radio direction-finding techniques. Participants should build the antenna and use equipment to track down the source of a transmitted signal that serves as the 'fox'. The hidden transmitter, or 'fox,' emits radio signals intermittently or continuously on a specific frequency or set of frequencies, and the participants must use their skills and equipment to determine the direction from which the signal is coming.",
-            "fileName": "FoxHunt",
+            "folderName": "FoxHunt",
             "structure": [
               {
                 "name": "Round 1",
@@ -905,7 +947,7 @@
           "#efedeb59",
           "#d36b00d0"
         ],
-        "fileName": "Voltus"
+        "folderName": "Voltus"
       }
     }
   ]

@@ -5,14 +5,16 @@ let template = fs.readFileSync("scripts/templates/EventTemplate.html", "utf-8");
 
 let t;
 data.Modules.forEach((m) => {
-    let moduleNames = m.name;
-    let moduleFileName = m.details.fileName;
+    if (m.draft) return;
+    let moduleName = m.name;
+    let moduleFileName = m.details.folderName;
     let moduleDescription = m.details.description;
     let moduleCard = m.details.card;
     let moduleGlass = m.details.glass;
     let moduleEvents = m.details.events;
 
     moduleEvents.forEach((e) => {
+        if (e.draft) return;
         t = template;
         t = t.replaceAll("{#EVENTNAME}", e.name);
         if (e.long_description == undefined) {
@@ -73,7 +75,7 @@ data.Modules.forEach((m) => {
             t = t.replaceAll("{#EVENTFAQS}", faqs);
         }
 
-        let fn = "Events/" + moduleFileName + "/" + e.fileName + "/";
+        let fn = "Events/" + moduleFileName + "/" + e.folderName + "/";
 
         fs.mkdirSync(fn, {
             recursive: true,

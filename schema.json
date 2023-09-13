@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
+  "title": "Schema for the Event.json file.",
   "type": "object",
   "properties": {
     "$schema": {
@@ -12,16 +12,24 @@
         "type": "object",
         "properties": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "description": "Name of the Module."
+          },
+          "draft": {
+            "type": "boolean",
+            "default": true,
+            "description": "If the module is in draft mode or not. If true, the module card will not be generated."
           },
           "details": {
             "type": "object",
             "properties": {
-              "fileName": {
-                "type": "string"
+              "folderName": {
+                "type": "string",
+                "description": "Name of the folder to be generated for the module."
               },
               "description": {
-                "type": "string"
+                "type": "string",
+                "description": "Description to be shown on card."
               },
               "events": {
                 "type": "array",
@@ -29,48 +37,48 @@
                   "type": "object",
                   "properties": {
                     "name": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Name of the event."
+                    },
+                    "draft": {
+                      "type": "boolean",
+                      "default": true,
+                      "description": "If the event is in draft mode or not. If true, the event page will not be generated."
                     },
                     "description": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Description to be shown on card."
                     },
-                    "fileName": {
-                      "type": "string"
-                    },
-                    "faqs": {
-                      "type": "object",
-                      "properties": {
-                        "q": {
-                          "type": "array",
-                          "items": {
-                            "type": "string"
-                          }
-                        },
-                        "a": {
-                          "type": "array",
-                          "items": {
-                            "type": "string"
-                          }
-                        }
-                      },
-                      "required": [
-                        "q",
-                        "a"
-                      ]
+                    "folderName": {
+                      "type": "string",
+                      "description": "Name of the folder to be generated for the event."
                     },
                     "long_description": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Long description to be shown on the event page."
+                    },
+                    "rules": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "description": "Rule string"
+                      },
+                      "description": "Array of rules to be shown on the event page."
                     },
                     "structure": {
                       "type": "array",
+                      "description": "Array of objects containing the structure of the event.",
                       "items": {
                         "type": "object",
+                        "description": "Object containing the structure of the event.",
                         "properties": {
                           "name": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "Name of the structure."
                           },
                           "description": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "Description of the structure."
                           }
                         },
                         "required": [
@@ -79,23 +87,46 @@
                         ]
                       }
                     },
-                    "rules": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
-                    },
-                    "reglink": {
-                      "type": "string"
+                    "faqs": {
+                      "type": "object",
+                      "description": "Object containing the faqs of the event.",
+                      "properties": {
+                        "q": {
+                          "type": "array",
+                          "description": "Array of questions.",
+                          "items": {
+                            "type": "string",
+                            "description": "Question string."
+                          }
+                        },
+                        "a": {
+                          "type": "array",
+                          "description": "Array of answers.",
+                          "items": {
+                            "type": "string",
+                            "description": "Answer string."
+                          }
+                        }
+                      },
+                      "required": [
+                        "q",
+                        "a"
+                      ]
                     },
                     "prize": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Prize Pool of the Event."
+                    },
+                    "reglink": {
+                      "type": "string",
+                      "description": "Unstop registration link of the event."
                     }
                   },
                   "required": [
                     "name",
+                    "draft",
                     "description",
-                    "fileName",
+                    "folderName",
                     "faqs"
                   ]
                 }
@@ -114,7 +145,7 @@
               }
             },
             "required": [
-              "fileName",
+              "folderName",
               "description",
               "events",
               "card",
@@ -124,7 +155,8 @@
         },
         "required": [
           "name",
-          "details"
+          "details",
+          "draft"
         ]
       }
     }
