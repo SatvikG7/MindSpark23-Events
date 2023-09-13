@@ -79,25 +79,6 @@ body {
   margin: auto;
 }
 
-@keyframes pop {
-  0% {
-    text-shadow: 0px 0px 0px #ffffffaa;
-    /* top: 0.035em; */
-    /* left: 0.05em; */
-  }
-
-  50% {
-    /* top: 0.05em; */
-    text-shadow: 0px 0px 10px #ffffffaa;
-    /* left: 0.1em; */
-  }
-
-  100% {
-    text-shadow: 0px 0px 0px #ffffffaa;
-    /* top: 0.035em; */
-    /* left: 0.05em; */
-  }
-}
 
 .splide__slide {
   opacity: 0.75;
