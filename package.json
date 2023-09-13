@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "serve",
-    "generate": "node ./scripts/GenModules.cjs && node ./scripts/GenEvents.cjs",
+    "generate": "node ./scripts/generate.js",
     "prettier:check": "prettier \"{**/*.html,**/*.css,**/*.js}\" --check",
     "prettier:fix": "prettier \"{**/*.html,**/*.css,**/*.js}\" --write"
   },
