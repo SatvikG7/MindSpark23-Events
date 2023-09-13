@@ -9,25 +9,27 @@
   perspective: 1000px;
 }
 
-.parent:hover .card {
-  transform: rotate3d(1, 1, 0, 15deg);
-  translate: 0px 0px -50px;
-}
+@media screen and (min-width: 768px) {
+  .parent:hover .card {
+    transform: rotate3d(1, 1, 0, 15deg);
+    translate: 0px 0px -50px;
+  }
 
-.parent:hover .card .logo .circle2 {
-  transform: translate3d(0, 0, 60px);
-}
+  .parent:hover .card .logo .circle2 {
+    transform: translate3d(0, 0, 60px);
+  }
 
-.parent:hover .card .logo .circle3 {
-  transform: translate3d(0, 0, 80px);
-}
+  .parent:hover .card .logo .circle3 {
+    transform: translate3d(0, 0, 80px);
+  }
 
-.parent:hover .card .logo .circle4 {
-  transform: translate3d(0, 0, 100px);
-}
+  .parent:hover .card .logo .circle4 {
+    transform: translate3d(0, 0, 100px);
+  }
 
-.parent:hover .card .logo .circle5 {
-  transform: translate3d(0, 0, 120px);
+  .parent:hover .card .logo .circle5 {
+    transform: translate3d(0, 0, 120px);
+  }
 }
 
 .card {
