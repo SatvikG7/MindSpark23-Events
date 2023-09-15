@@ -451,9 +451,49 @@
         "events": [
           {
             "name": "DELTA SIGMA PI",
-            "draft": true,
+            "draft": false,
             "description": "Mathematics is, in its way, the poetry of logical ideas. We invite you to embrace it!",
             "folderName": "DeltaSigmaPi",
+            "long_description": "This event is specially designed to test the proficiency of the participants in a subject which everyone has learnt since kindergarten - everyone’s favourite subject, Mathematics. This is an opportunity for those who are in love with Mathematics to prove their courage at this state-level competition.",
+            "prize": "₹ 4500",
+            "reglink": "https://unstop.com/o/VbTqjKI?lb=8OaQSGs",
+            "rules": [
+              "All participants should have valid college ID card of their respective institute with them along with the registration receipt.",
+              "Participants are expected to maintain decorum throughout the event.",
+              "The decision of judges and the organizers will be final and binding to all.",
+              "Student from any college and any branch can participate. No person can be part of multiple teams at the same event.",
+              "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) for updates."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 49/- per person"
+              },
+              {
+                "name": "Round 1:",
+                "description": "This round will consist of Multiple-Choice Questions based on the “Pre-Calculus” Mathematics."
+              },
+              {
+                "name": "Round 2:",
+                "description": "The qualified teams from Round 1 will attempt this round, which consists of objective type questions on entire of Mathematics syllabi. A formula sheet will be provided to each of the participants for reference."
+              },
+              {
+                "name": "Round 3:",
+                "description": "This is an open book, open resource round. Qualified participants can use any gadget, refer any website or any book to solve this subjective based round designed to test their core mathematical concepts. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Round 1: Students will be selected according to their marks scored in MCQ test. <br/>Round 2: Students will be selected according to their marks scored in  Objective test"
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners per category."
+              }
+            ],
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -498,7 +538,8 @@
               {
                 "name": "Round 2:",
                 "description": "This is the round where your nerve and mettle will be tested. This is the face-off round. In this round top 16 student will be pitched against each other. It will be a one-on-one match. In a match, a single integral would be announced by the integration master and the person who solves it t first would get a point. In such a way 5 integrals would be asked in a single match. The student who scores more points would win that match. In this manner, the top 8 students will be selected, and they will go against each other. The format of the match will be same as above. Out of the top 8 four will be selected for the semi-finals and the top four will go against each other to get a place in the finals. In the final showdown between the two finalists, the integration master would announce seven integrals out of which the finalist who scores more points would win. The integrals in this round would be both indefinite and definite. The winner of the final match would be crowned as the grand integrator and will be awarded the grand prize. "
-              },{
+              },
+              {
                 "name": "Elimination Criteria:",
                 "description": "1. 16 people for the preliminary round (5 integrals will be given to everyone)<br/>2. 8 people will be selected out of 16 people and each participant will be assigned some other participant with whom they will compete for the second round.<br/>3. Second round will be between 8 people who will be winners of first round.<br/>4. Third round will be between 4 people who will be winners of second round.<br/>5. Fourth round is final between two people (7 integrals will be given to each participant). Third place match will also be conducted."
               },
