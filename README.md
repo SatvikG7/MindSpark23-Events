@@ -20,8 +20,8 @@ npm run generate
 npm run prettier:fix
 ```
 
-4. Preview Project
+4. Preview Project on http://localhost:3000/events/
 
 ```bash
-npm run serve
+python -m http.server
 ```

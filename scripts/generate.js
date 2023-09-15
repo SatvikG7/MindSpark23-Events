@@ -3,18 +3,18 @@ const GenEvents = require("./GenEvents.cjs");
 const fs = require("fs");
 const fse = require("fs-extra");
 
-// if dist folder exists delete it
-if (fs.existsSync("dist")) {
-  fs.rmdirSync("dist", { recursive: true });
+// if events folder exists delete it
+if (fs.existsSync("events")) {
+  fs.rmdirSync("events", { recursive: true });
 }
 
-// Create dist folder if not exists
-if (!fs.existsSync("dist")) {
-  fs.mkdirSync("dist");
+// Create events folder if not exists
+if (!fs.existsSync("events")) {
+  fs.mkdirSync("events");
 }
 
-// Copy index.html to dist folder
-fs.copyFileSync("index.html", "dist/index.html");
+// Copy index.html to events folder
+fs.copyFileSync("index.html", "events/index.html");
 
 const mkDir = (path) => {
   fs.mkdirSync(path);
@@ -24,31 +24,31 @@ const cpFile = (from, to) => {
 };
 
 let dirs = [
-  "dist/styles",
-  "dist/styles/main",
-  "dist/styles/module",
-  "dist/styles/events",
-  "dist/lib",
+  "events/styles",
+  "events/styles/main",
+  "events/styles/module",
+  "events/styles/events",
+  "events/lib",
 ];
 
 dirs.forEach((dir) => {
   mkDir(dir);
 });
 
-cpFile("styles/events/styles.css", "dist/styles/events/styles.css");
-cpFile("styles/main/main.css", "dist/styles/main/main.css");
-cpFile("styles/main/card.css", "dist/styles/main/card.css");
-cpFile("styles/module/styles.css", "dist/styles/module/styles.css");
+cpFile("styles/events/styles.css", "events/styles/events/styles.css");
+cpFile("styles/main/main.css", "events/styles/main/main.css");
+cpFile("styles/main/card.css", "events/styles/main/card.css");
+cpFile("styles/module/styles.css", "events/styles/module/styles.css");
 
-cpFile("lib/main.js", "dist/lib/main.js");
-cpFile("lib/gradient.js", "dist/lib/gradient.js");
-cpFile("lib/splide.min.js", "dist/lib/splide.min.js");
-cpFile("styles/main/splide.min.css", "dist/styles/main/splide.min.css");
+cpFile("lib/main.js", "events/lib/main.js");
+cpFile("lib/gradient.js", "events/lib/gradient.js");
+cpFile("lib/splide.min.js", "events/lib/splide.min.js");
+cpFile("styles/main/splide.min.css", "events/styles/main/splide.min.css");
 
 GenModules();
 GenEvents();
 
-fse.copy("assets/", "dist/assets", (err) => {
+fse.copy("assets/", "events/assets", (err) => {
   if (err) {
     console.error("Error copying directory:", err);
   } else {

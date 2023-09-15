@@ -79,7 +79,7 @@ const GenEvents = () => {
         t = t.replaceAll("{#EVENTFAQS}", faqs);
       }
 
-      let fn = "dist/" + moduleFileName + "/" + e.folderName + "/";
+      let fn = "events/" + moduleFileName + "/" + e.folderName + "/";
 
       fs.mkdirSync(fn, {
         recursive: true,

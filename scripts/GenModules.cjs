@@ -9,8 +9,8 @@ const GenModules = () => {
   var li = fs.readFileSync("scripts/templates/CardTemplate.html", "utf-8");
 
   // check if events directory is present if not create it
-  if (!fs.existsSync("dist/")) {
-    fs.mkdirSync("dist/", (err) => {
+  if (!fs.existsSync("events/")) {
+    fs.mkdirSync("events/", (err) => {
       if (err) {
         console.log(err);
       }
@@ -28,7 +28,7 @@ const GenModules = () => {
     let t = template;
     t = t.replaceAll("{#MODULENAME}", moduleName);
     t = t.replaceAll("{#MODULEDESCRIPTION}", moduleDescription);
-    let folderName = "dist/" + moduleFileName;
+    let folderName = "events/" + moduleFileName;
     let fileName = folderName + "/index.html";
     let list = "";
 
@@ -36,7 +36,6 @@ const GenModules = () => {
       if (e.draft) return;
       let card = li;
       card = card.replaceAll("{#EVENTTITLE}", e.name);
-      card = card.replaceAll("{#MODULE}", moduleFileName);
       card = card.replaceAll("{#EVENTDESCRIPTION}", e.description);
       card = card.replaceAll("{#EVENTFILENAME}", e.folderName);
       card = card.replaceAll("{#EVENTICON}", e.folderName);
