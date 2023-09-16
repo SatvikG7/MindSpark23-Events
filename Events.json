@@ -585,6 +585,57 @@
             "draft": false,
             "description": "Sharpen your software skills, perception ability and prowess in 3D designing and modelling.",
             "folderName": "FusionId",
+            "long_description": "Ignite Your Engineering Vision: Join 'Champion of Intelligent Design' - The Epitome of Creativity and Innovation! In the world of engineering, a flawless drawing is your lens to perceive brilliance. Fuse design with actual manufacturing techniques, while honing your software skills and perception abilities. Immerse yourself in simulations, generative design, and the art of 3D modelling, all while embracing the core of human-centred design and user-centricity. Exhibit the mesmerizing mechanism and visualization of your creations as you vie for the esteemed title of 'Champion of Intelligent Design.' Let your ingenuity soar and gear up to conquer this extraordinary challenge!",
+            "prize": "₹ 15,000",
+            "reglink": "https://unstop.com/o/NBgVoUy?lb=8OaQSGs",
+            "rules": [
+              "You can attempt ID quiz of one show ONLY ONCE.",
+              "If a team is caught cheating or playing by unfair means then the team will be disqualified.",
+              "Participants should reach the venue on time and must attend the quiz in the slot only.",
+              "The decision of the respective Quiz Head will be final and will not be subject to any change.",
+              "Replacement of any participant is strictly not allowed."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Indicizz"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹49/- per person "
+              },
+              {
+                "name": "Round 1:",
+                "description": "Quiz Round"
+              },
+              {
+                "name": "Round 2:",
+                "description": "Design Round"
+              },
+              {
+                "name": "<b>Quiz Round:<b/>",
+                "description": "<u><b>Quiz round will contain questions on the following types:<b/></u></br><ol><li>Conceptual Questions: Open-ended questions that will require participants to explain concepts, theories, or design principles.</li><li>Calculation-based Questions: Problems that test participants' ability to perform calculations related to mechanical design.<li/><li>Scenario-based Questions: Real-world scenarios where participants have to identify design considerations and solutions.</li><li>Multiple-Choice Questions (MCQs): MCQs can be used for quick assessments of basic knowledge and understanding.</li></ol>"
+              },
+              {
+                "name": "<b>Design Round:<b/>",
+                "description": "Specific design challenge topic and the tasks that have to be performed will be told before the competition. Participants will be given a day to brainstorm on ideas for the design challenge. The design round has to be done only using Fusion 360 and ANSYS software. For Simulations, topology Optimization and Generative design- ANSYS and Fusion 360 software’s have to be used. Participants are expected to submit a report on their design which includes-<br><ol><li><b>Human-Centred Design and User Experience : </b></br>
+                How the design is user centric. What considerations of human constraints have been accounted for.<li><b>Mechanisms</b> used and their calculations.</li>  
+                <li><b>Simulations</b> (structural) (fluid if required).</li>
+                <li><b>Material Report-</b> Which and why they have been used.</li>
+                <li><b>Manufacturing methods : </b></li></ol>
+                <ul =type"circle"><li>Additive, CNC, Conventional etc.</li>
+                <li>It should also justify mass manufacturing till market requirements. (Like if you are designing a table lamp then additive manufacturing process may not be feasible for any company to reach market demand, they may go for injection moulding if for an intricate part). Such constraints have to be considered.</li></ul> "
+              },
+              {
+                "name": "Elimination Criteria:",
+                "description": "Anyone who scores 40% would proceed for Round 2."
+              },
+              {
+                "name": "Winning Criteria:",
+                "description": "There will be 3 winners per category."
+              }
+
+            ],
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
