@@ -33,8 +33,10 @@
               },
               "events": {
                 "type": "array",
+                "description": "Array of objects containing the events of the module.",
                 "items": {
                   "type": "object",
+                  "description": "Object containing the details of event.",
                   "properties": {
                     "name": {
                       "type": "string",

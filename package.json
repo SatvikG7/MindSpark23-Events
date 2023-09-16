@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "serve",
+    "serve": "python -m http.server",
     "generate": "node ./scripts/generate.js",
     "prettier:check": "prettier \"{**/*.html,**/*.css,**/*.js}\" --check",
     "prettier:fix": "prettier \"{**/*.html,**/*.css,**/*.js}\" --write"

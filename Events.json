@@ -574,6 +574,42 @@
       }
     },
     {
+      "name": "POTENTIA",
+      "draft": false,
+      "details": {
+        "description": "Turn your ideas into creations. Bring out your imagination from 2d world to real world.",
+        "folderName": "Potentia",
+        "events": [
+          {
+            "name": "FUSION ID",
+            "draft": false,
+            "description": "Sharpen your software skills, perception ability and prowess in 3D designing and modelling.",
+            "folderName": "FusionId",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?"
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "No. On-spot participation is not allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            }
+          }
+        ],
+        "card": [
+          "#2e7dff",
+          "#174082"
+        ],
+        "glass": [
+          "#2d78f559",
+          "#1c4c9cd0"
+        ]
+      }
+    },
+    {
       "name": "PRODIGIUM",
       "draft": true,
       "details": {
