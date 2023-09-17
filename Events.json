@@ -613,18 +613,12 @@
                 "description": "Design Round"
               },
               {
-                "name": "<b>Quiz Round:<b/>",
-                "description": "<u><b>Quiz round will contain questions on the following types:<b/></u></br><ol><li>Conceptual Questions: Open-ended questions that will require participants to explain concepts, theories, or design principles.</li><li>Calculation-based Questions: Problems that test participants' ability to perform calculations related to mechanical design.<li/><li>Scenario-based Questions: Real-world scenarios where participants have to identify design considerations and solutions.</li><li>Multiple-Choice Questions (MCQs): MCQs can be used for quick assessments of basic knowledge and understanding.</li></ol>"
+                "name": "Quiz Round:",
+                "description": "<u><b>Quiz round will contain questions on the following types:</b></u><br/><ol><li>Conceptual Questions: Open-ended questions that will require participants to explain concepts, theories, or design principles.</li><li>Calculation-based Questions: Problems that test participants' ability to perform calculations related to mechanical design.</li><li>Scenario-based Questions: Real-world scenarios where participants have to identify design considerations and solutions.</li><li>Multiple-Choice Questions (MCQs): MCQs can be used for quick assessments of basic knowledge and understanding.</li></ol>"
               },
               {
-                "name": "<b>Design Round:<b/>",
-                "description": "Specific design challenge topic and the tasks that have to be performed will be told before the competition. Participants will be given a day to brainstorm on ideas for the design challenge. The design round has to be done only using Fusion 360 and ANSYS software. For Simulations, topology Optimization and Generative design- ANSYS and Fusion 360 software’s have to be used. Participants are expected to submit a report on their design which includes-<br><ol><li><b>Human-Centred Design and User Experience : </b></br>
-                How the design is user centric. What considerations of human constraints have been accounted for.<li><b>Mechanisms</b> used and their calculations.</li>  
-                <li><b>Simulations</b> (structural) (fluid if required).</li>
-                <li><b>Material Report-</b> Which and why they have been used.</li>
-                <li><b>Manufacturing methods : </b></li></ol>
-                <ul =type"circle"><li>Additive, CNC, Conventional etc.</li>
-                <li>It should also justify mass manufacturing till market requirements. (Like if you are designing a table lamp then additive manufacturing process may not be feasible for any company to reach market demand, they may go for injection moulding if for an intricate part). Such constraints have to be considered.</li></ul> "
+                "name": "Design Round:",
+                "description": "Specific design challenge topic and the tasks that have to be performed will be told before the competition. Participants will be given a day to brainstorm on ideas for the design challenge. The design round has to be done only using Fusion 360 and ANSYS software. For Simulations, topology Optimization and Generative design- ANSYS and Fusion 360 software's have to be used. Participants are expected to submit a report on their design which includes-<br><ol><li><b>Human-Centred Design and User Experience : </b><br/> How the design is user centric. What considerations of human constraints have been accounted for.<li><b>Mechanisms</b> used and their calculations.</li> <li><b>Simulations</b> (structural) (fluid if required).</li><li><b>Material Report-</b> Which and why they have been used.</li><li><b>Manufacturing methods : </b></li></ol><ul type='circle'><li>Additive, CNC, Conventional etc.</li><li>It should also justify mass manufacturing till market requirements. (Like if you are designing a table lamp then additive manufacturing process may not be feasible for any company to reach market demand, they may go for injection moulding if for an intricate part). Such constraints have to be considered.</li></ul>"
               },
               {
                 "name": "Elimination Criteria:",
@@ -634,7 +628,6 @@
                 "name": "Winning Criteria:",
                 "description": "There will be 3 winners per category."
               }
-
             ],
             "faqs": {
               "q": [
