@@ -614,7 +614,7 @@
               },
               {
                 "name": "Quiz Round:",
-                "description": "<b>Quiz round will contain questions on the following types:</b><br/><ol><li>Conceptual Questions: Open-ended questions that will require participants to explain concepts, theories, or design principles.</li><li>Calculation-based Questions: Problems that test participants' ability to perform calculations related to mechanical design.</li><li>Scenario-based Questions: Real-world scenarios where participants have to identify design considerations and solutions.</li><li>Multiple-Choice Questions (MCQs): MCQs can be used for quick assessments of basic knowledge and understanding.</li></ol>"
+                "description": "Quiz round will contain questions on the following types:<br/><ol><li>Conceptual Questions: Open-ended questions that will require participants to explain concepts, theories, or design principles.</li><li>Calculation-based Questions: Problems that test participants' ability to perform calculations related to mechanical design.</li><li>Scenario-based Questions: Real-world scenarios where participants have to identify design considerations and solutions.</li><li>Multiple-Choice Questions (MCQs): MCQs can be used for quick assessments of basic knowledge and understanding.</li></ol>"
               },
               {
                 "name": "Design Round:",
