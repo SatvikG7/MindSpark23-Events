@@ -397,9 +397,43 @@
           },
           {
             "name": "TECH DE BAIT",
-            "draft": true,
+            "draft": false,
             "description": "It is better to debate a question without settling it than to settle a question without debating it.",
+            "long_description": "Debate is a process that involves formal discourse on a particular topic, often including a moderator and audience.<br>Through this, students get the opportunity to work in a collaborative and cooperative group setting & develop their communication and listening skills. This will also help students learn through friendly competition, examine controversial topics and strengthen skills in the areas of leadership, interpersonal influence, team building, group problem-solving, and oral presentation. ",
             "folderName": "TechDeBait",
+            "reglink": "https://unstop.com/o/Wod1iTg?lb=8OaQSGs",
+            "prize": "₹ 4,500",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "2 members per team (Allotted on the spot unless preferences are given). "
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹59 per person"
+              },
+              {
+                "name": "Details",
+                "description": "1. Tech-related topics to be released a week prior to competition. Up to 3 motions can be released. <br>2. Each student can do readings relevant to all 3 topics as preparation prior to event. <br>3. On the day of the competition, students will be paired into groups of 2. Each member will be allotted to be for or against the motion on the spot and will be assigned any one of the 3 topics that were previously declared. <br>4. Each pair will get 10 minutes of preparation time and will then engage in a debate on the allocated topic. <br>5. Max speech time of each pair: 15 mins. <br>6. Time allotted for questioning opponent after respective speeches: 1.5 mins.  <br>7. In case of a significantly large number of participants, multiple rooms can be conducted simultaneously. <br>8. Audience members can raise their hand to ask questions during the last 2 minutes of each of the speaker's speeches. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Each 1 v 1 pairing will be judged on the following aspects <br>(In order of significance): <br>1. Content and logic of arguments. <br>2. Structure of speech  <br>3. Response to question asked by opponent + Question asked to opponent  <br>4. Fluency of speech <br>Depending on the cumulative score, participants with the highest overall scores will be declared as winners.  <br>(Similar criteria for 2v2 in the first round) "
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 2 winners and 1 for Best Question. <br>Best Question Criteria: <br>1. How it attacks the basis of the speaker's argument. <br>2. How relevant it was to the debate. <br>3. How it affected the judging of the round"
+              }
+            ],
+            "rules": [
+              "It is mandatory to stick to the motion statement given at the time of rounds.",
+              "The decisions of judges and organizers will be final and binding to all.",
+              "Content and logic of arguments will be considered during judging.",
+              "Participants must bring their registration receipts and valid college IDs while coming to the event.",
+              "Guidelines may be changed without prior intimation. Participants are requested to check the MindSpark’23 website (www.mind-spark.org) regularly for updates.",
+              "Prize money may vary based on number of participants.",
+              "If a total number of participants is less than 10 then event will be scrapped."
+            ],
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
