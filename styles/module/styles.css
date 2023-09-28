@@ -164,8 +164,7 @@ img {
   flex-direction: column;
   overflow: hidden;
   background: #00d0ff44;
-    border: white solid 2px;
-
+  border: white solid 2px;
 }
 
 .card_content {

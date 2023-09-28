@@ -67,7 +67,7 @@
   font-family: "Library";
   color: transparent;
   -webkit-text-stroke: 1.75px #fff;
-  z-index:1000;
+  z-index: 1000;
 }
 
 .content .text {
