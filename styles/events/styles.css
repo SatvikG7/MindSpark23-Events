@@ -67,7 +67,7 @@ body {
 
 .headerText h1 {
   font-family: "Azonix";
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 20px;
   /* -webkit-text-stroke: 3px #f0e68c; */
@@ -153,6 +153,7 @@ button:hover {
 
 .event,
 .structure,
+/*.sponsors,*/
 .rules,
 .faqs {
   width: 95%;
@@ -181,8 +182,8 @@ button:hover {
 }
 
 .sponsorsContainer {
-  display: grid;
-  width: 90%;
+  display: none;
+  width: 30%;
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
@@ -190,12 +191,13 @@ button:hover {
 }
 
 .sponsors div img {
-  width: 100%;
+  width: 30%;
+  /*height:100px;*/
   margin: auto;
   object-fit: cover;
   transition: all 0.3s linear;
-  border: 2px solid black;
-  border-radius: 12px;
+  /*border: 2px solid black;*/
+  /*border-radius: 12px;*/
 }
 
 .sponsors div img:hover {
