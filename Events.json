@@ -979,14 +979,13 @@
       "name": "SUBSTANTIA",
       "draft": false,
       "details": {
-        "folderName": "SUBSTANTIA",
         "description": "Demystify your love for Chemistry",
         "events": [
           {
             "name": "ON THE ETCH",
             "draft": false,
             "description": "Sky is the limit only until you find the right concoction to pierce right through.",
-            "long_description": "“On the Etch” is an event which provides a platform for students to present their metallographic skills <br>The main objectives include: <br> <ul type='a'><li>To test the metallographic skills of students for sample preparation. </li><li>To test the logical reasoning ability of students by observation of the microstructure of metals and alloys.</li> <li>To make students explore more about the metallic parts used in day-to-day life and in industry at a large scale and to explore their microstructural features by thinking at the “Micro” level.</li> ",
+            "long_description": "On the Etch is an event which provides a platform for students to present their metallographic skills <br>The main objectives include: <br> A. To test the metallographic skills of students for sample preparation. <br> B. To test the logical reasoning ability of students by observation of the microstructure of metals and alloys.<br> C. To make students explore more about the metallic parts used in day-to-day life and in industry at a large scale and to explore their microstructural features by thinking at the Micro level.<br>",
             "folderName": "OnTheEtch",
             "reglink": "https://unstop.com/o/GNstUvj?lb=8OaQSGs",
             "prize": "₹ 15,000",
@@ -997,7 +996,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹99 per team."
+                "description": "₹99/- per team."
               },
               {
                 "name": "Details",
