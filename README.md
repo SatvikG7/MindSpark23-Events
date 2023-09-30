@@ -11,8 +11,8 @@
 - ✅Prodigium
 - ❎Robotica
 - ✅Struktura
-- ❎Substantia
-- ❎Voltus
+- ✅Substantia
+- ✅Voltus
 
 Run the following commands in the terminal to get started with the project.
 

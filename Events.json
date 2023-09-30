@@ -15,7 +15,7 @@
             "folderName": "Fandom",
             "prize": "#",
             "reglink": "#",
-            "long_description": "This quiz is about testing your knowledge on your favorite shows. FANDOM gives you a chance to attempt quizzes for the following shows: <br/> A. Suits <br/> B. The Office <br/> C. Modern Family/ Harry Potter <br/> The quiz is designed to test the participant's knowledge about the show attempted for, the characters, the flow and thus an opportunity to prove that the participant is a true fan of the series.",
+            "long_description": "This quiz is about testing your knowledge on your favorite shows. FANDOM gives you a chance to attempt quizzes for the following shows: <br/> A. Suits <br/> B. The Office <br/> C. Modern Family/ Harry Potter <br/> The quiz is designed to test the participant's knowledge about the show attempted for, the characters, the flow and thus an opportunity to prove that the participant is a false fan of the series.",
             "rules": [
               "You can attempt FANDOM quiz of one show ONLY ONCE.",
               "If a team is caught cheating or playing by unfair means then the team will be disqualified.",
@@ -109,14 +109,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ]
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
       }
     },
     {
@@ -245,14 +239,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ]
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
       }
     },
     {
@@ -494,14 +482,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Codifica"
       }
     },
@@ -668,14 +650,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Illuminati"
       }
     },
@@ -798,14 +774,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Logica"
       }
     },
@@ -941,14 +911,8 @@
             }
           }
         ],
-        "card": [
-          "#2e7dff",
-          "#174082"
-        ],
-        "glass": [
-          "#2d78f559",
-          "#1c4c9cd0"
-        ]
+        "card": ["#2e7dff", "#174082"],
+        "glass": ["#2d78f559", "#1c4c9cd0"]
       }
     },
     {
@@ -992,7 +956,7 @@
                 "description": "10 teams will be short listed from Round 1 for Round 2 "
               }
             ],
-            "draft": true,
+            "draft": false,
             "description": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth.",
             "folderName": "Sherlocked",
             "faqs": {
@@ -1012,7 +976,7 @@
           },
           {
             "name": "GOOGLER",
-            "draft": true,
+            "draft": false,
             "prize": "₹ 4,500",
             "rules": [
               "Teams are expected to maintain decorum. We reserve the right to disqualify any team found misbehaving. ",
@@ -1025,7 +989,7 @@
             "structure": [
               {
                 "name": "Team",
-                "description": "Max 2 participants per team",
+                "description": "Max 2 participants per team"
               },
               {
                 "name": "Entry Fee",
@@ -1047,7 +1011,7 @@
             "description": "The way to all answers lies at your fingertips, the one who knows where to look in a sea of binary wins the Googler.",
             "folderName": "Googler",
             "reglink": "https://unstop.com/o/CRA8UE5?lb=8OaQSGs",
-            "long_description": "“Google” is the world’s most powerful search engine. How many questions can you make Google answer for you? Here is our challenge to make everyone aware of the power of GOOGLE and also test their technical as well as general knowledge. Find out how efficiently and effectively can you google. ",
+            "long_description": "“Google” is the world's most powerful search engine. How many questions can you make Google answer for you? Here is our challenge to make everyone aware of the power of GOOGLE and also test their technical as well as general knowledge. Find out how efficiently and effectively can you google. ",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -1066,14 +1030,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Prodigium"
       }
     },
@@ -1210,27 +1168,75 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Robotica"
       }
     },
     {
       "name": "STRUKTURA",
-      "draft": true,
+      "draft": false,
       "details": {
         "description": "Plan, Build, Create. Dive in world of Civil Engineering.",
         "events": [
           {
             "name": "BRIDGE THE GAP",
-            "draft": true,
+            "draft": false,
             "description": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
+            "long_description": "This event presents how the classroom formulae of shear force, bending moments and Castigliano's Theorems take shape. This event provides an insight into structures and their behaviour in different circumstances. The teams need to build a bridge structure based on the problem statements using the given materials.",
+            "prize": "#",
+            "reglink": "#",
+            "rules": [
+              "All team members must come with valid college ID cards and registration receipt. ",
+              "The teams need to construct the model from provided material only. No extra material will be provided. The teams must use only the material which is provided by the organizers. If the material used is other than that provided, then the team will be disqualified immediately. ",
+              "Using materials of other participants is also strictly prohibited i.e., using extra materials. ",
+              "One team can make only one model for the proposed competition. ",
+              "Testing of models will be done according to the serial number given to the teams at the time of commencement of the event. Hence, no team should request for their model to be tested first. ",
+              "The decision of the judges and the organizers will be final and binding to all. ",
+              "Team members may be from different colleges. However, same person cannot be a part of multiple teams for the same event.  ",
+              "All teams must always maintain decorum. Organizers may disqualify any team that behaves inappropriately. ",
+              "Rules may be changed without prior intimation. Participants are, therefore, requested to check the official MindSpark'23 website (www.mind-spark.org) regularly for updates. ",
+              "Prize money may vary based on number of participants. ",
+              "If total number of participants is less than 10 then event will be scrapped. "
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 3 participants per team "
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 99/- per team."
+              },
+              {
+                "name": "Material Provided",
+                "description": "Popsicle sticks and fevicol."
+              },
+              {
+                "name": "Round 1:",
+                "description": "Multiple Choice Questions."
+              },
+              {
+                "name": "Round 2:",
+                "description": "The qualified teams should make a bridge structure for the problem statement within the given time using materials provided by the organizers. Testing of bridge will be done after 24 hours when the bridge will be dried. "
+              },
+              {
+                "name": "Special Restrictions:",
+                "description": "<ol><li>Maximum number of sticks that can be stacked together is three.</li><li>Sticks can be altered physically by cutting or notching at any angle.</li><li>Only fevicol can be used as an adhesive. Use of any other adhesive material will lead to disqualification</li><li>Use of threads is not allowed.</li><li>Instructions regarding the dimensions of the bridge will be provided at the time of the event.</li></ol>"
+              },
+              {
+                "name": "Judging Criteria",
+                "description": "<ol><li>Greatest load prior to failure will be the bridge's capacity.</li><li>Self-weight of bridge will also be taken into account.</li><li>Creativity of bridge design will also be used to give remarks.</li></ol>"
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "10 teams will be short listed from round 1 for round 2. "
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners."
+              }
+            ],
             "folderName": "BridgeTheGap",
             "faqs": {
               "q": [
@@ -1247,67 +1253,141 @@
           },
           {
             "name": "UTOPIA",
-            "draft": true,
+            "draft": false,
             "description": "Envision an ideal city keeping in mind various smart solutions, sustainable measures and inclusion of people.",
+            "long_description": "Our country, inhabited by over 1.3 billion people, is undergoing a massive transition from rural to urban character. India is urbanizing rapidly offering great opportunities to build a new nation, while facing challenges in sustainable urban growth. It is a huge task to manage increasing population pressure on existing urban areas and to provide good quality of life to the residents. UTOPIA gives you a chance to explore your abilities to find solutions to city problems. UTOPIA is a platform for the young generation to give a future development plan for a given problem in an innovative manner.<br> <b>ELABORATION OF THE THEME: </b><br>According to the World Health Organization (WHO), about 15% of the world's population lives with some form of disability. The number of persons with disabilities is increasing due to medical developments, the rise of an aging population, and the spread of chronic diseases. Barriers to full social and economic inclusion of persons with disabilities include inaccessible physical environments and transportation, the unavailability of assistive devices and technologies, non-adapted means of communication, gaps in service delivery, and discriminatory prejudice and stigma in society. As public transport systems reduce or stop services due to COVID-19, persons with disabilities who rely on these methods for accessible transport may not be able to travel, even for basic necessities or critical medical appointments. <br> As Planners, Civil engineers and Architects, it is our responsibility to not only envision but to actualize spaces, cities and structures that represent inclusivity and empower the differently abled. In third world countries like India, we ought to start the paradigm shift from public spaces and facilities. The social infrastructure in these countries has been lagging behind in incorporating disable friendly designs and innovations. The way out is to start by innovating and implementing different ideas in order to determine a tried and tested way of making persons with disability feel at ease in public and private spaces and to break barriers. ",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 4 participants per team "
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 100 per team."
+              },
+              {
+                "name": "Round 1:",
+                "description": "Idea and Presentation. <br> The primary objective is the ease and convenience of the differently abled people. The aim is to make inclusive urban spaces which subtly incorporate provisions for the disabled and makes spaces and systems disable friendly.Come up with an idea or design to increase the functionality for any one of the following: <br> Parks/Grounds, Metro Station, Road Junctions, Bus Rapid Transit System (BRTS), Riverfront Development. (Only 5 ideas will be selected for round 2) "
+              },
+              {
+                "name": "Round 2:",
+                "description": "Implementation  <br> Explain the implementation process of your idea/design. Create a presentation and include the costing, phasing, scale, feasibility and policy interventions of the proposed idea/design. Your idea and other details should be submitted only in one presentation with maximum of 15 slides in PPT (MS PowerPoint) or PDF with size less than 25MB. The Round 1 presentation and Round 2 presentation will be scrutinized by the jury in a presentation. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Quality of content, presentation skills, understanding of topic. "
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "Quality of content, presentation skills, understanding of topic. "
+              }
+            ],
+            "rules": [
+              "Round 1 will be on 27th October 2023.  ",
+              "Round 2 will be on 29th October 2023. ",
+              "Presentation will be submitted in a pdf format (soft copy only) and should be in the PPT format. ",
+              "The ideas and designs must be original by the team members. If found to be a copy of any that is already implemented or presented, the team is subject to disqualification. ",
+              "All teams must always maintain decorum. Organizers may disqualify any team that behave inappropriately. ",
+              "Participants must bring their valid college ID cards and registration receipt with them on the day of the event.  ",
+              "Team members may be from different colleges. However, one person cannot be a part of multiple teams for the same event. ",
+              "Participants should be present 30 minutes prior to the commencement of event. Late teams may be disqualified. ",
+              "Rules may be changed without prior intimation. Participants are requested to check the website (www.mind-spark.org) regularly for updates. "
+            ],
             "folderName": "Utopia",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "I am not a civil/architecture/planning student. Can I still participate in this event?"
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
-              ]
-            }
-          },
-          {
-            "name": "ID CIVIL",
-            "draft": true,
-            "description": "Optimize your design and prove your mastery in AutoCAD by putting forth the best structural design.",
-            "folderName": "IdCivil",
-            "faqs": {
-              "q": [
-                "I am participating in another event in MindSpark. Can I still register for this event?",
-                "Is on-spot participation allowed?",
-                "Who can participate in the event?"
-              ],
-              "a": [
-                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
-                "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "Of course. There is no branch restriction for the event."
               ]
             }
           },
           {
             "name": "CONQUEST",
-            "draft": true,
+            "draft": false,
             "description": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder.",
+            "long_description": "Concrete is an inevitable part of any type of construction. This event requires designing concrete tiles which are able to sustain maximum flexural load, which is one of the major loads acting in any structure.",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 3 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 149/- per team"
+              },
+              {
+                "name": "Event Structure: ",
+                "description": "Four concrete tiles should be cast which would be not more than 28 days of age on the day of the event. Winners will be decided by taking Average Ratio of Flexural Strength to Weight of the Tiles. Architectural finish of the tiles may get bonus points which will also be considered as a particular for winning criterion."
+              },
+              {
+                "name": "Design Specification: ",
+                "description": "Design and cast 4 concrete tiles of dimensions 300x300x25 mm; the overall thickness can be more or less by 2 mm. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "25% of total candidates will be selected for subsequent rounds. "
+              }
+            ],
+            "rules": [
+              "Use of admixtures and fibres is allowed. ",
+              "The fibres should be discontinuous and randomly distributed. Steel fibres with diameter less than 1mm and other fibres with diameter less than 5mm can be used. ",
+              "The length of the fibre should be less than 75mm. ",
+              "Continuous fibre, mesh or plate fibres are not allowed. ",
+              "Date of casting should be engraved on each tile. ",
+              "The flexural strength of the tile will be tested on the Universal Testing Machine (UTM). ",
+              "Prepare a mix design sheet (Hard Copy) showing details of every constituent of concrete used, i.e., cement, aggregate and water etc., using Indian Standards (IS) method of mix design. ",
+              "Mention all the details very clearly about fibres and admixtures which are used (e.g., properties, source, etc.). ",
+              "Participant must present the information about the casting method, along with photographs of at least three copies of the casting process. One of these photocopies should clearly display the materials used during casting ",
+              "Mix design sheet must be signed by Head of your Department/ Faculty Guide with the Stamp.  ",
+              "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) for further updates. ",
+              "In case of any dispute, the decisions of the Event Heads and Judges will be final and binding to all. ",
+              "Teams are expected to maintain decorum at all times. The organizers reserve the right to disqualify any team if found behaving inappropriately. ",
+              "All the team members must carry their college ID cards and registration receipts. ",
+              "One person should not be a part of multiple teams for this event. "
+            ],
             "folderName": "Conquest",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "What is the last date to start casting the concrete tile? ",
+                "Which type of mix design method can be used? ",
+                "What documents should we bring while coming? ",
+                "What is the scoring pattern for the event? ",
+                "Is reinforcement allowed? ",
+                "Can students who are not from Civil Department take part in Conquest? ",
+                "Of course. There is no branch restriction for the event. "
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "Casting must begin at most 28 days before the day of the event for better results.",
+                "Any type of method can be used. Mixed design should be prepared by using IS specifications. ",
+                "You must have your college ID card and Real copy of the mix design sheet having the signature and the stamp of your HoD or the Director/Principal; also your registration receipt is mandatory. ",
+                "The scoring will be done according to the average ratio of flexural strength to weight by testing all the 4 tiles on UTM. ",
+                "nly discontinuous fibre reinforcement will be allowed. ",
+                "Of course. There is no branch restriction for the event. ",
+                "Of course. There is no branch restriction for the event. "
               ]
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Struktura"
       }
     },
@@ -1369,102 +1449,205 @@
                 "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
               ]
             }
-          },
-          {
-            "name": "TECH ESCAPE",
-            "draft": true,
-            "description": "The stakes are high and oxygen runs low. In order to escape and survive the answers you must know.",
-            "folderName": "TechEscape",
-            "faqs": {
-              "q": [
-                "I am participating in another event in MindSpark. Can I still register for this event?",
-                "Is on-spot participation allowed?",
-                "Who can participate in the event?"
-              ],
-              "a": [
-                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
-                "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
-              ]
-            }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Substantia"
       }
     },
     {
       "name": "VOLTUS",
-      "draft": true,
+      "draft": false,
       "details": {
         "description": "Electrify your passion for circuit making and playing with micro controllers",
         "events": [
           {
             "name": "CIRCUIT FIXER",
-            "draft": true,
+            "draft": false,
             "description": "No resistance can drop your potential. Build your own circuit and ignite the spark within you!",
+            "long_description": "This event's objective is to test your skills in basic electrical and electronic circuits. Apply your theoretical knowledge and practical skills to conquer this event. ",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 2 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 99 per Team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "MCQ Round (20 MCQs in 40 min)"
+              },
+              {
+                "name": "Round 2:",
+                "description": "In this round, the practical knowledge in basic electrical and electronic circuits of the qualified teams will be tested. (Details will be given on the spot) (Negative marking will be applicable in this round) "
+              },
+              {
+                "name": "Round 3:",
+                "description": "In this round, individual selected teams need to implement the circuit in the given time according to the problem statement given."
+              },
+              {
+                "name": "Elimination Criteria:",
+                "description": "Round 1: 10 teams will be selected from Round 1 based on their score. <br> Round 2: 5 teams will be shortlisted from Round 2 for Round 3, i.e., the final round."
+              }
+            ],
+            "rules": [
+              "Only first year and second year students are allowed to participate. ",
+              "All participants should have valid ID card of their respective institute with them along with the registration receipt. ",
+              "The hardware necessary for the final round will be provided by the organizers. ",
+              "The decision of judges and the organizers will be final and binding to all. ",
+              "In case any assistance is needed during the event, the teams should approach only the event coordinators/organizers. ",
+              "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website(www.mind-spark.org) for updates. "
+            ],
             "folderName": "CircuitFixer",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "What if I damage any component or instrument while building the circuit?",
+                "On what basis will the teams be judged? "
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "You will be straightaway disqualified or your marks will be deducted depending on the cost and availability of the component you damage. ",
+                "Completion of task within given time, Optimization and elegance of design, Logical thinking and approach to the problem statement, Viva. "
               ]
             }
           },
           {
             "name": "ELECTRADE",
-            "draft": true,
+            "draft": false,
             "description": "Earn money and spend it wisely in an attempt to build the most efficient circuits to complex problems.",
+            "long_description": "The objective of this event is to test the theoretical and practical knowledge in various fields of Electrical and Electronics Engineering. The event will provide participants with a stimulating and engaging experience in designing, building, and testing circuits while utilizing virtual money as a resource within a given budget.",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 2 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 100 per team "
+              },
+              {
+                "name": "Round 1:",
+                "description": "MCQ"
+              },
+              {
+                "name": "Round 2:",
+                "description": "The finalists will then implement the circuit based on the problem statements and within the budget of the virtual money earned based on the score of Round 1. Details regarding this round will be declared on the spot. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "If 20-25 or more teams are registered in Round 1 out of which top 10 teams will be selected for Round 2. If the participating teams are less than 15, top 7 teams will be selected for round 2.<br> The elimination criteria may change depending on the number of teams registered for Round 1. "
+              }
+            ],
+            "rules": [
+              "All participants should have valid ID card of their respective institute with them along with the registration receipt. ",
+              "The hardware necessary for the final round will be provided by the organizers. ",
+              "The decision of judges and the organizers will be final and binding to all. ",
+              "In case any assistance is needed during the event, the teams should approach only the event coordinators/organizers. ",
+              "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website(www.mind-spark.org) for updates. ",
+              "Prize money may vary based on number of participants. "
+            ],
             "folderName": "Electrade",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "What if I damage any component or instrument while building the circuit? ",
+                "On what basis will the teams be judged? "
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "You will be straightaway disqualified or your marks will be deducted depending on the cost and availability of the component you damage. ",
+                "i] Completion of task within given time. <br> ii] Optimisation and elegance of design. <br> iii] Logical thinking and approach to the problem statement. "
               ]
             }
           },
           {
             "name": "MICROAPPS",
-            "draft": true,
+            "draft": false,
             "description": "With a microcontroller you can conquer the world. Prove your proficiency in digital electronics and take away the big prize",
             "folderName": "Microapps",
+            "long_description": "The objective of this event is to test the skills of students in the field of microcontroller applications and their ability to design innovative solutions to real life problems. ",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 2 participants per team "
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 99 per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "Written test consisting of maximum objective as well as 1/2 subjective questions (which would require assembly level language coding) making a total of 50 Questions, which would be based on the following topics: Basics of Digital Electronics, Microcontrollers: AT89C51, Basics of PIC microcontroller. Details regarding the duration of Round 1 would be disclosed at the time of the event. "
+              },
+              {
+                "name": "Round 2:",
+                "description": "Participants shortlisted from round one will be tested for their coding and logic skills. Participants will be given some problem statements wherein they have to code and perform the corresponding software simulation on the platform provided. Information/guidance regarding IDE's will be given prior to the round. Coding for this round would be done only in C or embedded C language. (IDE could be MPLAB for PIC based questions). Other details regarding the duration and rules will be disclosed at the time of event. "
+              },
+              {
+                "name": "Round 3:",
+                "description": "There will be an expert lecture on MSP430 prior to this round (for qualified candidates). Candidates will be given a problem statement based on the theme of the MindSpark'23. They have to give an optimised solution with its software and hardware implementation in a given stipulated time. They will be provided with the microcontroller MSP430 family of Texas instruments and its IDE (Code Composer Studio CCS). All the material for implementation will be provided by organisers. Internet facility will also be provided. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Students will be eliminated on the basis of MCQ results, their coding and logical skills (efficiency and accuracy) and their solutions to the problem statement given in the question. "
+              }
+            ],
+            "rules": [
+              "The event is open for undergraduate students only. ",
+              "Participants are required to give correct contact details, so as to inform them about the event updates. ",
+              "Participants must bring their College ID cards and receipt of registration during reporting. ",
+              "Only 'C' and embedded 'C' language can be used for round 1 and 2. ",
+              "For round 1, wherever mentioned the code must be written in Assembly language. ",
+              "The IDE to be used for round 3 is CCS (which will be introduced prior to the round). ",
+              "The decision of the judges and the organizers will be final. ",
+              "The microcontroller and other hardware will be provided by the organizers. ",
+              "The organizers have the right to change the above-mentioned rules without giving any prior notice (participants are requested to check the website for updates: www.mind-spark.org). ",
+              "Registration at the first day of the event will be there but preference will be given to pre-registered teams. "
+            ],
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "Which languages can be used for programming the microcontroller?",
+                "On which interface will the implementation take place? ",
+                "Will the teams have access to microcontroller datasheet and user guide during design? "
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "The microcontroller can be programmed with “C” language. ",
+                "The design is to be implemented on breadboard. ",
+                "Yes, the teams will have access to microcontroller datasheet and user guide during 2nd and 3rd round of the competition. The teams will also have access to datasheets of other required components upon request. "
               ]
             }
           },
           {
             "name": "FOX HUNT",
-            "draft": true,
+            "draft": false,
             "description": "A game of hunt devoid of  trail of blood but makes you chase nonetheless.",
             "long_description": "The objective of this contest is to locate a hidden radio transmitter using radio direction-finding techniques. Participants should build the antenna and use equipment to track down the source of a transmitted signal that serves as the 'fox'. The hidden transmitter, or 'fox,' emits radio signals intermittently or continuously on a specific frequency or set of frequencies, and the participants must use their skills and equipment to determine the direction from which the signal is coming.",
+            "prize": "#",
+            "reglink": "#",
             "folderName": "FoxHunt",
             "structure": [
               {
@@ -1500,14 +1683,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Voltus"
       }
     }
