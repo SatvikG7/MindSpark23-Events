@@ -1,5 +1,18 @@
 # MindSpark23 Events
 
+## List of Modules
+- ✅Amuzia
+- ✅Avionica
+- ✅Codifica
+- ❎Illuminati
+- ✅Logica
+- ✅Potentia
+- ❎Prodigium
+- ❎Robotica
+- ✅Struktura
+- ❎Substantia
+- ❎Voltus
+
 Run the following commands in the terminal to get started with the project.
 
 1. Install dependancies
