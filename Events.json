@@ -263,24 +263,67 @@
         "events": [
           {
             "name": "FLIP IT",
-            "draft": true,
+            "draft": false,
             "description": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork.",
-            "long_description": "",
+            "long_description": "The event is designed to test the participants' proficiency in converting the given code from one programming language to another while maintaining the same output.",
             "prize": "#",
             "reglink": "#",
-            "rules": [],
-            "structure": [],
+            "rules": [
+              "All the rounds will be conducted in the Computer Labs of COEP Technological University (formerly College of Engineering Pune).",
+              "Participants must bring their valid College ID cards and the receipt of registration during reporting. If the participant fails to do so, he/she may be disqualified.",
+              "Participants are expected to give their contact details correctly, so as to inform them about the event and event results.",
+              "Decision of the event heads and the judges shall be considered final and binding to all.",
+              "Rules may be changed without prior intimation. Participants are, therefore, requested to check the official MindSpark'23 website regularly for updates. (www.mind-spark.org)."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 99/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "Quiz"
+              },
+              {
+                "name": "Round 2:",
+                "description": "Two problem statements will be given on the spot."
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Teams will be selected according to their scores in the MCQ Test (Round 1). Top 10 teams will be selected for Round 2."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners."
+              }
+            ],
             "folderName": "FlipIt",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "What is the team structure?",
+                "Can I participate in other events at MindSpark'23?",
+                "What should I bring for the event?",
+                "Is this an open-book event? ",
+                "Is the use of Internet allowed? ",
+                "Can I register on the day of the event? "
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "A team must consist of 2 members. Members can be from same or different institutions. However, no person may be a part of multiple teams for the same event. This event will be open for all undergraduate students of the recognized universities and colleges.",
+                "You are allowed to participate in as many events at MindSpark'23 as long as you are able to manage your own schedule. ",
+                "While College ID Cards and receipt of registration are compulsory, you may carry a pen/pencil, if you wish to work out a rough plan for round 2. Rough sheets will be provided upon request, however, participants cannot bring any rough book with them.",
+                "It is not an open book event. Although, participants within a team are allowed to help each other in solving the problem, and in multiple choice questions. No team is allowed to help any other team. ",
+                "No, the use of Internet is not allowed for round 2, although Internet access will be provided only for round 1. ",
+                "Registrations are open on the event day. However, if the number of teams exceed the limit set by us, on-the-spot registrations may be closed. It is highly recommended that registration be done in advance to avoid any such incidences on the day of the event. "
               ]
             }
           },
@@ -342,19 +385,62 @@
           },
           {
             "name": "RETRACER",
-            "draft": true,
+            "draft": false,
             "description": "The path from input to output does exist. Do you have the vision to find it?",
+            "long_description": "Retracer is an event that tests participants' ability to find out the hidden logic behind apparently disconnected entities. This event allows the participants to make full use of their thinking capabilities to get to the results quickly yet carefully. It is an event for those who go beyond the traditional approach of identifying 4 as 2 + 2, 3+1, 4+0 and so on ",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 99/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "This round will consist of multiple choice questions. Participants will be asked to identify patterns in the given problem inputs and outputs and choose the governing algorithm or code snippets from the given options. The teams with maximum number of logically correct answers to MCQs will proceed to the next round. "
+              },
+              {
+                "name": "Round 2:",
+                "description": "Teams will be allotted problem statements containing program input and their respective output. The teams will be asked to develop their own programs to solve the problem for any test case. The judging criteria will be time required to produce error free code as well as the code efficiency. Participants are expected to follow good coding practices. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Teams will be selected according to their scores in the MCQ Test (Round 1). Top 10 teams will be selected for Round 2."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "<li>If number of participants is less than 20 then only 2 winners will be selected.  </li><li>If number of participants is less than 5 then only 1 winner will be selected. </li>"
+              }
+            ],
+            "rules": [
+              "The environment will be either Ubuntu 14.04 OS with gedit/vim/emacs as text editor and GCC as compiler OR Windows 7 with Turbo C / Dev C++ (as per the team's choice). ",
+              "Participants need to bring their College ID cards and the receipt of registration during reporting. ",
+              "Time slots will be given and participants are expected to follow it strictly. ",
+              "Participants are expected to give their correct contact details, so as to inform them about the results. ",
+              "Further details of the round will be disclosed at the time of the event. ",
+              "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) regularly for updates. ",
+              "In case of any disputes, the decision of the organizers and the judges will be final and binding to all. ",
+              "Team members may be from different colleges/institutions but one participant may not be a part of multiple teams for the same event. "
+            ],
             "folderName": "Retracer",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "Can I register on the day of the event? ",
+                "Which IDE (Integrated Development Environment) will be provided?"
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "Registrations are open even on the event day. But if the number of teams is exceeding the limit set by us, on spot registrations may be closed. It is highly recommended that registration be done prior to the event day. ",
+                "The environment provided will be Ubuntu 14.04 OS with emacs/vim/gedit as text editor and gcc as compiler or Windows 7 OS with Turbo C/ Dev C++, depending on choice of the participating teams. COEP recommends Linux. "
               ]
             }
           },
