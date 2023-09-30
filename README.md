@@ -4,7 +4,7 @@
 - ✅Amuzia
 - ✅Avionica
 - ✅Codifica
-- ❎Illuminati
+- ✅Illuminati
 - ✅Logica
 - ✅Potentia
 - ❎Prodigium
