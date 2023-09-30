@@ -615,6 +615,68 @@
         "folderName": "Potentia",
         "events": [
           {
+            "name": "ASSEMBLIX",
+            "draft": false,
+            "description": "You have to know the gears in order to make them turn,test this theory at Assemblix",
+            "folderName": "Assemblix",
+            "long_description": "Assemblix will test your ability to understand assembly drawing and production drawing. It also tests the team's knowledge regarding mechanical components. Teams will be required to assemble components together to make a machine part with or without its drawing.",
+            "reglink": "https://unstop.com/o/z9PylX6?lb=8OaQSGs",
+            "prize": "₹ 15,000",
+            "rules": [
+              "Every participant must carry a valid college ID card and registration receipt without which he/she won't be allowed to participate in the event.",
+              "Only UG students and diploma students can participate, No workers/ employees will be allowed to participate.",
+              "There is no restriction of branch. Student from any branch can participate.",
+              "Two students from different colleges can be a part of the same team. However, one person cannot be a part of multiple teams for the same event.",
+              "Decision taken by the judges and organizers will be final and binding to all.",
+              "All the required tools will be provided at the event venue by the organizers.",
+              "Participants will not be allowed to use mobile phones or any other electronic gadget during the event, except calculators.",
+              "Rules may be changed without any prior intimation.Participants are requested to check the MindSpark'23 website (www.mind-spark.org) regularly for updates.",
+              "Participants need to be present at the event venue at least 10 minutes prior to the commencement of the event."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 2 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 100 per team."
+              },
+              {
+                "name": "Round 1",
+                "description": "Multiple Choice Questions with only one answer. MCQs will be based on the basics of machine drawing, blueprint reading and your knowledge about machines."
+              },
+              {
+                "name": "Round 2",
+                "description": "Multiple Choice Questions with only one answer. MCQs will be based on the basics of machine drawing, blueprint reading and your knowledge about machines."
+              },
+              {
+                "name": "Round 3",
+                "description": " Assembly of a given machine's sub-assembly."
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "<b>Round 1:</b> Teams will be selected according to their marks scored in the test. (10 teams will be selected)<br><b>Round 2:</b> Teams will be selected according to their sequence of assembling and time taken."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners per category."
+              }
+            ],
+            "faqs": {
+              "q": [
+                "What is the evaluation criteria?",
+                "Can I participate in other events of MindSpark'23?",
+                "Do team members have to be from the same college?"
+              ],
+              "a": [
+                "For the Round 1, qualification depends on the number of MCQs answered correctly. For the Round 2, proper & optimized sequence of assembling the parts will be the criterion.",
+                "You are free to participate in as many events as you wish. However, you have to manage your own schedule.",
+                "No, team members can be from any year, any branch and any institution. However, one person cannot be a part of 2 teams for the same event."
+              ]
+            }
+          },
+          {
             "name": "FUSION ID",
             "draft": false,
             "description": "Sharpen your software skills, perception ability and prowess in 3D designing and modelling.",

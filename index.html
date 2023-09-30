@@ -36,84 +36,82 @@
     <script src="./lib/gradient.js"></script>
     <script>
       let slides = "";
-      const data = {
-        AMUZIA: {
-          draft: false,
-          description:
-            "Fun is as important as academics. Compete against each other to find the ultimate gamer",
+      const data = [
+        {
+          name: "AMUZIA",
+          events: ["FANDOM", "Flash"],
           card: ["#8758", "#8758ff"],
           glass: ["#8758ff59", "#8758ffd0"],
         },
-        AVIONICA: {
-          draft: false,
-          description:
-            "Showcase and implement your knowledge about the laws and concepts of Physics",
+        {
+          name: "AVIONICA",
+          events: ["TAKE OFF", "CONTRAPTION"],
           card: ["#49bfab", "#49bfab"],
           glass: ["#49bfab59", "#49bfabd0"],
         },
-        CODIFICA: {
-          draft: true,
-          description:
-            "Pit yourself against the best and test your coding skills",
+        {
+          name: "CODIFICA",
+          events: ["FLIP IT", "WEBSCAPE", "RETRACER", "CODE JUNKIE"],
           card: ["#f3f0ed", "#d36b00"],
           glass: ["#efedeb59", "#d36b00d0"],
         },
-        ILLUMINATI: {
-          draft: false,
-          description:
-            "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
+        {
+          name: "ILLUMINATI",
+          events: ["INDIKYA", "TECH DE BAIT", "TORQUEST"],
           card: ["#66aeff", "#4779b2"],
           glass: ["#66a3ff59", "#518bccd0"],
         },
-        LOGICA: {
-          draft: false,
-          description:
-            "Get ready for exciting logical reasoning full of Puzzles, Maths and more.",
+        {
+          name: "LOGICA",
+          events: ["DELTA SIGMA PI", "INTEGRATON BEE"],
           card: ["#ffdc3c", "#b2872a"],
           glass: ["#ffe93c59", "#cc9b30d0"],
         },
-        POTENTIA: {
-          draft: false,
-          description:
-            "Turn your ideas into creations. Bring out your imagination from 2d world to real world.",
+        {
+          name: "POTENTIA",
+          events: ["ASSEMBLIX","FUSION ID"],
           card: ["#2e7dff", "#174082"],
           glass: ["#2d78f559", "#1c4c9cd0"],
         },
-        PRODIGIUM: {
-          draft: true,
-          description:
-            "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
+        {
+          name: "PRODIGIUM",
+          events: ["SHERLOCKED", "GOOGLER"],
           card: ["#ff2f9d", "#f92eb5"],
           glass: ["#ff2fab59", "#c5248fd0"],
         },
-        ROBOTICA: {
-          draft: true,
-          description:
-            " Dive in the world of robots. Participate in exciting robot events",
+        {
+          name: "ROBOTICA",
+          events: [
+            "BOT WRESTLING",
+            "VIRTUAL ROBOTICS",
+            "ROBO RACES",
+            "ROBO FALCONARY",
+            "SEARCH N' DESTROY",
+            "ROBO WARS",
+            "ROBO ROYALE",
+          ],
           card: ["#86e6ff", "#549ba0"],
           glass: ["#86eeff59", "#62b3bad0"],
         },
-        STRUKTURA: {
-          draft: true,
-          description:
-            "Plan, Build, Create. Dive in world of Civil Engineering.",
+        {
+          name: "STRUKTURA",
+          events: ["BRIDGE THE GAP", "UTOPIA", "ID CIVIL", "CONQUEST"],
           card: ["#daffb4", "#8e9f70"],
           glass: ["#dfffb459", "#a5b982d0"],
         },
-        SUBSTANTIA: {
-          draft: false,
-          description: "Demystify your love for Chemistry",
+        {
+          name: "SUBSTANTIA",
+          events: ["ON THE ETCH", "TECH ESCAPE"],
           card: ["#ff5f46", "#922828"],
           glass: ["#ff534659", "#ac2f2fd0"],
         },
-        VOLTUS: {
-          draft: true,
-          description:
-            "Electrify your passion for circuit making and playing with micro controllers",
+        {
+          name: "VOLTUS",
+          events: ["CIRCUIT FIXER", "ELECTRADE", "MICROAPPS", "FOX HUNT"],
           card: ["#2e7dff", "#174082"],
           glass: ["#2d78f559", "#1c4c9cd0"],
         },
-      };
+      ];
       Object.defineProperty(String.prototype, "capitalize", {
         value: function () {
           return this.charAt(0).toUpperCase() + this.slice(1);
@@ -143,9 +141,7 @@
                                       } 0%, ${glassGrad[1]} 100%);"></div>
                                       <div class="content">
                                           <span class="title">${n}</span>
-                                          <span class="text"
-                                              >${description}</span
-                                          >
+                                          ${description}
                                           <a href="./${n
                                             .toLowerCase()
                                             .capitalize()}"
@@ -156,25 +152,21 @@
                               </div>
                           </li>`;
       };
-
-      for (const module in data) {
-        if (data[module].draft) continue;
-        glassGrad = data[module].glass;
-        cardGrad = data[module].card;
-        description = data[module].description;
-        let t = genTemp(module, description, glassGrad, cardGrad);
-        slides += genTemp(module, description, glassGrad, cardGrad);
-      }
-
-      // intialize splide
+      data.forEach((m) => {
+        let l = "";
+        m.events.forEach((e) => {
+          l += `<li>${e}</li>`;
+        });
+        description = `<ul>${l}</ul>`;
+        let t = genTemp(m.name, description, m.glass, m.card);
+        slides += genTemp(m.name, description, m.glass, m.card);
+      });
+      let a = 0.1;
+      let b = 0.2;
+      console.log(a + b);
+      // asfas
       (function () {
-        // var isMobile =
-        //   Math.min(window.screen.width, window.screen.height) < 768 ||
-        //   navigator.userAgent.indexOf("Mobi") > -1;
         const isMobile = () => {
-          // const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-          // return !regex.test(navigator.userAgent);
-
           let check = false;
           (function (a) {
             if (

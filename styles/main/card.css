@@ -5,7 +5,8 @@
 
 .parent {
   width: auto;
-  height: 300px;
+  min-height: 300px;
+  max-height: min-content;
   perspective: 1000px;
 }
 
@@ -88,6 +89,17 @@
   border-radius: 8px;
   background-color: #ffffff7d;
   width: 65%;
+}
+
+.content ul {
+  list-style: none;
+  
+}
+
+.content ul li {
+  font-size: 0.75rem;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .logo {
