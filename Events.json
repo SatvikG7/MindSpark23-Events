@@ -109,14 +109,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ]
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
       }
     },
     {
@@ -245,14 +239,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ]
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"]
       }
     },
     {
@@ -308,7 +296,6 @@
                 "Is on-spot participation allowed?",
                 "Who can participate in the event?",
                 "What is the team structure?",
-                "Can I participate in other events at MindSpark'23?",
                 "What should I bring for the event?",
                 "Is this an open-book event? ",
                 "Is the use of Internet allowed? ",
@@ -319,7 +306,6 @@
                 "Yes. On-spot participation is allowed.",
                 "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
                 "A team must consist of 2 members. Members can be from same or different institutions. However, no person may be a part of multiple teams for the same event. This event will be open for all undergraduate students of the recognized universities and colleges.",
-                "You are allowed to participate in as many events at MindSpark'23 as long as you are able to manage your own schedule. ",
                 "While College ID Cards and receipt of registration are compulsory, you may carry a pen/pencil, if you wish to work out a rough plan for round 2. Rough sheets will be provided upon request, however, participants cannot bring any rough book with them.",
                 "It is not an open book event. Although, participants within a team are allowed to help each other in solving the problem, and in multiple choice questions. No team is allowed to help any other team. ",
                 "No, the use of Internet is not allowed for round 2, although Internet access will be provided only for round 1. ",
@@ -496,14 +482,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Codifica"
       }
     },
@@ -638,14 +618,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Illuminati"
       }
     },
@@ -768,14 +742,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Logica"
       }
     },
@@ -911,14 +879,8 @@
             }
           }
         ],
-        "card": [
-          "#2e7dff",
-          "#174082"
-        ],
-        "glass": [
-          "#2d78f559",
-          "#1c4c9cd0"
-        ]
+        "card": ["#2e7dff", "#174082"],
+        "glass": ["#2d78f559", "#1c4c9cd0"]
       }
     },
     {
@@ -964,14 +926,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Prodigium"
       }
     },
@@ -1108,14 +1064,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Robotica"
       }
     },
@@ -1198,14 +1148,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Struktura"
       }
     },
@@ -1287,14 +1231,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Substantia"
       }
     },
@@ -1398,14 +1336,8 @@
             }
           }
         ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
-        ],
+        "card": ["#f3f0edff", "#d36b00ff"],
+        "glass": ["#efedeb59", "#d36b00d0"],
         "folderName": "Voltus"
       }
     }
