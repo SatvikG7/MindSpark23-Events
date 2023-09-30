@@ -10,7 +10,7 @@
         "events": [
           {
             "name": "FANDOM",
-            "draft": true,
+            "draft": false,
             "description": "Fandom's here with the most fun quizzes on your favourite TV shows and memes",
             "folderName": "Fandom",
             "prize": "#",
