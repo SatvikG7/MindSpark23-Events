@@ -900,7 +900,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹49/- per person "
+                "description": "₹ 49/- per person "
               },
               {
                 "name": "Round 1:",
@@ -953,12 +953,45 @@
     },
     {
       "name": "PRODIGIUM",
-      "draft": true,
+      "draft": false,
       "details": {
         "description": "The answer lies like a needle in a haystack and clues just within your eyesight. Do you have what it takes?",
         "events": [
           {
             "name": "SHERLOCKED",
+            "long_description": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth. <li>To inculcate critical thinking amongst the participants & to foster problem-solving abilities among participants. </li><li>To enhance and sharpen the observational skills of the participants and to encourage the participants to analyze the surroundings with a keen sense of hearing and piecing together the information. </li><li>To encourage the teamwork amongst the participants. </li>",
+            "prize": "₹ 4,500",
+            "reglink": "https://unstop.com/o/zjh2Gd8?lb=8OaQSGs",
+            "rules": [
+              "Team members can be from the same as well as different institutes. But there can be no change of players within teams during the rounds and one person cannot be a part of multiple teams. Such practices will lead to immediate disqualification. ",
+              "No extra time would be allotted for solving the cases unless declared by the Event Head. ",
+              "Event Heads can modify the rules and regulations at any given time and without prior notice. ",
+              "Cheating or use of any deceitful means will lead to immediate disqualification. ",
+              "Participants should report to the venue on time and must attend the quiz in the given slot only. A delayed arrival could lead to an automatic elimination. ",
+              "Participants are requested to keep their college ID cards and registration receipt with them. "
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 2 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 119/- per team."
+              },
+              {
+                "name": "Round 1:",
+                "description": "Multiple Short Cases."
+              },
+              {
+                "name": "Round 2:",
+                "description": "Single Murder Mystery Case."
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "10 teams will be short listed from Round 1 for Round 2 "
+              }
+            ],
             "draft": true,
             "description": "There is nothing more deceptive than an obvious fact. Scratch your brain with Watson to find the truth.",
             "folderName": "Sherlocked",
@@ -966,30 +999,69 @@
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "Can I participate for a single show multiple times?"
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "No. You can be a part of SHERLOCKED only once."
               ]
             }
           },
           {
             "name": "GOOGLER",
             "draft": true,
-            "description": "Find the answers to the most trivial questions. The answer lies in your ability to use Google in the most efficient way.",
+            "prize": "₹ 4,500",
+            "rules": [
+              "Teams are expected to maintain decorum. We reserve the right to disqualify any team found misbehaving. ",
+              "In case of any disputes, the decision of event heads and judges will be final and binding to all. ",
+              "Rules of the event may be changed without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) regularly for updates. ",
+              "Participants must carry their college ID card and the registration receipt. ",
+              "Participants must be present on time at the given venue. Late entries will not be entertained. ",
+              "In case of scores being tied, the team with minimum time taken would be the winner. "
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 2 participants per team",
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 119/- per team."
+              },
+              {
+                "name": "Round 1:",
+                "description": "Each Team will be given 15 Questions whose answers they have to search over google within 10 minutes. "
+              },
+              {
+                "name": "Round 2:",
+                "description": "Qualified teams will be given 5 questions each to be solved within 5 minutes. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "Participants who will score above the cut-off score in Round 1 will be eligible for Round 2. Cut-off scores will be decided by event heads. "
+              }
+            ],
+            "description": "The way to all answers lies at your fingertips, the one who knows where to look in a sea of binary wins the Googler.",
             "folderName": "Googler",
+            "reglink": "https://unstop.com/o/CRA8UE5?lb=8OaQSGs",
+            "long_description": "“Google” is the world’s most powerful search engine. How many questions can you make Google answer for you? Here is our challenge to make everyone aware of the power of GOOGLE and also test their technical as well as general knowledge. Find out how efficiently and effectively can you google. ",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "Do I get my own laptop? ",
+                "Which OS (operating system) will be used? "
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "No, we will provide you with Computers.",
+                "Ubuntu 14.04 or Windows 7. But you need not worry about it. The Google platform will be the same. "
               ]
             }
           }
