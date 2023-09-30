@@ -5,9 +5,8 @@
 
 .parent {
   width: auto;
-  min-height: 300px;
-  max-height: min-content;
   perspective: 1000px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -54,7 +53,7 @@
 }
 
 .content {
-  padding: 25px 60px 12px 30px;
+  padding: 24px 60px 24px 30px;
   transform: translate3d(0, 0, 26px);
   display: flex;
   flex-direction: column;
