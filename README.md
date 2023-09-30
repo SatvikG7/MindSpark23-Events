@@ -1,13 +1,14 @@
 # MindSpark23 Events
 
 ## List of Modules
+
 - ✅Amuzia
 - ✅Avionica
 - ✅Codifica
 - ✅Illuminati
 - ✅Logica
 - ✅Potentia
-- ❎Prodigium
+- ✅Prodigium
 - ❎Robotica
 - ✅Struktura
 - ❎Substantia
@@ -37,4 +38,4 @@ npm run prettier:fix
 
 ```bash
 python -m http.server
-``` 
+```
