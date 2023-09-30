@@ -13,6 +13,8 @@
             "draft": true,
             "description": "Fandom's here with the most fun quizzes on your favourite TV shows and memes",
             "folderName": "Fandom",
+            "prize": "#",
+            "reglink": "#",
             "long_description": "This quiz is about testing your knowledge on your favorite shows. FANDOM gives you a chance to attempt quizzes for the following shows: <br/> A. Suits <br/> B. The Office <br/> C. Modern Family/ Harry Potter <br/> The quiz is designed to test the participant's knowledge about the show attempted for, the characters, the flow and thus an opportunity to prove that the participant is a true fan of the series.",
             "rules": [
               "You can attempt FANDOM quiz of one show ONLY ONCE.",
@@ -22,6 +24,14 @@
               "Replacement of any participant is strictly not allowed."
             ],
             "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹100/- per team per show."
+              },
               {
                 "name": "Round 1:",
                 "description": "Round 1: Multiple Choice Questions"
@@ -247,7 +257,7 @@
     },
     {
       "name": "CODIFICA",
-      "draft": true,
+      "draft": false,
       "details": {
         "description": "Pit yourself against the best and test your coding skills",
         "events": [
@@ -255,6 +265,11 @@
             "name": "FLIP IT",
             "draft": true,
             "description": "Break free from the bounds of familiarity. Test your coding competence along with your teamwork.",
+            "long_description": "",
+            "prize": "#",
+            "reglink": "#",
+            "rules": [],
+            "structure": [],
             "folderName": "FlipIt",
             "faqs": {
               "q": [
@@ -271,8 +286,46 @@
           },
           {
             "name": "WEBSCAPE",
-            "draft": true,
+            "draft": false,
             "description": "Code, compete and re-imagine to embellish a partially designed website.",
+            "long_description": "Showcase your Web Design skills by modifying a partially designed website according to your imagination. Code, compete and re-imagine! ",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 100/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "Technical Quiz based on web development basics. Shortlisted teams will go to round 2. (Number of team shortlisted will be decided on the number of entries)"
+              },
+              {
+                "name": "Round 2:",
+                "description": "The participants will be given a partially designed website in HTML, CSS, JS. They will have to make it better with respect to the design of components and functionality of the website."
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "7 teams will be selected for Round 2 out of which 3 teams will be selected as winners."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners."
+              }
+            ],
+            "rules": [
+              "Both rounds will be conducted in offline mode. ",
+              "Students involved in unfair means will be disqualified.",
+              "Plagiarism checks will be done on every piece of code. ",
+              "Judging Criteria: Based on the scores of Round 1 the teams will be ",
+              "rtlisted for further rounds. Round 2 will be judged upon: Responsiveness of the website, authenticity of the components designed, creativeness and functionality of the website.",
+              "Prize money may vary based on number of participants.",
+              "If total number of participants is less than 10 then event will be scrapped."
+            ],
             "folderName": "Webscape",
             "faqs": {
               "q": [
@@ -307,7 +360,40 @@
           },
           {
             "name": "CODE JUNKIE",
-            "draft": true,
+            "draft": false,
+            "long_description": "The objective of this event is to test the proficiency of the participant in C Programming Language. This event aims at beginners and intermediates in C programming only. The event covers the basic principles of C Programming Language. ",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 99/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "Multiple Choice Questions"
+              },
+              {
+                "name": "Round 2:",
+                "description": "Rapid Coding Round"
+              },
+              {
+                "name": "Round 3:",
+                "description": "Rapid Coding Round (Comparatively difficult)"
+              }
+            ],
+            "rules": [
+              "The environment will be either Ubuntu 14.04 OS with gedit/vim/emacs as text editor and GCC as compiler OR Windows 7 with Turbo C / Dev C++ (as per the team's choice). ",
+              "Participants should be First Year or Second Year Undergraduate students.  ",
+              "Participants need to bring their College ID cards and the receipt of registration during reporting.",
+              "Participants are expected to give their correct contact details, so as to inform them about the results. ",
+              "In case of any disputes, the decision of the organizers and the judges will be final and binding to all. ",
+              "Team members may be from different colleges/institutions but one participant may not be a part of multiple teams for the same event. "
+            ],
             "description": "The right place for coding aficionados to live their passion and decode their way to supremacy.",
             "folderName": "CodeJunkie",
             "faqs": {
