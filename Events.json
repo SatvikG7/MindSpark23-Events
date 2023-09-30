@@ -109,8 +109,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"]
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ]
       }
     },
     {
@@ -239,8 +245,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"]
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ]
       }
     },
     {
@@ -482,8 +494,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Codifica"
       }
     },
@@ -601,8 +619,40 @@
           },
           {
             "name": "TORQUEST",
-            "draft": true,
+            "draft": false,
             "description": "Drift along the scientific questionnaire pool, knock down the resistance from your opponents and finish a Technocrat.",
+            "long_description": "This event is a quiz testing the participants knowledge and interest in the fields of pure Astronomy, Astrophysics, Cosmic studies, and fields supporting Astronomical studies directly. Participants acquainted with knowledge and a keen interest in Astronomy will have an upper edge. We welcome students from the streams that deal with physics and Astronomy. Get ready to explore more about Cosmos and keep your curiosity back to work.",
+            "prize": "#",
+            "reglink": "#",
+            "rules": [
+              "The quizmaster's decision will be final and binding.",
+              "Use of any electronic media during any round is grounds for immediate disqualification.",
+              "Participants must bring registration receipts and valid college ID along with them.",
+              "Rules may be changed at any moment by the organizers. Please check the official MindSpark'23 website for the same.",
+              "In case of any dispute the Quizmasters and the Organizer's decision will be final."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 100/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "Written Elimination Round with various kinds of questions with no negative marking. "
+              },
+              {
+                "name": "Round 2:",
+                "description": "Top 6 Teams compete in the Final Round with various types and formats of questions, details of which will be revealed on the spot. "
+              },
+              {
+                "name": "Elimination Criteria",
+                "description": "<li>Round 1: Teams will be eliminated based on their scores in the CBT test. 6 teams will be selected from all the teams based on their score.</li><li>Round 2: 6 teams will compete amongst themselves in 4 sub-rounds from which 3 teams will be declared as winners.</li>"
+              }
+            ],
             "folderName": "Torquest",
             "faqs": {
               "q": [
@@ -618,8 +668,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Illuminati"
       }
     },
@@ -742,8 +798,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Logica"
       }
     },
@@ -879,8 +941,14 @@
             }
           }
         ],
-        "card": ["#2e7dff", "#174082"],
-        "glass": ["#2d78f559", "#1c4c9cd0"]
+        "card": [
+          "#2e7dff",
+          "#174082"
+        ],
+        "glass": [
+          "#2d78f559",
+          "#1c4c9cd0"
+        ]
       }
     },
     {
@@ -926,8 +994,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Prodigium"
       }
     },
@@ -1064,8 +1138,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Robotica"
       }
     },
@@ -1148,8 +1228,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Struktura"
       }
     },
@@ -1231,8 +1317,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Substantia"
       }
     },
@@ -1336,8 +1428,14 @@
             }
           }
         ],
-        "card": ["#f3f0edff", "#d36b00ff"],
-        "glass": ["#efedeb59", "#d36b00d0"],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
         "folderName": "Voltus"
       }
     }
