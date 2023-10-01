@@ -41,7 +41,7 @@
           <div class="headerText">
             <h1>{#EVENTNAME}</h1>
             <div class="headerBtnContainer">
-              <a target="_blank" href="{#EVENTREGISTRATIONLINK}">
+              <a id="regLink" target="_blank" href="{#EVENTREGISTRATIONLINK}">
                 <button>Register</button>
               </a>
               <button id="ShareBtn">Share</button>
@@ -108,6 +108,14 @@
       document
         .getElementById("ShareBtn")
         .addEventListener("click", copyWindowLocationToClipboard);
+
+      let loc = window.location.href + "#";
+      document.getElementById("regLink").addEventListener("click", (e) => {
+        if (document.getElementById("regLink") == loc) {
+          e.preventDefault();
+          window.alert("Registration link will be available soon");
+        }
+      });
     </script>
   </body>
 </html>

@@ -49,15 +49,12 @@ body {
 
 .heading {
   font-family: Azonix;
-  position: relative;
   color: #27bdce;
   font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.125em;
   text-transform: uppercase;
-  /* -webkit-text-stroke: 4px #21006f; */
-  /* text-shadow: 0px 0px 5px #ffffffaa; */
-  /* animation: pop 3s infinite; */
+  user-select: none;
 }
 
 .MSLogoLink {
