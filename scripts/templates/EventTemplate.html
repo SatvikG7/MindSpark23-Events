@@ -37,6 +37,14 @@
     <canvas id="gradient-canvas" data-js-darken-top data-transition-in></canvas>
     <div class="container">
       <main class="main">
+        <div class="btn-wrapper">
+          <img class="img1" src="./../../assets/images/faviconw.svg" alt="MS" />
+          <img
+            class="img2"
+            src="./../../assets/images/arrow-left.svg"
+            alt="Go Back"
+          />
+        </div>
         <section class="header">
           <div class="headerText">
             <h1>{#EVENTNAME}</h1>
@@ -115,6 +123,11 @@
           e.preventDefault();
           window.alert("Registration link will be available soon");
         }
+      });
+
+      const backBtn = document.querySelector(".img2");
+      backBtn.addEventListener("click", () => {
+        window.history.back();
       });
     </script>
   </body>
