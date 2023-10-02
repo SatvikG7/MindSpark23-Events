@@ -142,5 +142,6 @@ body {
     overflow: scroll;
     border-radius: 48px 48px 0 0;
     align-items: center;
+    width: 100%;
   }
 }

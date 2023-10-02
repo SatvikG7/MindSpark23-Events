@@ -124,21 +124,19 @@
                                   <div class="card" style="background: linear-gradient(135deg, ${
                                     cardGrad[0]
                                   } 0%, ${cardGrad[1]} 100%);">
-                                      <div class="logo">
-                                          <span class="circle circle1"></span>
-                                          <span class="circle circle2">
-                                              <img
-                                                  class="event-img"
-                                                  src="./assets/images/module-icons/${n
-                                                    .toLowerCase()
-                                                    .capitalize()}.png"
-                                                  alt="${n}"
-                                              />
-                                          </span>
-                                      </div>
+                                      
                                       <div class="glass" style="background: linear-gradient(0deg, ${
                                         glassGrad[0]
                                       } 0%, ${glassGrad[1]} 100%);"></div>
+                                      <div class="logo">
+                                        <img
+                                          class="event-img"
+                                          src="./assets/images/module-icons/${n
+                                            .toLowerCase()
+                                            .capitalize()}.png"
+                                          alt="${n}"
+                                        />
+                                      </div>
                                       <div class="content">
                                           <span class="title">${n}</span>
                                           ${description}
@@ -161,10 +159,7 @@
         let t = genTemp(m.name, description, m.glass, m.card);
         slides += genTemp(m.name, description, m.glass, m.card);
       });
-      let a = 0.1;
-      let b = 0.2;
-      console.log(a + b);
-      // asfas
+
       (function () {
         const isMobile = () => {
           let check = false;
@@ -182,8 +177,20 @@
           return check;
         };
         if (isMobile()) {
+          document.getElementById("splide").remove();
           document.getElementById("splide__mobile").innerHTML = slides;
+
+          // get the robotica slide's height
+          const roboticaSlide = document.querySelector(
+            ".splide__slide:nth-child(8)",
+          );
+          const roboticaSlideHeight = roboticaSlide.offsetHeight;
+          // set the height of the splide__mobile
+          document.querySelectorAll(".parent").forEach((e) => {
+            e.style.height = `${roboticaSlideHeight}px`;
+          });
         } else {
+          document.getElementById("splide__mobile").remove();
           document.getElementById("splide__list").innerHTML = slides;
           var splide = new Splide(".splide", {
             type: "loop",
