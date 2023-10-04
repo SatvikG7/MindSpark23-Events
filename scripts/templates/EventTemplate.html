@@ -9,6 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{#EVENTNAME}</title>
     <link
+      rel="icon"
+      href="../../../assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <link
       rel="shortcut icon"
       href="../../../assets/images/favicon.svg"
       type="image/x-icon"
@@ -67,27 +72,20 @@
             <p class="prizes-value">{#PRIZEPOOL}</p>
           </div>
         </section>
+        <section id="sponsors" class="sponsors" {#SPONSORSTYLE}>
+          <h2># Sponsors</h2>
+          <div class="sponsorsContainer">{#SPONSORS}</div>
+        </section>
         <section id="event" class="event">
           <h2># Event</h2>
           <p>{#EVENTDESCRIPTION}</p>
-        </section>
-
-        <section id="sponsors" class="sponsors">
-          <h2># Sponsors</h2>
-          <div class="sponsorsContainer">
-            <img src="/assets/images/centiro.png" alt="sponsor" />
-            <img src="/assets/images/centiro.png" alt="sponsor" />
-            <img src="/assets/images/centiro.png" alt="sponsor" />
-          </div>
         </section>
         <section id="structure" class="structure">
           <h2># Structure</h2>
           <div>{#EVENTSTRUCTURE}</div>
         </section>
-
         <section id="rules" class="rules">
           <h2># Rules</h2>
-
           <ol>
             {#EVENTRULES}
           </ol>
@@ -127,7 +125,7 @@
 
       const backBtn = document.querySelector(".img2");
       backBtn.addEventListener("click", () => {
-        window.history.back();
+        window.location.href = "/events/{#MODULENAME}/";
       });
     </script>
   </body>

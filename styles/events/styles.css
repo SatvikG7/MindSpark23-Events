@@ -176,7 +176,7 @@ button:hover {
 
 .event,
 .structure,
-/*.sponsors,*/
+.sponsors,
 .rules,
 .faqs {
   width: 95%;
@@ -200,31 +200,28 @@ button:hover {
   text-align: center;
 }
 
-.sponsors h2 {
-  display: none;
-}
-
 .sponsorsContainer {
-  display: none;
-  width: 30%;
-  margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   gap: 24px;
-  display: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .sponsors div img {
-  width: 30%;
-  /*height:100px;*/
   margin: auto;
   object-fit: cover;
-  transition: all 0.3s linear;
-  /*border: 2px solid black;*/
-  /*border-radius: 12px;*/
+  transition: all .3s linear;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 300px;
+  padding: 8px;
+  background-color: #fff3;
 }
 
 .sponsors div img:hover {
-  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0px 0px 3px #ffffff80);
 }
 
 .event>p,
@@ -311,6 +308,10 @@ button:hover {
 
   h2 {
     font-size: 1.5rem !important;
+  }
+
+  .sponsors div img {
+    width: 200px;
   }
 
   .event>p {

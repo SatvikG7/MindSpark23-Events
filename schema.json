@@ -42,6 +42,43 @@
                       "type": "string",
                       "description": "Name of the event."
                     },
+                    "isSponsored": {
+                      "type": "boolean",
+                      "default": false,
+                      "description": "true if the event is sponsored, false otherwise."
+                    },
+                    "sponsors": {
+                      "type": "array",
+                      "description": "Array of objects of sponsors.",
+                      "items": {
+                        "type": "object",
+                        "description": "Object of sponsors.",
+                        "properties": {
+                          "name": {
+                            "type": "string",
+                            "description": "Name of the sponsor."
+                          },
+                          "link": {
+                            "type": "string",
+                            "description": "Link of the sponsor."
+                          },
+                          "image": {
+                            "type": "string",
+                            "description": "Logo of the sponsor."
+                          },
+                          "title": {
+                            "type": "string",
+                            "description": "Title of that should be displayed on hovered over the logo."
+                          }
+                        },
+                        "required": [
+                          "name",
+                          "link",
+                          "image",
+                          "title"
+                        ]
+                      }
+                    },
                     "draft": {
                       "type": "boolean",
                       "default": true,

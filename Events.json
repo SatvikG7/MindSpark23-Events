@@ -884,6 +884,15 @@
           },
           {
             "name": "FUSION ID",
+            "isSponsored": true,
+            "sponsors": [
+              {
+                "name": "Autodesk",
+                "image": "Autodesk.png",
+                "link": "https://www.autodesk.in/",
+                "title": "Autodesk"
+              }
+            ],
             "draft": false,
             "description": "Sharpen your software skills, perception ability and prowess in 3D designing and modelling.",
             "folderName": "FusionId",
@@ -891,10 +900,10 @@
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/NBgVoUy?lb=8OaQSGs",
             "rules": [
-              "You can attempt ID quiz of one show ONLY ONCE.",
-              "If a team is caught cheating or playing by unfair means then the team will be disqualified.",
-              "Participants should reach the venue on time and must attend the quiz in the slot only.",
-              "The decision of the respective Quiz Head will be final and will not be subject to any change.",
+              "Participants must use Fusion 360 software only.",
+              "Participants selected for Round 3 should reach the venue on time.",
+              "The decision of the respective Event Head will be final and will not be  subject to any change.",
+              "Replacement of any participant is strictly not allowed.",
               "Replacement of any participant is strictly not allowed."
             ],
             "structure": [
@@ -907,20 +916,16 @@
                 "description": "₹ 49/- per person "
               },
               {
-                "name": "Round 1:",
-                "description": "Quiz Round"
+                "name": "Round 1: Design Round",
+                "description": "It will be an online Design Round where participants will have to submit their designs in the form of a link on our website. The problem statement for which would be released prior to the date of submission."
               },
               {
-                "name": "Round 2:",
-                "description": "Design Round"
+                "name": "Round 2: Specific Design Round",
+                "description": "It is an online specific design challenge consisting of a specific problem statement and tasks that have to be performed by that product. Participants have to similarly submit the links for the design on our website. (In this round the judging criteria gets stricter, and designs will be judged based on their creativity, practicality and rendering. Participants must use advanced features of the Fusion 360 software to gain maximum marks.)"
               },
               {
-                "name": "Quiz Round:",
-                "description": "Quiz round will contain questions on the following types:<br/><ol><li>Conceptual Questions: Open-ended questions that will require participants to explain concepts, theories, or design principles.</li><li>Calculation-based Questions: Problems that test participants' ability to perform calculations related to mechanical design.</li><li>Scenario-based Questions: Real-world scenarios where participants have to identify design considerations and solutions.</li><li>Multiple-Choice Questions (MCQs): MCQs can be used for quick assessments of basic knowledge and understanding.</li></ol>"
-              },
-              {
-                "name": "Design Round:",
-                "description": "Specific design challenge topic and the tasks that have to be performed will be told before the competition. Participants will be given a day to brainstorm on ideas for the design challenge. The design round has to be done only using Fusion 360 and ANSYS software. For Simulations, topology Optimization and Generative design- ANSYS and Fusion 360 software's have to be used.<br>Participants are expected to submit a report on their design which includes-<br><ol><li><b>Human-Centred Design and User Experience : </b><br/> How the design is user centric. What considerations of human constraints have been accounted for.<li><b>Mechanisms</b> used and their calculations.</li> <li><b>Simulations</b> (structural) (fluid if required).</li><li><b>Material Report-</b> Which and why they have been used.</li><li><b>Manufacturing methods : </b></li></ol><ul type='circle'><li>Additive, CNC, Conventional etc.</li><li>It should also justify mass manufacturing till market requirements. (Like if you are designing a table lamp then additive manufacturing process may not be feasible for any company to reach market demand, they may go for injection moulding if for an intricate part). Such constraints have to be considered.</li></ul>"
+                "name": "Round 3: Presentation Round",
+                "description": "It will be a presentation round where participants will have to explain their respective drawings made in Round 2 in not more than 3 slides in a PowerPoint presentation as to why they chose the specific topic and explain their design to the judges."
               },
               {
                 "name": "Elimination Criteria:",
@@ -935,12 +940,14 @@
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
                 "Is on-spot participation allowed?",
-                "Who can participate in the event?"
+                "Who can participate in the event?",
+                "What is required at the day of event?"
               ],
               "a": [
                 "You can participate in any event in MindSpark, provided you can manage your own schedule.",
                 "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "Valid college ID and registration receipt and essential drawing tools like scale, protractor, etc."
               ]
             }
           }
@@ -1587,7 +1594,8 @@
               {
                 "name": "NOTE:  ",
                 "description": "1. Task 2 (Shooting) is not a mandatory task, but teams can add ball shooting mechanisms into their robots to earn more points and have an advantage in competition. <br> 2. If a team destroys the pyramid of another team, the other team will still be awarded points for the pyramid floors they had constructed. "
-              },{
+              },
+              {
                 "name": "Scoring",
                 "description": "<table style='border-color: white;' border='3'><tr><th>TASKS</th><th>POINTS</th></tr><tr><td>Building 1st floor</td><td>50</td></tr><tr><td>Building 2nd floor</td><td>70</td></tr><tr><td>Building 3rd floor</td><td>100</td></tr><tr><td>If ball passes through ring</td><td>20</td></tr><tr><td>If ball passes through the ring and touches other teams pyramid</td><td>30</td></tr><tr><td>If ball passes through the ring and knocks at least onebrick off the pyramid</td><td>50</td></tr></table>"
               },
@@ -1641,8 +1649,8 @@
         "description": "Plan, Build, Create. Dive in world of Civil Engineering.",
         "events": [
           {
-            "name": "BRIDGE THE GAP",
-            "draft": false,
+            "name": "EDIFEX",
+            "draft": true,
             "description": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
             "long_description": "This event presents how the classroom formulae of shear force, bending moments and Castigliano's Theorems take shape. This event provides an insight into structures and their behaviour in different circumstances. The teams need to build a bridge structure based on the problem statements using the given materials.",
             "prize": "Revealing Soon...",
@@ -1698,7 +1706,7 @@
                 "description": "There will be 3 winners."
               }
             ],
-            "folderName": "BridgeTheGap",
+            "folderName": "Edifex",
             "faqs": {
               "q": [
                 "I am participating in another event in MindSpark. Can I still register for this event?",
@@ -1769,6 +1777,67 @@
                 "Yes. On-spot participation is allowed.",
                 "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
                 "Of course. There is no branch restriction for the event."
+              ]
+            }
+          },
+          {
+            "name": "ID CIVIL",
+            "draft": false,
+            "description": "Build a bridge structure based on the problem statements using the given materials.",
+            "long_description": "A good designer is one who caters to the need at hand, but a great designer is one who does that in a unique, yet feasible way. This competition helps to demonstrate the knowledge and skills in Architecture, Planning and Civil Engineering.",
+            "reglink": "#",
+            "prize": "Revealing Soon...",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 2 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 100/- per team"
+              },
+              {
+                "name": "Round 1:",
+                "description": "Multiple-Choice Questions test based on design-planning and AutoCAD application."
+              },
+              {
+                "name": "Round 2:",
+                "description": "This round involves execution of the problem statement which will involve showcasing drafting skills of AutoCAD."
+              },
+              {
+                "name": "Round 3:",
+                "description": "AutoCAD based design competition (based on the problem statement)."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "There will be 3 winners per category."
+              }
+            ],
+            "rules": [
+              "It is mandatory to stick to the problem statement given at the time of rounds. ",
+              "The version of AutoCAD used will latest. If the participant wants to use their own version, they must bring their own laptops. ",
+              "Creativity, aesthetics and more importantly boundness to problem statement will be considered while judging. ",
+              "A participant cannot be a part of more than one team for the same event. ",
+              "In case of disputes, decisions of judges and organizers will be final and binding to all. ",
+              "Teams are expected to maintain decorum. The organizers reserve the right to disqualify any team found behaving inappropriately. ",
+              "It is mandatory to bring the registration receipt and valid college ID card. ",
+              "Rules may be changed without prior intimation. Participants are requested to check the website (www.mind-spark.org) regularly for updates."
+            ],
+            "folderName": "IdCivil",
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?",
+                "Do we have to know 3D AutoCAD?",
+                "What things should I bring for the event with me on the day of the event? "
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "Yes. On-spot participation is allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt.",
+                "No, you don't need to know 3D AutoCAD for the event.",
+                "You must bring your registration receipt and a valid college ID with you. Laptop only if you want to use an AutoCAD version of your choice."
               ]
             }
           },
@@ -2111,47 +2180,6 @@
                 "The microcontroller can be programmed with “C” language. ",
                 "The design is to be implemented on breadboard. ",
                 "Yes, the teams will have access to microcontroller datasheet and user guide during 2nd and 3rd round of the competition. The teams will also have access to datasheets of other required components upon request. "
-              ]
-            }
-          },
-          {
-            "name": "FOX HUNT",
-            "draft": false,
-            "description": "A game of hunt devoid of  trail of blood but makes you chase nonetheless.",
-            "long_description": "The objective of this contest is to locate a hidden radio transmitter using radio direction-finding techniques. Participants should build the antenna and use equipment to track down the source of a transmitted signal that serves as the 'fox'. The hidden transmitter, or 'fox,' emits radio signals intermittently or continuously on a specific frequency or set of frequencies, and the participants must use their skills and equipment to determine the direction from which the signal is coming.",
-            "prize": "Revealing Soon...",
-            "reglink": "#",
-            "folderName": "FoxHunt",
-            "structure": [
-              {
-                "name": "Round 1",
-                "description": "Multiple Choice Questions (online)"
-              },
-              {
-                "name": "Round 2",
-                "description": "On-campus Fox Hunt"
-              }
-            ],
-            "rules": [
-              "Participants will be required to bring their college ID cards.",
-              "The first round of the contest will be an online MCQ quiz based on wireless communication and general knowledge related to the communication domain.",
-              "If a team is caught cheating or playing by unfair means, then the team will be disqualified.",
-              "Top 5 teams from Round 1 will be qualified for the Final on-Campus round.",
-              "The decision of the respective Quiz Head will be final and will not be subject to any change.",
-              "In Round 1, the teams will be judged based on accuracy and time of response.",
-              "Replacement of any participant is strictly not allowed.",
-              "If the no. of participating teams falls below 5, Round 2 will be conducted directly."
-            ],
-            "faqs": {
-              "q": [
-                "I am participating in another event in MindSpark. Can I still register for this event?",
-                "Is on-spot participation allowed?",
-                "Who can participate in the event?"
-              ],
-              "a": [
-                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
-                "Yes. On-spot participation is allowed.",
-                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
               ]
             }
           }

@@ -20,7 +20,9 @@ const GenEvents = () => {
     moduleEvents.forEach((e) => {
       if (e.draft) return;
       t = template;
+      t = t.replaceAll("{#MODULENAME}", moduleFileName);
       t = t.replaceAll("{#EVENTNAME}", e.name);
+
       if (e.long_description == undefined) {
         t = t.replaceAll("{#EVENTDESCRIPTION}", e.description);
       } else {
@@ -32,6 +34,21 @@ const GenEvents = () => {
       }
       if (e.prize) {
         t = t.replaceAll("{#PRIZEPOOL}", e.prize);
+      }
+
+      if (e.isSponsored) {
+        // display none if not sponsored esle display block
+        let style = "style='display: block;'";
+        t = t.replaceAll("{#SPONSORSTYLE}", style);
+        // display sponsors in link and image
+        let sponsors = "";
+        e.sponsors.forEach((s) => {
+          sponsors += `<a href="${s.link}" target="_blank"><img src="../../../assets/images/sponsors/${s.image}" title="${s.title}" alt="${s.name}" /></a>`;
+        });
+        t = t.replaceAll("{#SPONSORS}", sponsors);
+      } else {
+        let style = "style='display: none;'";
+        t = t.replaceAll("{#SPONSORSTYLE}", style);
       }
 
       // Generate Structure Of Event
