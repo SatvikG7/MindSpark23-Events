@@ -885,14 +885,12 @@
           {
             "name": "FUSION ID",
             "isSponsored": true,
-            "sponsors": [
-              {
-                "name": "Autodesk",
-                "image": "Autodesk.png",
-                "link": "https://www.autodesk.in/",
-                "title": "Autodesk"
-              }
-            ],
+            "sponsor": {
+              "name": "Autodesk",
+              "image": "Autodesk.svg",
+              "link": "https://www.autodesk.in/",
+              "title": "Autodesk"
+            },
             "draft": false,
             "description": "Sharpen your software skills, perception ability and prowess in 3D designing and modelling.",
             "folderName": "FusionId",
@@ -2193,6 +2191,70 @@
           "#d36b00d0"
         ],
         "folderName": "Voltus"
+      }
+    },
+    {
+      "name": "TECH EXPO",
+      "draft": false,
+      "details": {
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "description": "Our event is specifically curated to bring forth the best talents in the  ever tech evolving world, inviting dedicated tech enthusiasts to participate in a theme-based competition.",
+        "folderName": "TechExpo",
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ],
+        "events": [
+          {
+            "name": "The Game of Innovations",
+            "description": "The game of Innovations - where Tech grows Expo(nentially) is specifically curated to bring forth the best talents in the ever tech evolving world, inviting dedicated tech enthusiasts to participate in a theme-based competition.",
+            "long_description": "The game of Innovations - where Tech grows Expo(nentially) is specifically curated to bring forth the best talents in the ever tech evolving world, inviting dedicated tech enthusiasts to participate in a theme-based competition. Participants in this event will have the opportunity to showcase their innovative projects at TechExpo, MindSpark'23 with each entry being carefully evaluated for its creativity and uniqueness. This event will provide a platform for the young tech enthusiasts to showcase their products to be viewed by college students, school students, and industry professionals alike.",
+            "draft": false,
+            "isSponsored": false,
+            "prize": "Revealing Soon...",
+            "reglink": "https://unstop.com/o/KYx5RHw?lb=8OaQSGs",
+            "faqs": {
+              "q": [],
+              "a": []
+            },
+            "folderName": "TheGameOfInnovations",
+            "rules": [
+              "Any clubs associated with any college are not eligible to participate in this competition.",
+              "All teams must submit their comprehensive project ideas, including descriptions, designs, recognitions, photos, and video links in pdf format, by the 22nd of October.",
+              "The results of Round 1 will be announced on the 24th of October.",
+              "The participants who qualify for the next round will have to confirm their presence at TechExpo, MindSpark'23 by 25th October 12:00 pm.",
+              "Failure to adhere the above-mentioned rules will result in immediate disqualification.",
+              "The prize pool is subject to change.",
+              "Decision of the organizers shall be considered final and binding to all.",
+              "Rules may be changed without prior intimation. Participants are, therefore, requested to check the official MindSpark'23 website regularly for updates. (www.mind-spark.org)."
+            ],
+            "structure": [
+              {
+                "name": "Round 1:",
+                "description": "Participants will be shortlisted based on the innovation and creativity demonstrated in their projects. To participate in this round, teams are required to submit detailed project ideas, including project description, designs, recognitions, photos, and video links in a pdf format."
+              },
+              {
+                "name": "Round 2 (TechExpo Stall: 3 Days):",
+                "description": "The top contestants from Round 1 will be given the opportunity to showcase their projects at TechExpo, MindSpark'23 on 27th, 28th, 29th October 2023."
+              },
+              {
+                "name": "Deadline",
+                "description": "Round-1: 22nd October 2023"
+              },
+              {
+                "name": "Winning Criteria:",
+                "description": "The winning project will be determined through a voting system, and a cash prize of ₹ 5000 will be awarded to the victors."
+              },
+              {
+                "name": "Team",
+                "description": "Min 1 & Max 4 members per team"
+              }
+            ]
+          }
+        ]
       }
     }
   ]

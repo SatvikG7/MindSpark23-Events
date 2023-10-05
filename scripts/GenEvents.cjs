@@ -37,18 +37,22 @@ const GenEvents = () => {
       }
 
       if (e.isSponsored) {
-        // display none if not sponsored esle display block
-        let style = "style='display: block;'";
-        t = t.replaceAll("{#SPONSORSTYLE}", style);
-        // display sponsors in link and image
-        let sponsors = "";
-        e.sponsors.forEach((s) => {
-          sponsors += `<a href="${s.link}" target="_blank"><img src="../../../assets/images/sponsors/${s.image}" title="${s.title}" alt="${s.name}" /></a>`;
-        });
-        t = t.replaceAll("{#SPONSORS}", sponsors);
+        let s = "style='display: block; width: 200px;'";
+        let sa = "style='margin: 0px auto 24px auto;'";
+        // let hs = "style='height: 300px;'";
+        t = t.replaceAll(
+          "{#SPONSORLOGO}",
+          "../../../assets/images/sponsors/" + e.sponsor.image,
+        );
+        t = t.replaceAll("{#SPONSORNAME}", e.sponsor.name);
+        t = t.replaceAll("{#SPONSORTITLE}", e.sponsor.title);
+          t = t.replaceAll("{#SPONSORLINK}", e.sponsor.link);
+        // t = t.replaceAll("{#HEADERSTYLE}", hs);
+        t = t.replaceAll("{#SPONSORSTYLE}", s);
+        t = t.replaceAll("{#SPONSORLINKSTYLE}", sa);
       } else {
-        let style = "style='display: none;'";
-        t = t.replaceAll("{#SPONSORSTYLE}", style);
+        let s = "style='display: none;'";
+        t = t.replaceAll("{#SPONSORSTYLE}", s);
       }
 
       // Generate Structure Of Event

@@ -43,16 +43,24 @@
     <div class="container">
       <main class="main">
         <div class="btn-wrapper">
-          <img class="img1" src="./../../assets/images/faviconw.svg" alt="MS" />
           <img
             class="img2"
             src="./../../assets/images/arrow-left.svg"
             alt="Go Back"
           />
+          <img class="img1" src="./../../assets/images/faviconw.svg" alt="MS" />
         </div>
         <section class="header">
           <div class="headerText">
             <h1>{#EVENTNAME}</h1>
+            <a {#SPONSORLINKSTYLE} target="_blank" href="{#SPONSORLINK}">
+              <img
+                {#SPONSORSTYLE}
+                src="{#SPONSORLOGO}"
+                alt="{#SPONSORNAME}"
+                title="{#SPONSORTITLE}"
+              />
+            </a>
             <div class="headerBtnContainer">
               <a id="regLink" target="_blank" href="{#EVENTREGISTRATIONLINK}">
                 <button>Register</button>
@@ -71,10 +79,6 @@
             <p class="prizes">🏆Prizes Worth</p>
             <p class="prizes-value">{#PRIZEPOOL}</p>
           </div>
-        </section>
-        <section id="sponsors" class="sponsors" {#SPONSORSTYLE}>
-          <h2># Sponsors</h2>
-          <div class="sponsorsContainer">{#SPONSORS}</div>
         </section>
         <section id="event" class="event">
           <h2># Event</h2>
