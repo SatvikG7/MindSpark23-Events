@@ -122,6 +122,22 @@
                         ]
                       }
                     },
+                    "note": {
+                      "type": "array",
+                      "default": [
+                        "If number of participants are less than 20 then only 2 winners will be selected.",
+                        "If number of participants are less than 5 then only 1 winner will be selected.",
+                        "If number of participants are less than or equal to 3 then event will be cancelled.",
+                        "No. of Prizes are subject to change depending on number of participants.",
+                        "Registration fee is non-refundable.",
+                        "Prize money is subject to change."
+                      ],
+                      "items": {
+                        "type": "string",
+                        "description": "Note string"
+                      },
+                      "description": "Array of rules to be shown on the event page."
+                    },
                     "faqs": {
                       "type": "object",
                       "description": "Object containing the faqs of the event.",
@@ -166,6 +182,7 @@
                     "prize",
                     "rules",
                     "structure",
+                    "note",
                     "folderName",
                     "faqs"
                   ]

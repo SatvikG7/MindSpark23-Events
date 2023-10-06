@@ -46,7 +46,7 @@ const GenEvents = () => {
         );
         t = t.replaceAll("{#SPONSORNAME}", e.sponsor.name);
         t = t.replaceAll("{#SPONSORTITLE}", e.sponsor.title);
-          t = t.replaceAll("{#SPONSORLINK}", e.sponsor.link);
+        t = t.replaceAll("{#SPONSORLINK}", e.sponsor.link);
         // t = t.replaceAll("{#HEADERSTYLE}", hs);
         t = t.replaceAll("{#SPONSORSTYLE}", s);
         t = t.replaceAll("{#SPONSORLINKSTYLE}", sa);
@@ -71,6 +71,14 @@ const GenEvents = () => {
         t = t.replaceAll("{#EVENTSTRUCTURE}", struct);
       }
 
+      let notesLi = ``;
+      e.note.forEach((n) => {
+        notesLi += `<li>${n}</li>
+          `;
+      });
+        let notesUl = `<ol>${notesLi}<ol>`;
+        
+        t = t.replaceAll("{#EVENTNOTE}", notesUl)
       // Generate Rules Of Event
       const genLi = (r) => {
         return `<li>${r}</li>`;

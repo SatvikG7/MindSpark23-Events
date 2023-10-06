@@ -23,6 +23,14 @@
               "The decision of the respective Quiz Head will be final and will not be subject to any change.",
               "Replacement of any participant is strictly not allowed."
             ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -30,7 +38,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹100/- per team per show."
+                "description": "₹119/- per team per show."
               },
               {
                 "name": "Round 1:",
@@ -72,6 +80,14 @@
               "Participants can take part in either or both the events.",
               "Unprocessed files must also be submitted along with the gear (mobile model/camera model + lens + Exif's) used must be mentioned.",
               "The event head/coordinators have the right to deny the participant from participating in the event if participants break above mentioned rules."
+            ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
             ],
             "structure": [
               {
@@ -138,6 +154,14 @@
             "long_description": "Take-off is an event that gives you an opportunity to showcase and implement your knowledge about the laws and concepts of physics that govern the motion of a rocket in the air, its take-off, its trajectory, etc.",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/XmyPuUn?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "",
@@ -149,7 +173,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹49/- per team"
+                "description": "₹49/- per person"
               },
               {
                 "name": "Round 1:",
@@ -194,6 +218,14 @@
             "reglink": "https://unstop.com/o/xd7c14a?lb=8OaQSGs",
             "prize": "₹ 15,000",
             "folderName": "Contraption",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -219,7 +251,7 @@
             "rules": [
               "The minimum and maximum time for contraption are 2 minutes and 6 minutes respectively. After 6 minutes, 30 Points per minute will be deducted per minute from the total score.  ",
               "The contraption setup is to be developed in an area with dimensions 15ft X 20ft, and the height must not cross 5ft; (you may have a smaller setup not less than 5ft by 5ft) the setup should fit in an imaginary box of the above-mentioned dimensions.  ",
-              "Since the event will be held in the badminton court (VENUE) of the college, participants are requested to prevent spillage of any kind of fluid and should take precautionary measures in case of any such step involved.  ",
+              "The participants are requested to prevent spillage of any kind of fluid and should take precautionary measures in case of any such step involved.  ",
               "No harmful explosives that may cause harm to the surroundings are to be included in the making of the contraption. ",
               "Two hand touches are allowed without deduction of points. Before the 3rd hand touch, the team would be given choice to go for 3rd hand touch or to go for the second trial. For 3rd, 4th and 5th hand touch, 30, 60, and 120 points will be deducted respectively from the total score.  ",
               "If the team decides to go for the second attempt, 50 points will be deducted initially, and 2 hand touches will be allowed further with a deduction of 50 and 80 points, respectively. The team will be disqualified if they exceed the permissible number of hand touches (5 for attempt 1; and 2 for attempt 2) in the respective trial.  ",
@@ -279,14 +311,22 @@
               "Decision of the event heads and the judges shall be considered final and binding to all.",
               "Rules may be changed without prior intimation. Participants are, therefore, requested to check the official MindSpark'23 website regularly for updates. (www.mind-spark.org)."
             ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
-                "description": "2 per team."
+                "description": "Maximum 2 per team."
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 99/- per team"
+                "description": "₹ 119/- per team"
               },
               {
                 "name": "Round 1:",
@@ -336,6 +376,14 @@
             "long_description": "Showcase your Web Design skills by modifying a partially designed website according to your imagination. Code, compete and re-imagine! ",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/9DTpjgP?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -343,7 +391,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 100/- per team"
+                "description": "₹ 119/- per team"
               },
               {
                 "name": "Round 1:",
@@ -366,8 +414,7 @@
               "Both rounds will be conducted in offline mode. ",
               "Students involved in unfair means will be disqualified.",
               "Plagiarism checks will be done on every piece of code. ",
-              "Judging Criteria: Based on the scores of Round 1 the teams will be ",
-              "rtlisted for further rounds. Round 2 will be judged upon: Responsiveness of the website, authenticity of the components designed, creativeness and functionality of the website.",
+              "Judging Criteria: Based on the scores of Round 1 the teams will be rtlisted for further rounds. Round 2 will be judged upon: Responsiveness of the website, authenticity of the components designed, creativeness and functionality of the website.",
               "Prize money may vary based on number of participants.",
               "If total number of participants is less than 10 then event will be scrapped."
             ],
@@ -392,6 +439,14 @@
             "long_description": "Retracer is an event that tests participants' ability to find out the hidden logic behind apparently disconnected entities. This event allows the participants to make full use of their thinking capabilities to get to the results quickly yet carefully. It is an event for those who go beyond the traditional approach of identifying 4 as 2 + 2, 3+1, 4+0 and so on ",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/0PEw4zQ?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -399,7 +454,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 99/- per team"
+                "description": "₹ 119/- per team"
               },
               {
                 "name": "Round 1:",
@@ -452,6 +507,14 @@
             "long_description": "The objective of this event is to test the proficiency of the participant in C Programming Language. This event aims at beginners and intermediates in C programming only. The event covers the basic principles of C Programming Language. ",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/LnwhHcJ?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -459,7 +522,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 99/- per team"
+                "description": "₹ 119/- per team"
               },
               {
                 "name": "Round 1:",
@@ -523,6 +586,14 @@
             "folderName": "Indikya",
             "reglink": "https://unstop.com/o/lVLOBvj?lb=8OaQSGs",
             "prize": "₹ 4,500",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -577,6 +648,14 @@
             "folderName": "TechDeBait",
             "reglink": "https://unstop.com/o/Wod1iTg?lb=8OaQSGs",
             "prize": "₹ 4,500",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -635,6 +714,14 @@
               "Rules may be changed at any moment by the organizers. Please check the official MindSpark'23 website for the same.",
               "In case of any dispute the Quizmasters and the Organizer's decision will be final."
             ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -642,7 +729,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 100/- per team"
+                "description": "₹ 99/- per team"
               },
               {
                 "name": "Round 1:",
@@ -704,6 +791,14 @@
               "Student from any college and any branch can participate. No person can be part of multiple teams at the same event.",
               "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) for updates."
             ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -761,6 +856,14 @@
               "Students from any college and any branch can participate. No person can be part of multiple teams at the same event.",
               "Participants will not be allowed to use any electronic devices such as mobile phones or any other electronic devices.",
               "Rules may be changed without prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) for updates."
+            ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
             ],
             "structure": [
               {
@@ -839,6 +942,14 @@
               "Rules may be changed without any prior intimation.Participants are requested to check the MindSpark'23 website (www.mind-spark.org) regularly for updates.",
               "Participants need to be present at the event venue at least 10 minutes prior to the commencement of the event."
             ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -846,7 +957,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 100 per team."
+                "description": "₹ 99 per team."
               },
               {
                 "name": "Round 1",
@@ -903,6 +1014,14 @@
               "The decision of the respective Event Head will be final and will not be  subject to any change.",
               "Replacement of any participant is strictly not allowed.",
               "Replacement of any participant is strictly not allowed."
+            ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
             ],
             "structure": [
               {
@@ -979,6 +1098,14 @@
               "Participants should report to the venue on time and must attend the quiz in the given slot only. A delayed arrival could lead to an automatic elimination. ",
               "Participants are requested to keep their college ID cards and registration receipt with them. "
             ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1030,6 +1157,14 @@
               "Participants must carry their college ID card and the registration receipt. ",
               "Participants must be present on time at the given venue. Late entries will not be entertained. ",
               "In case of scores being tied, the team with minimum time taken would be the winner. "
+            ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
             ],
             "structure": [
               {
@@ -1096,10 +1231,14 @@
             "name": "BOT WRESTLING",
             "draft": false,
             "description": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours.",
-            "long_description": "Bot Wrestling is basically a competition of two wirelessly operated or wired operated robots competing in an attempt to push the opponent out of the arena. These robots must be remote operated.",
+            "long_description": "Bot Wrestling is basically a competition of two wired or wireless operated robots competing in an attempt to push the opponent out of the arena. These robots must be remote operated.",
             "folderName": "BotWrestling",
             "reglink": "#",
             "prize": "Revealing Soon...",
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1123,7 +1262,7 @@
               },
               {
                 "name": "Tasks",
-                "description": "<ol type='1'><li>Teams must build a robot that can be wirelessly controlled using a controller. Wireless control is compulsory.</li> <li>The aim of the robot is to push the robot of the opposite team out of the way. The team that does so wins the match.</li>"
+                "description": "<ol type='1'><li>Teams must build a robot that can be wirelessly controlled using a controller. No compulsion for wired or wireless.</li> <li>The aim of the robot is to push the robot of the opposite team out of the way. The team that does so wins the match.</li>"
               },
               {
                 "name": "Arena",
@@ -1188,6 +1327,10 @@
             "long_description": "Welcome to the Virtual Robotics Project Presentation Competition, an exciting opportunity for students to showcase their innovative projects on a virtual stage. This competition aims to celebrate technological creativity and provide a platform for students to present their ideas and designs. This is a project presentation competition that aims to provide the students with a platform to display their technical grit and receive professional feedback which shall further enhance their skills and knowledge. Virtual Robotics aims at tapping the infinite potential of the human mind to generate an idea, which, when given a proper platform, can transform into a path-breaking discovery. Robotics is often mistaken as a human replacement; nothing could be further from the truth. Robotics should be thought of more as human assistance that helps humanity unlock its full potential. In this event, you must make use of your soft skills and present your ideas to the world. ",
             "folderName": "VirtualRobotics",
             "reglink": "#",
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1229,6 +1372,10 @@
             "folderName": "RoboRaces",
             "reglink": "#",
             "prize": "Revealing Soon...",
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1240,11 +1387,11 @@
               },
               {
                 "name": "Round 1 : Qualification Round",
-                "description": "Time trials will make up this round. Each team will be given a chance. The time will be recorded.The first 12 teams will be chosen for the subsequent round. <br>Track for the Round 1 is given above.  <br>Checkpoints will be declared during the game time. "
+                "description": "Time trials will make up this round. Each team will be given a chance. The time will be recorded.The first 16 teams will be chosen for the subsequent round. <br>Track for the Round 1 is given below.  <br>Checkpoints will be declared during the game time. "
               },
               {
                 "name": "Round 2: Elimination Round",
-                "description": "The top 16 teams from the first round will be selected for this round. A modified track shall be disclosed at the time of the event. All teams will be given 15 minutes to analyse the track.  <br>The team with Rank 1 will have match with team with rank 16, rank 2 team with rank 11 team and so on. In this round, all the 12 teams race with their respective competitors, and the 8 winning teams will be promoted to the next final round. <br>New Ranking will be given based on the performance in Round 2. "
+                "description": "The top 16 teams from the first round will be selected for this round. A modified track shall be disclosed at the time of the event. All teams will be given 15 minutes to analyse the track.  <br>The team with Rank 1 will have match with team with rank 16, rank 2 team with rank 15 team and so on. In this round, all the 16 teams race with their respective competitors, and the 8 winning teams will be promoted to the next final round. <br>New Ranking will be given based on the performance in Round 2. "
               },
               {
                 "name": "Round 3: Finals ",
@@ -1298,6 +1445,10 @@
             "folderName": "RoboFalconary",
             "reglink": "#",
             "prize": "Revealing Soon...",
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1359,6 +1510,10 @@
             "long_description": "Search N Destroy is basically a line-following and maze-solving competition. A track of white lines on black backgrounds and black lines on white backgrounds will be laid out and an autonomous robot must follow that line. The robot must complete a task. The path will have checkpoints. Each checkpoint will earn some points based on the number of checkpoints covered; the time taken to cover these checkpoints as well as the task completed will decide the points earned by the robot. The team which follows the correct path the fastest will be the winner. ",
             "folderName": "SearchAndDestroy",
             "reglink": "#",
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1410,7 +1565,6 @@
               "Laptops or personal computers are prohibited near the arena. Other devices like Wi-Fi, Bluetooth, etc., must be turned off. Organizers have the authority to inspect these devices and their usage. ",
               "No robot is allowed to employ flammable, combustible, explosive, or potentially hazardous processes. ",
               "The time recorded by the organizers will be deemed final and used for scoring the teams. Any time measured by a contestant using other means is not acceptable for scoring.",
-              "A maximum score of 4 checkpoints will be awarded. ",
               "The operator must wear socks."
             ],
             "faqs": {
@@ -1434,6 +1588,10 @@
             "folderName": "RoboWars",
             "reglink": "#",
             "prize": "Revealing Soon...",
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1511,6 +1669,10 @@
               "RETRY RULES:  <br> <ol><li>For both robots, an unlimited number of retries will be allowed. </li><li>The operator will first have to ask the judges for a hand-touch/retry and will take the hand-touch/retry only when allowed. The AR can restart from the start zone. </li><li>The orientation of the robot after the hand-touch will be decided by the judges. </li><li>The timer will continue to run in this period and the other team will continue. </li></ol>",
               "SAFETY RULES: <br> <ol><li>It is not permitted to use fire, water, or spray chemicals. This would lead to immediate disqualification of the team. </li><li>Jamming of RF control signals is NOT allowed. Teams MUST inform the judges about the RF signals involved in their robot during the robot's registration and before the start of the competition. </li><li>No deliberate damage must be done to the arena. The mechanism to carry objects should NOT damage them or any part of the arena. Any damage caused after prior warning has been given will lead to disqualification. </li><li>The decision of the MindSpark team will be considered final in the case of any dispute. </li></ol>",
               "MISCELLANEOUS: <br> <ol><li>The total game field is 4060x3060 mm. </li><li>The game field is surrounded by walls that are 30 mm thick and 100 mm  height. </li><li>The arena is symmetrically divided into two ideal parts for both the red and blue teams. </li><li>All objects and arena parts will be coated with vinyl sheets in their respective colours. </li><li>The thickness of all the walls is subject to change without any prior notice. </li><li>The colour shades of the arena and the objects are subject to variation within acceptable limits. </li><li>The dimensions of static objects in the arena may change subject to manufacturing difficulties. </li><li>5% bidirectional tolerance is applicable to all the static objects in the arena. </li><li>Any changes in the arena will be communicated to participants and highlighted on the website. </li></ol>"
+            ],
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable."
             ],
             "structure": [
               {
@@ -1666,6 +1828,14 @@
               "Prize money may vary based on number of participants. ",
               "If total number of participants is less than 10 then event will be scrapped. "
             ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1725,6 +1895,14 @@
             "long_description": "Our country, inhabited by over 1.3 billion people, is undergoing a massive transition from rural to urban character. India is urbanizing rapidly offering great opportunities to build a new nation, while facing challenges in sustainable urban growth. It is a huge task to manage increasing population pressure on existing urban areas and to provide good quality of life to the residents. UTOPIA gives you a chance to explore your abilities to find solutions to city problems. UTOPIA is a platform for the young generation to give a future development plan for a given problem in an innovative manner.<br> <b>ELABORATION OF THE THEME: </b><br>According to the World Health Organization (WHO), about 15% of the world's population lives with some form of disability. The number of persons with disabilities is increasing due to medical developments, the rise of an aging population, and the spread of chronic diseases. Barriers to full social and economic inclusion of persons with disabilities include inaccessible physical environments and transportation, the unavailability of assistive devices and technologies, non-adapted means of communication, gaps in service delivery, and discriminatory prejudice and stigma in society. As public transport systems reduce or stop services due to COVID-19, persons with disabilities who rely on these methods for accessible transport may not be able to travel, even for basic necessities or critical medical appointments. <br> As Planners, Civil engineers and Architects, it is our responsibility to not only envision but to actualize spaces, cities and structures that represent inclusivity and empower the differently abled. In third world countries like India, we ought to start the paradigm shift from public spaces and facilities. The social infrastructure in these countries has been lagging behind in incorporating disable friendly designs and innovations. The way out is to start by innovating and implementing different ideas in order to determine a tried and tested way of making persons with disability feel at ease in public and private spaces and to break barriers. ",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/0Zvq5Pe?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1732,7 +1910,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 100 per team."
+                "description": "₹ 119 per team."
               },
               {
                 "name": "Round 1:",
@@ -1785,6 +1963,14 @@
             "long_description": "A good designer is one who caters to the need at hand, but a great designer is one who does that in a unique, yet feasible way. This competition helps to demonstrate the knowledge and skills in Architecture, Planning and Civil Engineering.",
             "reglink": "https://unstop.com/o/mcV73fI?lb=8OaQSGs",
             "prize": "₹ 15,000",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1792,7 +1978,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 100/- per team"
+                "description": "₹ 99/- per team"
               },
               {
                 "name": "Round 1:",
@@ -1846,6 +2032,14 @@
             "long_description": "Concrete is an inevitable part of any type of construction. This event requires designing concrete tiles which are able to sustain maximum flexural load, which is one of the major loads acting in any structure.",
             "prize": "Revealing Soon...",
             "reglink": "#",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -1853,7 +2047,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 149/- per team"
+                "description": "₹ 119/- per team"
               },
               {
                 "name": "Event Structure: ",
@@ -1939,6 +2133,14 @@
             "folderName": "OnTheEtch",
             "reglink": "https://unstop.com/o/GNstUvj?lb=8OaQSGs",
             "prize": "₹ 15,000",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -2009,6 +2211,14 @@
             "long_description": "This event's objective is to test your skills in basic electrical and electronic circuits. Apply your theoretical knowledge and practical skills to conquer this event. ",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/0Fiu1sI?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -2016,7 +2226,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 99 per Team"
+                "description": "₹ 119 per Team"
               },
               {
                 "name": "Round 1:",
@@ -2068,6 +2278,14 @@
             "long_description": "The objective of this event is to test the theoretical and practical knowledge in various fields of Electrical and Electronics Engineering. The event will provide participants with a stimulating and engaging experience in designing, building, and testing circuits while utilizing virtual money as a resource within a given budget.",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/gdcPBVC?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -2075,7 +2293,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 100 per team "
+                "description": "₹ 119 per team "
               },
               {
                 "name": "Round 1:",
@@ -2124,6 +2342,14 @@
             "long_description": "The objective of this event is to test the skills of students in the field of microcontroller applications and their ability to design innovative solutions to real life problems. ",
             "prize": "₹ 15,000",
             "reglink": "https://unstop.com/o/J7QnxVj?lb=8OaQSGs",
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
             "structure": [
               {
                 "name": "Team",
@@ -2131,7 +2357,7 @@
               },
               {
                 "name": "Entry Fee",
-                "description": "₹ 99 per team"
+                "description": "₹ 119 per team"
               },
               {
                 "name": "Round 1:",
@@ -2230,6 +2456,14 @@
               "The prize pool is subject to change.",
               "Decision of the organizers shall be considered final and binding to all.",
               "Rules may be changed without prior intimation. Participants are, therefore, requested to check the official MindSpark'23 website regularly for updates. (www.mind-spark.org)."
+            ],
+            "note": [
+              "If number of participants are less than 20 then only 2 winners will be selected.",
+              "If number of participants are less than 5 then only 1 winner will be selected.",
+              "If number of participants are less than or equal to 3 then event will be cancelled.",
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
             ],
             "structure": [
               {
