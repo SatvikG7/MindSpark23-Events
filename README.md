@@ -9,7 +9,7 @@
 - ✅Logica
 - ✅Potentia
 - ✅Prodigium
-- ❎Robotica
+- ✅Robotica
 - ✅Struktura
 - ✅Substantia
 - ✅Voltus
