@@ -5,7 +5,7 @@
       "name": "PLAYTO",
       "draft": false,
       "details": {
-        "folderName": "PlayTo",
+        "folderName": "Playto",
         "description": "IIT National Robotics Competition",
         "events": [
           {
@@ -14,7 +14,7 @@
             "long_description": "To display the robots under the concept of smart cities, which help our society and make our lives easier.",
             "draft": false,
             "description": "To display the robots under the concept of smart cities, which help our society and make our lives easier.",
-            "folderName": "PlayTo",
+            "folderName": "Playto",
             "prize": "#",
             "reglink": "https://tinyurl.com/coe-pune-zonal-submission",
             "rules": [],
