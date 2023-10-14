@@ -2,6 +2,69 @@
   "$schema": "./schema.json",
   "Modules": [
     {
+      "name": "PLAYTO",
+      "draft": false,
+      "details": {
+        "folderName": "Playto",
+        "events": [
+          {
+            "name": "IIT National Robotics Competition",
+            "draft": false,
+            "description": "To display the robots under the concept of smart cities, which help our society and make our lives easier",
+            "folderName": "IIT National Robotics Competition",
+            "prize": "#",
+            "reglink": "#",
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 4 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "Free"
+              },
+              {
+                "name": "Event Structure",
+                "description": "<ol type='1'><li>The theme for this year,s competition is Smart City.</li><li>Students can use any kit with any type of microcontroller (Arduino UNO, Arduino Nano, Arduino Mega etc.)</li><li>Members of a team may be from the same school or different</li><li>Any number of teams can participate from one school</li><li>For students in grades II to XII</li><li>There are 2 rounds for this zonal competition</li></ol>"
+              },
+              {
+                "name": "1st Round:",
+                "description": "The first round will be an online round and the participants should build the robot under the title of smart city and post it on YouTube. Shortlisted participants will be invited to the 2nd round of this zonal competition."
+              },
+              {
+                "name": "2nd Round:",
+                "description": "The second round will be conducted at the CoE Pune venue for demonstration.<br>The Robotics Project implemented with the most creative and innovative ideas will have a high chance of winning.<br>Bonus points would be awarded for the Robotics Project Presentation."
+              }, 
+              {
+                "name": "Project Submission Guidelines for Round 1:",
+                "description": "<ol type='1'><li>The video should not be longer than 5 mins</li><li>The video should clearly demonstrate the functioning of the robotics project</li><li>The video should be a self-shot one. Usage of online & readymade videos is not allowed.</li><li>The video should be uploaded to YouTube with the below format</li><li>Video Title: Playto Labs - National Robotics Competition - {Project Name} by {Student Name}</li><li>Video Format: Introduction to team members or self, Project Explanation & Project Demonstration</li><li>Video Description: Add the details of the project & Team Members names (if any)</li><li>Note: Only YouTube video links will be accepted for the online submission. You can make the video as unlisted if you don't want the video to be public</li>"
+              }
+            ],
+            "faqs": {
+              "q": [
+                "How many people can be there in one team?",
+                "Is it free to register?",
+                "Can a team have members from different schools?"
+              ],
+              "a": [
+                "There can be 4 members in a group.",
+                "Yes, It is free to register.",
+                "Yes, a team can have members from different schools."
+              ]
+            }
+          }
+        ],
+        "card": [
+          "#f3f0edff",
+          "#d36b00ff"
+        ],
+        "glass": [
+          "#efedeb59",
+          "#d36b00d0"
+        ]
+      }
+    },
+    {
       "name": "AMUZIA",
       "draft": false,
       "details": {
