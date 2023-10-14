@@ -72,23 +72,33 @@ const GenEvents = () => {
       }
 
       let notesLi = ``;
-      e.note.forEach((n) => {
-        notesLi += `<li>${n}</li>
-          `;
-      });
+      if (e.note.length > 0) {
+        e.note.forEach((n) => {
+          notesLi += `<li>${n}</li>
+                  `;
+        });
         let notesUl = `<ol>${notesLi}<ol>`;
-        
-        t = t.replaceAll("{#EVENTNOTE}", notesUl)
+        t = t.replaceAll("{#EVENTNOTE}", notesUl);
+        t = t.replaceAll("{#NOTESTYLE}", "");
+      } else {
+        let s = "style='display: none;'";
+        t = t.replaceAll("{#NOTESTYLE}", s);
+      }
+
       // Generate Rules Of Event
       const genLi = (r) => {
         return `<li>${r}</li>`;
       };
       let liList = "";
-      if (e.rules) {
+      if (e.rules.length > 0) {
         e.rules.forEach((r) => {
           liList += genLi(r);
         });
         t = t.replaceAll("{#EVENTRULES}", liList);
+        t = t.replaceAll("{#RULESTYLE}", "");
+      } else {
+        let s = "style='display: none;'";
+        t = t.replaceAll("{#RULESTYLE}", s);
       }
 
       // Generate FAQs Of Event
