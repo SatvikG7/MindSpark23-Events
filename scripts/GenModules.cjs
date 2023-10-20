@@ -22,8 +22,6 @@ const GenModules = () => {
     let moduleName = m.name;
     let moduleFileName = m.details.folderName;
     let moduleDescription = m.details.description;
-    let moduleCard = m.details.card;
-    let moduleGlass = m.details.glass;
     let moduleEvents = m.details.events;
     let t = template;
     t = t.replaceAll("{#MODULENAME}", moduleName);

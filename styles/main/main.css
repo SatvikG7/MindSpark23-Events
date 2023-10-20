@@ -37,8 +37,8 @@ body {
 }
 
 .heading-wrapper {
-  position: fixed;
-  top: 10px;
+  /* position: fixed; */
+  /* top: 10px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,6 +96,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    justify-content: flex-start;
+  }
+
   .MSLogo {
     width: 75%;
   }
@@ -137,8 +141,8 @@ body {
     flex-direction: column;
     gap: 24px;
     height: calc(100vh - 256px);
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
     overflow: scroll;
     border-radius: 48px 48px 0 0;
     align-items: center;

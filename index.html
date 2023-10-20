@@ -12,6 +12,25 @@
       href="./assets/images/favicon.svg"
       type="image/x-icon"
     />
+    <style>
+      .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #0c9;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+      }
+
+      .my-float {
+        margin-top: 18px;
+        scale: 1.7;
+      }
+    </style>
   </head>
 
   <body>
@@ -32,6 +51,10 @@
       </div>
       <ul id="splide__mobile"></ul>
     </div>
+    <a href="../hostelAccommodation" class="float">
+      <ion-icon name="bed" class="my-float"></ion-icon>
+    </a>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="./lib/splide.min.js"></script>
     <script src="./lib/gradient.js"></script>
     <script>
@@ -51,7 +74,13 @@
         },
         {
           name: "CODIFICA",
-          events: ["FLIP IT", "WEBSCAPE", "RETRACER", "CODE JUNKIE"],
+          events: [
+            "FLIP IT",
+            "WEBSCAPE",
+            "RETRACER",
+            "CODE JUNKIE",
+            "NEUROHACK",
+          ],
           card: ["#a65b10", "#000100"],
           glass: ["#00000059", "#360500fa"],
         },
@@ -68,10 +97,10 @@
           card: ["#ffe20059 ", "#4a0404"],
         },
         {
-          name: "PLAYTO",
+          name: "PLAYTO LABS",
           events: ["IIT National Robotics Competition"],
-          card: ["#effb04", "#8454f9"],
-          glass: ["#f1760a", "#effb04"],
+          card: ["#002a58", "#567ba6"],
+          glass: ["#0055d559 ", " #000000d0"],
         },
         {
           name: "POTENTIA",
@@ -101,7 +130,7 @@
         },
         {
           name: "STRUKTURA",
-          events: ["UTOPIA", "ID CIVIL", "CONQUEST"],
+          events: ["UTOPIA", "ID CIVIL", "CONQUEST", "EDIFEX"],
           card: ["#000000", "#a3ff00"],
           glass: ["#92ff0059", " #406000d0"],
         },
@@ -112,21 +141,29 @@
           glass: ["#ff120059", "#3a0000d0"],
         },
         {
+          name: "TechExpo",
+          events: ["Game of Innovation"],
+          card: ["#212529", "black"],
+          glass: ["#ff120059", "#3a0000d0"],
+        },
+        {
           name: "VOLTUS",
-          events: ["CIRCUIT FIXER", "ELECTRADE", "MICROAPPS"],
+          events: ["CIRCUIT FIXER", "ELECTRADE", "MICROAPPS", "FOX HUNT"],
           card: ["#9b0050", "#11030B"],
           glass: ["#ff009859", "#4c0033d0"],
         },
       ];
       Object.defineProperty(String.prototype, "capitalize", {
         value: function () {
-          return this.charAt(0).toUpperCase() + this.slice(1);
+          // return this.charAt(0).toUpperCase() + this.slice(1);
+          let str = String(this).replace(" ", "");
+          return str.charAt(0).toUpperCase() + str.slice(1);
         },
         enumerable: false,
       });
       const genTemp = (n, description, glassGrad, cardGrad) => {
         return `<li class="splide__slide">
-                              <div class="parent">
+                              <div style="height:300px; " class="parent">
                                   <div class="card" style="background: linear-gradient(135deg, ${
                                     cardGrad[0]
                                   } 0%, ${cardGrad[1]} 100%);">

@@ -69,7 +69,6 @@ body {
 
 .header {
   width: 100%;
-  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,8 +79,6 @@ body {
 }
 
 .headerText {
-  position: absolute;
-  bottom: 0;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -243,7 +240,8 @@ button:hover {
   font-weight: 700;
 }
 
-.rules ol, .note ol {
+.rules ol,
+.note ol {
   font-family: "Nunito", cursive;
   font-size: 1.25rem;
   padding-left: 48px;
@@ -251,7 +249,8 @@ button:hover {
   width: 90%;
 }
 
-.rules li, .note li {
+.rules li,
+.note li {
   width: 90%;
   margin: 8px 0;
 }

@@ -204,9 +204,7 @@
             "required": [
               "folderName",
               "description",
-              "events",
-              "card",
-              "glass"
+              "events"
             ]
           }
         },

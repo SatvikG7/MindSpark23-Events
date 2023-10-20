@@ -13,8 +13,6 @@ const GenEvents = () => {
     let moduleName = m.name;
     let moduleFileName = m.details.folderName;
     let moduleDescription = m.details.description;
-    let moduleCard = m.details.card;
-    let moduleGlass = m.details.glass;
     let moduleEvents = m.details.events;
 
     moduleEvents.forEach((e) => {

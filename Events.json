@@ -2,19 +2,19 @@
   "$schema": "./schema.json",
   "Modules": [
     {
-      "name": "PLAYTO",
+      "name": "PLAYTO LABS",
       "draft": false,
       "details": {
-        "folderName": "Playto",
+        "folderName": "PlaytoLabs",
         "description": "IIT National Robotics Competition",
         "events": [
           {
-            "name": "IIT National Robotics Competition",
+            "name": "IIT National level Robotics Competition (CoE Pune Zonal)",
             "note": [],
             "long_description": "To display the robots under the concept of smart cities, which help our society and make our lives easier.",
             "draft": false,
             "description": "To display the robots under the concept of smart cities, which help our society and make our lives easier.",
-            "folderName": "Playto",
+            "folderName": "PlaytoLabs",
             "prize": "#",
             "reglink": "https://tinyurl.com/coe-pune-zonal-submission",
             "rules": [],
@@ -630,15 +630,73 @@
                 "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
               ]
             }
+          },
+          {
+            "name": "Neurohack",
+            "description": "Data Science and Artificial Intelligence related competition.",
+            "draft": false,
+            "folderName": "Neurohack",
+            "isSponsored": true,
+            "sponsor": {
+              "name": "Whirlpool Corporation",
+              "title": "Whirlpool Corporation",
+              "image": "Whirlpool.png",
+              "link": "https://www.whirlpoolindia.com/"
+            },
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
+            "prize": "₹ 15,000/-",
+            "long_description": "It is a Data Science and Artificial Intelligence related competition. This competition consists of two rounds and will test the knowledge of participants in Python, Data Science, Deep Learning, and Machine Learning. Students from all streams of specialization are encouraged to participate.",
+            "reglink": "https://unstop.com/competitions/neurohack-mindspark23-coep-technological-university-pune-maharashtra-794780",
+            "rules": [
+              "Neurohack is an online multi-stage event that will be conducted for 2-3 days",
+              "There is no restriction on participation; participants can participate from anywhere in the world",
+              "There is no restriction on the branch of the student. Students from any branch can participate. A team of a maximum of 2 is allowed",
+              "Two students from different colleges can be a part of the same team. However, one person cannot be a part of multiple teams for the same event",
+              "Decisions taken by the judges and organizers will be considered final and binding to all",
+              "Teams who do not register will not be eligible for prizes and their solution will not be taken under consideration",
+              "Participants will have to share their code",
+              "Plagiarized solutions will not be considered. Teams will be disqualified if found in any plagiarism check",
+              "Rules and criteria may be changed without any prior intimation. Participants are requested to check the MindSpark'23 website (www.mind-spark.org) regularly for updates "
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Maximum 2 per team."
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 119/- per team"
+              },
+              {
+                "name": "Round1: (Elimination round)",
+                "description": "It will be a quiz round comprising of objectives, and code snippets."
+              },
+              {
+                "name": "Round 2:",
+                "description": "This round is for the participants that have qualified in the first round. It will be a Hackathon. "
+              },
+              {
+                "name": "Elimination Criteria:",
+                "description": "Round 1: Teams will be evaluated based on their scores in an online quiz. The top 10 teams will be qualified for the next round. <br> Round 2: The top 10 qualifying teams will be evaluated by judges based on their performance on the given problem statement. Teams will have to give a presentation of their solution."
+              }
+            ],
+            "faqs": {
+              "q": [
+                "What is the evaluation criterion?",
+                "Can I participate in other events of MindSpark'23?",
+                "Do team members have to be from the same college?"
+              ],
+              "a": [
+                "<li>Accuracy of the model on the validation set</li><li>Uniqueness and the modularity of the code</li><li>Efficiency of the code</li><li>Ability to be generalized for similar problems</li><li>Focus on Data Visualization and Data Cleaning</li><li>Stage 1 will be an MCQ Quiz that will be conducted online. The top 10 scoring teams will qualify for the 2nd round.</li>",
+                "You are free to participate in as many events as you wish. Also, other events are scheduled during the 3 days of MS'23 and Neurohack is an online event scheduled over a span of 2-3 days ending a day prior to MS'23 which leaves room for participation in other events.",
+                "As Neurohack is open to all events, there are no restrictions on the formulation of teams. Team members can be from any year, any branch, and any institution. However, one person cannot be a part of more than one team for the same event."
+              ]
+            }
           }
-        ],
-        "card": [
-          "#f3f0edff",
-          "#d36b00ff"
-        ],
-        "glass": [
-          "#efedeb59",
-          "#d36b00d0"
         ],
         "folderName": "Codifica"
       }
@@ -1304,8 +1362,8 @@
             "description": "The territory is marked and your aim is simple. Stay in the ring, push your opponents out and the trophy is yours.",
             "long_description": "Bot Wrestling is basically a competition of two wired or wireless operated robots competing in an attempt to push the opponent out of the arena. These robots must be remote operated.",
             "folderName": "BotWrestling",
-            "reglink": "#",
-            "prize": "Revealing Soon...",
+            "reglink": "https://unstop.com/competitions/bot-wrestling-mindspark23-coep-technological-university-pune-maharashtra-794425",
+            "prize": "₹ 30,000",
             "note": [
               "No. of Prizes are subject to change depending on number of participants.",
               "Registration fee is non-refundable."
@@ -1393,11 +1451,11 @@
           {
             "name": "VIRTUAL ROBOTICS",
             "draft": false,
-            "prize": "Revealing Soon...",
+            "prize": "₹ 15,000/-",
             "description": "Simulation of robots will give you the real sense of victory in the virtual world.",
             "long_description": "Welcome to the Virtual Robotics Project Presentation Competition, an exciting opportunity for students to showcase their innovative projects on a virtual stage. This competition aims to celebrate technological creativity and provide a platform for students to present their ideas and designs. This is a project presentation competition that aims to provide the students with a platform to display their technical grit and receive professional feedback which shall further enhance their skills and knowledge. Virtual Robotics aims at tapping the infinite potential of the human mind to generate an idea, which, when given a proper platform, can transform into a path-breaking discovery. Robotics is often mistaken as a human replacement; nothing could be further from the truth. Robotics should be thought of more as human assistance that helps humanity unlock its full potential. In this event, you must make use of your soft skills and present your ideas to the world. ",
             "folderName": "VirtualRobotics",
-            "reglink": "#",
+            "reglink": "https://unstop.com/competitions/virtual-robotics-mindspark23-coep-technological-university-pune-maharashtra-794410",
             "note": [
               "No. of Prizes are subject to change depending on number of participants.",
               "Registration fee is non-refundable."
@@ -1442,7 +1500,7 @@
             "long_description": "This event involves the manufacturing, testing, and racing of a wireless/wired remote- controlled, 2-4 wheeled robot",
             "folderName": "RoboRaces",
             "reglink": "#",
-            "prize": "Revealing Soon...",
+            "prize": "₹ 30,000/-",
             "note": [
               "No. of Prizes are subject to change depending on number of participants.",
               "Registration fee is non-refundable."
@@ -1514,8 +1572,8 @@
             "description": "Would you rather walk or run to victory? Let us make the choice for you. Be part of Robo Falconry and fly towards victory.",
             "long_description": "In the Drone Races event, different teams can race with various kinds of drones/UAV (Tri/Quadcopter). It is a timed obstacle race. The fastest drone to complete all checkpoints without straying off course wins. ",
             "folderName": "RoboFalconary",
-            "reglink": "#",
-            "prize": "Revealing Soon...",
+            "reglink": "https://unstop.com/competitions/robo-falconry-mindspark23-coep-technological-university-pune-maharashtra-794430",
+            "prize": "₹ 30,000/-",
             "note": [
               "No. of Prizes are subject to change depending on number of participants.",
               "Registration fee is non-refundable."
@@ -1576,11 +1634,11 @@
           {
             "name": "SEARCH N' DESTROY",
             "draft": false,
-            "prize": "Revealing Soon...",
+            "prize": "₹ 30,000/-",
             "description": "The only road that leads to the first prize is the one that is filled with twists and turns. Maneuver and surge ahead.",
             "long_description": "Search N Destroy is basically a line-following and maze-solving competition. A track of white lines on black backgrounds and black lines on white backgrounds will be laid out and an autonomous robot must follow that line. The robot must complete a task. The path will have checkpoints. Each checkpoint will earn some points based on the number of checkpoints covered; the time taken to cover these checkpoints as well as the task completed will decide the points earned by the robot. The team which follows the correct path the fastest will be the winner. ",
             "folderName": "SearchAndDestroy",
-            "reglink": "#",
+            "reglink": "https://unstop.com/competitions/search-n-destroy-mindspark23-coep-technological-university-pune-maharashtra-794366",
             "note": [
               "No. of Prizes are subject to change depending on number of participants.",
               "Registration fee is non-refundable."
@@ -1657,8 +1715,8 @@
             "description": "Decimate your enemy because this is the survival of the fittest for your robots.",
             "long_description": "In this mortal combat, reach the top by being the last bot standing. Crush your opponent because only the fittest will survive.",
             "folderName": "RoboWars",
-            "reglink": "#",
-            "prize": "Revealing Soon...",
+            "reglink": "https://unstop.com/competitions/robowars-mindspark23-coep-technological-university-pune-maharashtra-794354",
+            "prize": "₹ 1,00,000/-",
             "note": [
               "No. of Prizes are subject to change depending on number of participants.",
               "Registration fee is non-refundable."
@@ -1733,8 +1791,8 @@
             "draft": false,
             "description": "Complete the given tasks and then prevent your opponent from doing theirs.",
             "long_description": "A match is between Red and Blue teams. It last five minutes at most. Each team has one manual robot. The team which scores maximum points will win the match.",
-            "prize": "Revealing Soon...",
-            "reglink": "#",
+            "prize": "₹ 30,000/-",
+            "reglink": "https://unstop.com/competitions/robo-royale-mindspark23-coep-technological-university-pune-maharashtra-794320",
             "rules": [
               "GENERAL RULES: <br><ol><li>At each hand touch, all the blocks in touch with the robot of that team (except for the ones already deposited) will be returned to their original positions.</li><li>Blocks will be placed in their original position after retrying if they were wrongly placed.</li><li>A maximum of five violations are allowed; any violations after that would lead to disqualification.</li><li>Any team that is not ready at the specified time will be disqualified from the competition.</li><li>The robot will be checked for its safety before the match and will be discarded if found unsafe for other participants, spectators, or the arena.</li><li>The name of your robot must be prominently displayed on the robot.</li><li>Operators can't step onto the arena unless permitted by the judges.</li><li>The AR operator must operate from outside the arena.</li><li>The judge's decision shall be treated as final and binding to all.</li><li>The Organisers reserve the right to change any or all of the above rules as they deem fit.</li><li>Ready-made Robots are not allowed, but ready-made sensor kits are allowed. </li></ol>",
               "RETRY RULES:  <br> <ol><li>For both robots, an unlimited number of retries will be allowed. </li><li>The operator will first have to ask the judges for a hand-touch/retry and will take the hand-touch/retry only when allowed. The AR can restart from the start zone. </li><li>The orientation of the robot after the hand-touch will be decided by the judges. </li><li>The timer will continue to run in this period and the other team will continue. </li></ol>",
@@ -1881,23 +1939,23 @@
         "events": [
           {
             "name": "EDIFEX",
-            "draft": true,
-            "description": "Use your creativity and innovation to build a strong and durable bridge to access the inaccessible.",
-            "long_description": "This event presents how the classroom formulae of shear force, bending moments and Castigliano's Theorems take shape. This event provides an insight into structures and their behaviour in different circumstances. The teams need to build a bridge structure based on the problem statements using the given materials.",
-            "prize": "Revealing Soon...",
-            "reglink": "#",
+            "draft": false,
+            "description": "Build an edifice that stands as strong as your will to win at Edifex.",
+            "long_description": "This event presents how the classroom formulae of shear force, bending moments, and Castigliano's Theorems take shape. This event provides an insight into structures and their behavior in different circumstances. The teams need to build a building structure based on the problem statements using the given materials.",
+            "prize": "₹ 15,000/-",
+            "reglink": "https://unstop.com/competitions/edifex-mindspark23-coep-technological-university-pune-maharashtra-796544",
             "rules": [
-              "All team members must come with valid college ID cards and registration receipt. ",
-              "The teams need to construct the model from provided material only. No extra material will be provided. The teams must use only the material which is provided by the organizers. If the material used is other than that provided, then the team will be disqualified immediately. ",
-              "Using materials of other participants is also strictly prohibited i.e., using extra materials. ",
+              "All team members must come with valid college ID cards and registration receipts. ",
+              "The teams need to construct the model from the provided material only. No extra material will be provided. The teams must use only the material which is provided by the organizers. If the material used is other than that provided, then the team will be disqualified immediately. ",
+              "Using materials of other participants is also strictly prohibited. i.e. using extra materials. ",
               "One team can make only one model for the proposed competition. ",
               "Testing of models will be done according to the serial number given to the teams at the time of commencement of the event. Hence, no team should request for their model to be tested first. ",
               "The decision of the judges and the organizers will be final and binding to all. ",
-              "Team members may be from different colleges. However, same person cannot be a part of multiple teams for the same event.  ",
+              "Team members may be from different colleges. However, the same person cannot be a part of multiple teams for the same event.",
               "All teams must always maintain decorum. Organizers may disqualify any team that behaves inappropriately. ",
-              "Rules may be changed without prior intimation. Participants are, therefore, requested to check the official MindSpark'23 website (www.mind-spark.org) regularly for updates. ",
+              "Rules may be changed without prior intimation. Participants are, therefore, requested to check the official MindSpark'23 website (www.mindspark.org) regularly for updates. ",
               "Prize money may vary based on number of participants. ",
-              "If total number of participants is less than 10 then event will be scrapped. "
+              "If the total number of participants is less than 10 then the event will be scrapped."
             ],
             "note": [
               "If number of participants are less than 20 then only 2 winners will be selected.",
@@ -1917,32 +1975,16 @@
                 "description": "₹ 99/- per team."
               },
               {
-                "name": "Material Provided",
-                "description": "Popsicle sticks and fevicol."
-              },
-              {
                 "name": "Round 1:",
                 "description": "Multiple Choice Questions."
               },
               {
                 "name": "Round 2:",
-                "description": "The qualified teams should make a bridge structure for the problem statement within the given time using materials provided by the organizers. Testing of bridge will be done after 24 hours when the bridge will be dried. "
-              },
-              {
-                "name": "Special Restrictions:",
-                "description": "<ol><li>Maximum number of sticks that can be stacked together is three.</li><li>Sticks can be altered physically by cutting or notching at any angle.</li><li>Only fevicol can be used as an adhesive. Use of any other adhesive material will lead to disqualification</li><li>Use of threads is not allowed.</li><li>Instructions regarding the dimensions of the bridge will be provided at the time of the event.</li></ol>"
-              },
-              {
-                "name": "Judging Criteria",
-                "description": "<ol><li>Greatest load prior to failure will be the bridge's capacity.</li><li>Self-weight of bridge will also be taken into account.</li><li>Creativity of bridge design will also be used to give remarks.</li></ol>"
+                "description": "The qualified teams should make a 2-storey building structure based upon the idea presented. Testing of the structure will be done on a Shake Table to examine the seismic performance of the building structure."
               },
               {
                 "name": "Elimination Criteria",
-                "description": "10 teams will be short listed from round 1 for round 2. "
-              },
-              {
-                "name": "Winning Criteria",
-                "description": "There will be 3 winners."
+                "description": "10 teams will be short-listed from Round 1 for Round 2."
               }
             ],
             "folderName": "Edifex",
@@ -2099,7 +2141,7 @@
             "draft": false,
             "description": "Mix your Concrete well and build your cylinder robust. This conquest will be won by the last standing cylinder.",
             "long_description": "Concrete is an inevitable part of any type of construction. This event requires designing concrete tiles which are able to sustain maximum flexural load, which is one of the major loads acting in any structure.",
-            "prize": "Revealing Soon...",
+            "prize": "₹ 15,000/-",
             "reglink": "#",
             "note": [
               "If number of participants are less than 20 then only 2 winners will be selected.",
@@ -2475,6 +2517,63 @@
                 "Yes, the teams will have access to microcontroller datasheet and user guide during 2nd and 3rd round of the competition. The teams will also have access to datasheets of other required components upon request. "
               ]
             }
+          },
+          {
+            "name": "FOX HUNT",
+            "description": "Set out on an adventure to find the prize meant for only the extraordinary at Fox Hunt.",
+            "draft": false,
+            "isSponsored": false,
+            "faqs": {
+              "q": [
+                "I am participating in another event in MindSpark. Can I still register for this event?",
+                "Is on-spot participation allowed?",
+                "Who can participate in the event?",
+                "What if I damage any component or instrument while building the circuit?",
+                "On what basis will the teams be judged? "
+              ],
+              "a": [
+                "You can participate in any event in MindSpark, provided you can manage your own schedule.",
+                "Yes. On-spot participation is allowed.",
+                "Any college (UG)* student. You may be asked to present a valid ID card and the registration receipt."
+              ]
+            },
+            "folderName": "FoxHunt",
+            "long_description": "The objective of this contest is to locate a hidden radio transmitter using radio direction-finding techniques. Participants should build the antenna and use equipment to track down the source of a transmitted signal that serves as the \"fox\". The hidden transmitter, or \"fox\" emits radio signals intermittently or continuously on a specific frequency or set of frequencies, and the participants must use their skills and equipment to determine the direction from which the signal is coming.",
+            "note": [
+              "No. of Prizes are subject to change depending on number of participants.",
+              "Registration fee is non-refundable.",
+              "Prize money is subject to change."
+            ],
+            "prize": "₹ 15,000",
+            "reglink": "https://unstop.com/competitions/fox-hunt-mindspark23-coep-technological-university-pune-maharashtra-796397",
+            "rules": [
+              "Participants will be required to bring their college ID cards.",
+              "If a team is caught cheating or playing by unfair means, then the team will be disqualified.",
+              "The decision of the respective Head will be final and will not be subject to any change",
+              "Replacement of any participant is strictly not allowed."
+            ],
+            "structure": [
+              {
+                "name": "Team",
+                "description": "Max 4 participants per team"
+              },
+              {
+                "name": "Entry Fee",
+                "description": "₹ 119 per team (This includes workshop as well as event)"
+              },
+              {
+                "name": "Workshop: 22nd October (Offline in COEP Campus) ",
+                "description": "This workshop is designed to cater to both novices and those seeking to deepen their expertise in antenna designing and crafting. By the end of the program, participants will be equipped with the knowledge and practical skills necessary to construct wireless communication systems. Discover the endless potential of wireless technology in a professional and engaging setting."
+              },
+              {
+                "name": "Event:",
+                "description": "On Campus Round: On-campus Fox Hunt will be conducted in which participants will get a chance to use their own antennas which they have created in the workshop. This Round will be conducted in offline mode in COEP Campus during MindSpark ,i.e., 27th, 28th & 29th October."
+              },
+              {
+                "name": "Winning Criteria",
+                "description": "The team who will locate a “Fox” first will be the winner. There will be 2 winners (a winner and a runner-up)."
+              }
+            ]
           }
         ],
         "card": [
