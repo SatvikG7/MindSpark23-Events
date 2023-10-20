@@ -48,7 +48,7 @@ cpFile("styles/main/splide.min.css", "events/styles/main/splide.min.css");
 GenModules();
 GenEvents();
 
-fse.copy("assets/", "events/assets", (err) => {
+fse.copy("assets_/", "events/assets", (err) => {
   if (err) {
     console.error("Error copying directory:", err);
   } else {

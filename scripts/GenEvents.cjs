@@ -40,7 +40,7 @@ const GenEvents = () => {
         // let hs = "style='height: 300px;'";
         t = t.replaceAll(
           "{#SPONSORLOGO}",
-          "../../../assets/images/sponsors/" + e.sponsor.image,
+          "../../assets/images/sponsors/" + e.sponsor.image,
         );
         t = t.replaceAll("{#SPONSORNAME}", e.sponsor.name);
         t = t.replaceAll("{#SPONSORTITLE}", e.sponsor.title);
